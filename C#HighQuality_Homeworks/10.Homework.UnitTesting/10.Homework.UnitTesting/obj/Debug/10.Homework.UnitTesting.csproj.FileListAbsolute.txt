@@ -1,0 +1,2 @@
+C:\Users\Antoan Elenkov\Documents\Visual Studio 2013\Projects\Telerik-Academy-HWs\HTML_Homework\10.Homework.UnitTesting\10.Homework.UnitTesting\bin\Debug\10.Homework.UnitTesting.exe.config
+C:\Users\Antoan Elenkov\Documents\Visual Studio 2013\Projects\Telerik-Academy-HWs\C#HighQuality_Homework\10.Homework.UnitTesting\10.Homework.UnitTesting\bin\Debug\10.Homework.UnitTesting.exe.config

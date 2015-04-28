@@ -1,0 +1,6 @@
+C:\Users\Antoan Elenkov\Documents\Visual Studio 2013\Projects\Telerik-Academy-HWs\HTML_Homework\02.Homework.HTML Tables\01.HTML.Tables\bin\01.HTML.Tables.dll.config
+C:\Users\Antoan Elenkov\Documents\Visual Studio 2013\Projects\Telerik-Academy-HWs\HTML_Homework\02.Homework.HTML Tables\01.HTML.Tables\bin\01.HTML.Tables.dll
+C:\Users\Antoan Elenkov\Documents\Visual Studio 2013\Projects\Telerik-Academy-HWs\HTML_Homework\02.Homework.HTML Tables\01.HTML.Tables\bin\01.HTML.Tables.pdb
+C:\Users\Antoan Elenkov\Documents\Visual Studio 2013\Projects\Telerik-Academy-HWs\HTML_Homework\02.Homework.HTML Tables\01.HTML.Tables\obj\Debug\01.HTML.Tables.csprojResolveAssemblyReference.cache
+C:\Users\Antoan Elenkov\Documents\Visual Studio 2013\Projects\Telerik-Academy-HWs\HTML_Homework\02.Homework.HTML Tables\01.HTML.Tables\obj\Debug\01.HTML.Tables.dll
+C:\Users\Antoan Elenkov\Documents\Visual Studio 2013\Projects\Telerik-Academy-HWs\HTML_Homework\02.Homework.HTML Tables\01.HTML.Tables\obj\Debug\01.HTML.Tables.pdb

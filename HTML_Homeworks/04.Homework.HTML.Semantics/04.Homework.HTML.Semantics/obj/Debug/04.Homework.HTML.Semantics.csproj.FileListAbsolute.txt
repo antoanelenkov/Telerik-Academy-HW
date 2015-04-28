@@ -1,0 +1,6 @@
+C:\Users\Antoan Elenkov\Documents\Visual Studio 2013\Projects\Telerik-Academy-HWs\HTML_Homework\04.Homework.HTML.Semantics\04.Homework.HTML.Semantics\bin\04.Homework.HTML.Semantics.dll.config
+C:\Users\Antoan Elenkov\Documents\Visual Studio 2013\Projects\Telerik-Academy-HWs\HTML_Homework\04.Homework.HTML.Semantics\04.Homework.HTML.Semantics\bin\04.Homework.HTML.Semantics.dll
+C:\Users\Antoan Elenkov\Documents\Visual Studio 2013\Projects\Telerik-Academy-HWs\HTML_Homework\04.Homework.HTML.Semantics\04.Homework.HTML.Semantics\bin\04.Homework.HTML.Semantics.pdb
+C:\Users\Antoan Elenkov\Documents\Visual Studio 2013\Projects\Telerik-Academy-HWs\HTML_Homework\04.Homework.HTML.Semantics\04.Homework.HTML.Semantics\obj\Debug\04.Homework.HTML.Semantics.csprojResolveAssemblyReference.cache
+C:\Users\Antoan Elenkov\Documents\Visual Studio 2013\Projects\Telerik-Academy-HWs\HTML_Homework\04.Homework.HTML.Semantics\04.Homework.HTML.Semantics\obj\Debug\04.Homework.HTML.Semantics.dll
+C:\Users\Antoan Elenkov\Documents\Visual Studio 2013\Projects\Telerik-Academy-HWs\HTML_Homework\04.Homework.HTML.Semantics\04.Homework.HTML.Semantics\obj\Debug\04.Homework.HTML.Semantics.pdb

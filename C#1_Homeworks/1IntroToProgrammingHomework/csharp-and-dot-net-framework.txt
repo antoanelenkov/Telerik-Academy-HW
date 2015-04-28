@@ -1,0 +1,1 @@
+C# is a language, .NET is an application framework. Framework means it contained different applications. Some Name of the applications are Consule Application,Windows Applications, Web Applications. .NET Framework  supports more than 20 languages. The .NET libraries can run on the CLR and thus any language which can run on the CLR can also use the .NET libraries.

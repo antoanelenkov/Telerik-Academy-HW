@@ -1,0 +1,155 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="04.GridComponent.css">
+</head>
+<body>
+    <table cellspacing="0">
+        <thead>
+            <tr>
+                <td colspan="6">
+                    Drag a column header and drop it here to group by that column
+                </td>
+            </tr>
+            <tr>
+                <td width="30">ProductID</td>
+                <td width="200">Product name</td>
+                <td width="130">Unit price</td>
+                <td width="130">Quantity per unit</td>
+                <td width="130">Units in stock</td>
+                <td width="30">Discounted</td>
+            </tr>
+            <tr class="fields">
+                <td width="100"><input type="text" size="2" /></td>
+                <td><input type="text" size="10" /></td>
+                <td>
+                    <input type="text" size="10" /><button id="quantityButton">&nbsp;&nbsp;&nbsp;ff</button>
+                </td>
+                <td>
+                    <input type="text" size="10" />
+                </td>
+                <td>
+                    <input type="text" size="10" />
+                    <button id="quantityButton"></button>
+                </td>
+                <td>
+                    <input type="checkbox" />
+                    <button id="quantityButton"></button>
+                </td>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+                <td colspan="6">
+                    <button class="move">|&lt;</button>
+                    <button class="move">&lt;</button>
+                    <button class="number">1</button>
+                    <button class="number">2</button>
+                    <button class="number">3</button>
+                    <button class="number">4</button>
+                    <button class="number">5</button>
+                    <button class="number">6</button>
+                    <button class="number">7</button>
+                    <button class="number">8</button>
+                    <button class="number">9</button>
+                    <button class="number">10</button>
+                    ...
+                    <button class="move">&gt;</button>
+                    <button class="move">&gt;|</button>
+                    &nbsp;&nbsp;&nbsp; Page size:
+                    <select id="select">
+                        <option selected>10</option>
+                        <option>20</option>
+                        <option>30</option>
+                        <option>40</option>
+                    </select>
+                    <span id="pages">335104 items in 33511 pages</span>
+                </td>
+            </tr>
+        </tfoot>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Chai</td>
+                <td>$50.00</td>
+                <td>10 boxes x 20 bags</td>
+                <td>39</td>
+                <td>
+                    <input type="checkbox" /> 
+                </td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Chai</td>
+                <td>$50.00</td>
+                <td>10 boxes x 20 bags</td>
+                <td>39</td>
+                <td>
+                    <input type="checkbox" />
+                </td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Chai</td>
+                <td>$50.00</td>
+                <td>10 boxes x 20 bags</td>
+                <td>39</td>
+                <td>
+                    <input type="checkbox" checked/>
+                </td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Chai</td>
+                <td>$50.00</td>
+                <td>10 boxes x 20 bags</td>
+                <td>39</td>
+                <td>
+                    <input type="checkbox" checked />
+                </td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Chai</td>
+                <td>$50.00</td>
+                <td>10 boxes x 20 bags</td>
+                <td>39</td>
+                <td>
+                    <input type="checkbox" checked />
+                </td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Chai</td>
+                <td>$50.00</td>
+                <td>10 boxes x 20 bags</td>
+                <td>39</td>
+                <td>
+                    <input type="checkbox" checked />
+                </td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Chai</td>
+                <td>$50.00</td>
+                <td>10 boxes x 20 bags</td>
+                <td>39</td>
+                <td>
+                    <input type="checkbox" />
+                </td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Chai</td>
+                <td>$50.00</td>
+                <td>10 boxes x 20 bags</td>
+                <td>39</td>
+                <td>
+                    <input type="checkbox"  />
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

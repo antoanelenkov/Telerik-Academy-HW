@@ -1,0 +1,14 @@
+ECLIPSE:
+	In computer programming, Eclipse is an integrated development environment (IDE). It contains a base workspace and an extensible plug-in system for customizing the environment. Written mostly in Java, Eclipse can be used to develop applications. By means of various plug-ins, Eclipse may also be used to develop applications in other programming languages: Ada, ABAP, C, C++, COBOL, Fortran, Haskell, JavaScript, Lasso, Natural, Perl, PHP, Prolog, Python, R, Ruby (including Ruby on Rails framework), Scala, Clojure, Groovy, Scheme, and Erlang. It can also be used to develop packages for the software Mathematica. Development environments include the Eclipse Java development tools (JDT) for Java and Scala, Eclipse CDT for C/C++ and Eclipse PDT for PHP, among others.
+
+JCreator:
+	JCreator is the development tool for every programmer that likes to do what he does best: programming. It is faster, more efficient and more reliable than other Java IDE’s. Therefore it is the perfect tool for programmers of every level, from learning programmer to Java-specialist. JCreator is written entirely in C++, which makes it fast and efficient compared to the Java based editors/IDE's.
+
+SharpDeveloper:
+	SharpDevelop is the open-source IDE for the .NET platform. Write applications in languages including C#, VB.NET, F#, IronPython and IronRuby, as well as target rich and reach: Windows Forms or WPF, as well as ASP.NET MVC and WCF. It starts from USB drives, supports read-only projects, comes with integrated unit and performance testing tools, Git, NuGet and a lot more features that make you productive as a developer.	
+
+NetBeans:
+	NetBeans is an integrated development environment (IDE) for developing primarily with Java, but also with other languages, in particular PHP, C/C++, and HTML5.[3] It is also an application platform framework for Java desktop applications and others. The NetBeans IDE is written in Java and can run on Windows, OS X, Linux, Solaris and other platforms supporting a compatible JVM.
+
+RubyMine:
+	RubyMine provides intelligent code completion for Ruby and Ruby on Rails code, on-the-fly code analysis and refactoring support for both plain Ruby projects and web applications built with Ruby on Rails.

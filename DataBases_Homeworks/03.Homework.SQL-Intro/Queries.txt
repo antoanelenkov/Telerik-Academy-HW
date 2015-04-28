@@ -1,0 +1,119 @@
+03.
+SELECT *
+FROM [TelerikAcademy].[dbo].[Departments];
+
+04.
+SELECT Name
+FROM [TelerikAcademy].[dbo].[Departments];
+
+05.
+SELECT Name
+FROM [TelerikAcademy].[dbo].[Departments];
+
+06.
+SELECT FirstName, LastName, Salary
+FROM [TelerikAcademy].[dbo].[Employees];
+
+07.
+SELECT FirstName + ' ' +  LastName AS [Full Name]
+FROM [TelerikAcademy].[dbo].[Employees];
+
+08.
+SELECT FirstName + '.' + LastName + '@telerik.com' AS [Full Email Addresses]
+FROM [TelerikAcademy].[dbo].[Employees];
+
+09.
+SELECT DISTINCT Salary 
+FROM [TelerikAcademy].[dbo].[Employees];
+
+10.
+SELECT *
+FROM [TelerikAcademy].[dbo].[Employees] e
+WHERE e.JobTitle='Sales Representative'
+
+11.
+SELECT FirstName, LastName
+FROM [TelerikAcademy].[dbo].[Employees] e
+WHERE e.FirstName LIKE 'SA%';
+
+12.
+SELECT FirstName, LastName
+FROM [TelerikAcademy].[dbo].[Employees] e
+WHERE e.LastName LIKE '%ei%';
+
+13.
+SELECT Salary
+FROM [TelerikAcademy].[dbo].[Employees] e
+WHERE e.Salary BETWEEN 20000 AND 30000;
+
+14.
+SELECT  FirstName+' '+LastName as [Names]
+FROM [TelerikAcademy].[dbo].[Employees] e
+WHERE e.Salary IN (25000, 14000, 12500,23600);
+
+15.
+SELECT  FirstName+' '+LastName as [Names]
+FROM [TelerikAcademy].[dbo].[Employees] e
+WHERE e.ManagerID IS NULL;
+
+16.
+SELECT  e.FirstName+' '+ e.LastName as [Names]
+FROM [TelerikAcademy].[dbo].[Employees] e
+WHERE e.Salary > 50000 
+ORDER BY e.Salary DESC;
+
+17.
+SELECT  TOP 5  
+e.FirstName + ' ' + e.LastName AS [Names], e.Salary 
+FROM [TelerikAcademy].[dbo].[Employees] e
+ORDER BY e.Salary DESC
+
+18.
+SELECT   e.FirstName + ' ' + e.LastName AS [Names], a.AddressText AS Adress
+FROM [TelerikAcademy].[dbo].[Employees] e
+INNER JOIN [TelerikAcademy].[dbo].[Addresses] a
+ON e.AddressID=a.AddressID
+
+19.
+SELECT   e.FirstName + ' ' + e.LastName AS [Names], a.AddressText AS Adress
+FROM [TelerikAcademy].[dbo].[Employees] e,
+[TelerikAcademy].[dbo].[Addresses] a
+WHERE e.AddressID=a.AddressID
+
+20.
+SELECT   e.FirstName + ' ' + e.LastName AS [Employee Names], a.FirstName + ' ' + e.FirstName AS [Manager Names]
+FROM [TelerikAcademy].[dbo].[Employees] e
+INNER JOIN [TelerikAcademy].[dbo].[Employees] a
+ON e.ManagerID=a.EmployeeID
+
+21.
+SELECT   
+e.FirstName + ' ' + e.LastName AS [Employee Names], 
+a.FirstName + ' ' + e.FirstName AS [Manager Names], 
+b.AddressText AS [Manager Address]
+FROM [TelerikAcademy].[dbo].[Employees] e
+INNER JOIN [TelerikAcademy].[dbo].[Employees] a ON e.ManagerID=a.EmployeeID
+INNER JOIN [TelerikAcademy].[dbo].[Addresses] b ON e.AddressID=b.AddressID
+
+22.
+SELECT   d.Name  AS [Department name]
+FROM [TelerikAcademy].[dbo].[Departments] d
+UNION 
+SELECT t.Name AS [Town name]
+FROM [TelerikAcademy].[dbo].[Towns] t 
+
+23.
+SELECT   e.FirstName + ' ' + e.LastName  AS [Employee Names], d.FirstName + ' ' + d.LastName AS [Manager names]
+FROM [TelerikAcademy].[dbo].[Employees] e
+LEFT OUTER JOIN [TelerikAcademy].[dbo].[Employees] d
+ON e.ManagerID=d.EmployeeID
+
+
+24.
+SELECT   e.FirstName + ' ' + e.LastName  AS [Names]
+FROM [TelerikAcademy].[dbo].[Employees] e,
+[TelerikAcademy].[dbo].[Departments] d
+WHERE e.DepartmentID=d.DepartmentID
+AND d.Name IN ('Sales','Finance')
+AND YEAR(e.HireDate) BETWEEN 1995 AND 2005
+

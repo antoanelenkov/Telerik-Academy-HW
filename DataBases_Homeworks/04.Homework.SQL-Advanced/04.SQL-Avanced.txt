@@ -1,0 +1,135 @@
+01.
+SELECT FirstName, LastName, Salary
+FROM Employees 
+WHERE Salary=(SELECT MIN(Salary) FROM Employees)
+
+02.
+SELECT FirstName, LastName, Salary
+FROM Employees 
+WHERE Salary<(SELECT MIN(Salary)*1.1 FROM Employees)
+
+03.
+SELECT FirstName+ ' '+ LastName AS [Full Name], Salary, d.Name AS [Dep. Name]
+FROM Employees e, Departments d
+WHERE Salary=(SELECT MIN(Salary)FROM Employees s WHERE s.DepartmentID=d.DepartmentID)
+ORDER BY Salary DESC
+
+04.
+SELECT AVG(Salary) AS [Average Salary]
+FROM Employees
+WHERE DepartmentID=1
+
+05.
+SELECT AVG(Salary) AS [Average Salary]
+FROM Employees e, Departments d
+WHERE  e.DepartmentID=d.DepartmentID AND Name='Sales'
+
+06.
+SELECT COUNT(e.LastName) AS [Count of 'Sales' Department Employees]
+FROM Employees e, Departments d
+WHERE  e.DepartmentID=d.DepartmentID AND d.Name='Sales'
+
+07.
+SELECT COUNT(e.LastName) AS [Number of employees with manager]
+FROM Employees e
+WHERE  e.ManagerID IS NOT NULL
+
+08.
+SELECT COUNT(e.LastName) AS [Number of employees with manager]
+FROM Employees e
+WHERE  e.ManagerID IS NULL
+
+09.
+SELECT AVG(e.Salary) AS [AverageSalary], d.Name AS [Name of department]
+FROM Employees e, Departments d
+WHERE  e.DepartmentID=d.DepartmentID
+GROUP BY  d.Name 
+
+10.
+SELECT COUNT(e.LastName) AS [Number of employees], d.Name AS [Name of department], t.Name AS [Town]
+FROM Employees e, Departments d, Towns t, Addresses a
+WHERE  e.DepartmentID=d.DepartmentID
+AND e.AddressID=a.AddressID
+AND a.TownID=t.TownID
+GROUP BY   t.Name, d.Name
+
+11.PROBLEM
+SELECT e.FirstName + ' ' + e.LastName AS [Names of manager with 5 employees]
+FROM Employees e, Employees m
+WHERE e.ManagerID = m.EmployeeID OR m.ManagerID IS NULL
+GROUP BY e.EmployeeID, e.FirstName, e.LastName
+HAVING COUNT(*)=5
+
+12.PROBLEM
+SELECT e.FirstName + ' ' + e.LastName AS [Name of Employee],ISNULL(m.FirstName+' '+m.LastName,('no manager')) AS [Manager]
+FROM Employees e
+LEFT OUTER JOIN Employees m
+ON e.ManagerID=m.EmployeeID
+
+13.
+SELECT e.FirstName + ' ' + e.LastName AS [Name of Employee]
+FROM Employees e
+WHERE LEN(e.LastName)=5;
+
+14.
+SELECT CONVERT(VARCHAR(50),GETDATE(),104)+' '+CONVERT(VARCHAR(50),GETDATE(),114) AS[Date and time]
+
+15.
+CREATE TABLE Users(
+Username VARCHAR(50) ,
+Pass VARCHAR(50),
+FirstName VARCHAR(50),
+LastName VARCHAR(50),
+LastLogin datetime
+CONSTRAINT PK_Users PRIMARY KEY(Username),
+CONSTRAINT Pass CHECK (LEN(Pass)>=5)
+)
+GO
+
+16.
+CREATE VIEW AllUsersFromToday AS
+	SELECT *
+	FROM Users u
+	WHERE u.LastLogin = GETDATE()
+
+17.
+USE TelerikAcademy;
+CREATE TABLE Groups(
+Name NVARCHAR(50) NOT NULL UNIQUE , 
+CONSTRAINT  PK_Groups PRIMARY KEY(Name)
+)
+GO
+
+18.
+
+19
+INSERT INTO Users
+(Username,Pass,FirstName,LastName,GroupId)
+VALUES ('antoan40o0o','a999999a','Antoan','Elenkov','1')
+
+20.
+
+UPDATE Users SET
+UserName='Antoan'
+WHERE Username='AntoanPetrov'
+
+21.
+DELETE FROM Users
+WHERE Username='Antoan'
+
+22.
+INSERT INTO  Users
+(FirstName,LastName,Username,Pass,LastLogin)
+SELECT e.FirstName,e.LastName,LOWER(LEFT(e.FirstName,1))+LOWER(LEFT(e.LastName,1))+LEFT(e.EmployeeID,4),e.EmployeeID+'12345',NULL
+FROM Employees e
+
+27.PROBLEM!!!
+SELECT top 1   t.Name AS [Town Name],
+		COUNT(*) AS [EmployeeCount]
+FROM Employees e
+	JOIN Addresses a
+		ON e.AddressID=a.AddressID
+	JOIN Towns t
+		ON a.TownID=t.TownID
+Group BY t.Name
+ORDER BY  EmployeeCount DESC

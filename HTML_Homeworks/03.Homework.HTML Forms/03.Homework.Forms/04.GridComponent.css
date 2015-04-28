@@ -1,0 +1,42 @@
+﻿table{
+    border:1px solid black;
+    border-radius:5px;
+    padding:0px;
+}
+tr, td{
+    border:1px solid;
+    border-color:#b1afaf;
+    padding:3px;
+    padding-left:5px;
+}
+thead{
+    background-color:#DFE3E8;
+}
+tfoot{
+    background-color:#DFE3E8;
+}
+.fields>td{
+    padding-bottom:7px;
+}
+#quantityButton{
+    background-image:url("button.png");
+    width:20px;
+    height:20px;
+    border-radius:5px;
+}
+.number{
+    border-radius:5px;
+    border: 0;
+    background-color:#DFE3E8;
+}
+.move{
+    border-radius:5px;
+    background-color:#EEEEEF;
+}
+#select{
+    border-color:#EEEEEF;
+    border-radius:5px;
+}
+#pages{
+    float: right;
+}

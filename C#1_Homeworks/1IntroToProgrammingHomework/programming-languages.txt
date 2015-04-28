@@ -1,0 +1,71 @@
+JAVA:
+	-Java is:
+ 	 	 is a general-purpose computer programming language that is concurrent, class-based, object-oriented, and specifically designed to have as few implementation dependencies as possible. It is intended to let application developers "write once, run anywhere" (WORA),[11] meaning that code that runs on one platform does not need to be recompiled to run on another.[12] Java applications are typically compiled to bytecode that can run on any Java virtual machine (JVM) regardless of computer architecture. Java is, 	as of 2015, one of the most popular programming languages in use, particularly for client-server web applications, with a reported 9 million developers
+
+	-Differences and similarities in comparison with C#:
+		-Java Will Run on "Any" Operating System, while C# will not.
+		-Java and C# are similar programming languages that are statically, strongly, and manifestly typed, both are class-based object-oriented, both are designed with semi-interpretation or runtime compilation in mind, both use garbage-collection, and both are "curly brace languages" like C and C++.
+
+
+-------------------------------------------------------------------------------
+
+		
+PHP
+	-PHP is:	
+		PHP code can be simply mixed with HTML code, or it can be used in combination with various templating engines and web frameworks. PHP code is usually processed by a PHP interpreter, which is usually implemented as a web server's native module or a Common Gateway Interface (CGI) executable. After the PHP code is interpreted and executed, the web server sends resulting output to its client, usually in form of a part of the generated web page; for example, PHP code can generate a web page's HTML code, an image, or some other data. PHP has also evolved to include a command-line interface (CLI) capability and can be used in standalone graphical applications
+
+	-Differences and similarities in comparison with C#:
+		What is the Major Difference Between Java and PHP? 
+		PHP and Java are both very similar when it comes to the benefits provided, but they are both very different. PHP is a server side scripting language, while Java is a client side choice.
+		When you use PHP code, you will execute it in the actual server, while Java will be executed on your client’s computer. This means, if you use Java and the client doesn’t have the right program, such as Java Runtime Environment, your webpage won’t show up. With PHP, this isn’t an issue.
+
+			
+		PHP Logic:PHP generates directly the HTML / JS / CSS used to compose the page and produce the end HTML page directly from the code or if you are smart enough using things like templates engines. You must know HTML at least to be able to develop PHP web sites.
+
+		C# Logic:You compose your page out of "web components" which are aware of their state and can fire events like "button click". Once a event is fired, your C# logic (no HTML / JS here) will change the state of the page components or add new one on the fly. Components are then invoked by the framework to render themselves. You don't have to know anything to HTML to be able to code.
+
+
+-------------------------------------------------------------------------------
+
+
+Phyton:
+	-Phyton is:
+		Python is a widely used general-purpose, high-level programming language. Its design philosophy emphasizes code readability, and its syntax allows programmers to express concepts in fewer lines of code than would be possible in languages such as C++ or Java.[20][21] The language provides constructs intended to enable clear programs on both a small and large scale.
+		Python supports multiple programming paradigms, including object-oriented, imperative and functional programming or procedural styles. It features a dynamic type system and automatic memory management and has a large and comprehensive standard library.
+		Python interpreters are available for installation on many operating systems, allowing Python code execution on a wide variety of systems. Using third-party tools, such as Py2exe or Pyinstaller,[24] Python code can be packaged into stand-alone executable programs for some of the most popular operating systems, allowing for the distribution of Python-based software for use on those environments without requiring the installation of a Python interpreter.
+		CPython, the reference implementation of Python, is free and open-source software and has a community-based development model, as do nearly all of its alternative implementations. CPython is managed by the non-profit Python Software Foundation.
+
+	-Differences and similarities in comparison with C#:
+		Python is winner in: ease of learning, cross platform development, availability of open source libraries
+		C# is winner in: standard library, language features, development process and tools, performance, language evolution speed
+		
+
+-------------------------------------------------------------------------------
+
+
+Ruby:
+	-Ruby is:
+		Ruby is a dynamic, reflective, object-oriented, general-purpose programming language. It was designed and developed in the mid-1990s by Yukihiro "Matz" Matsumoto in Japan. According to its authors, Ruby was influenced by Perl, Smalltalk, Eiffel, Ada, and Lisp. It supports multiple programming paradigms, including functional, object-oriented, and imperative. It also has a dynamic type system and automatic memory management.
+
+	-Differences and similarities in comparison with C#:
+		Ruby is an interpreted language. C# is a compiled language.
+		Ruby is not an event-driven langauge. C# is an event-driven language. The execution of C# programs is resolved by the events.
+		Ruby is available under GPL license. C# is available as freeware.
+		Ruby is dynamically typed language. C# is statically and dynamically typed.
+		Ruby supports JVM. C# does not.
+			
+		
+--------------------------------------------------------------------------------
+
+
+Javascript:
+	-Javascript is:	
+		JavaScript  is a dynamic computer programming language. It is most commonly used as part of web browsers, whose implementations allow client-side scripts to interact with the user, control the browser, communicate asynchronously, and alter the document content that is displayed. It is also used in server-side network programming with runtime environments such as Node.js, game development and the creation of desktop and mobile applications.
+		JavaScript is classified as a prototype-based scripting language with dynamic typing and first-class functions. This mix of features makes it a multi-paradigm language, supporting object-oriented, imperative, and functional programming styles.
+	
+	-Differences and similarities in comparison with C#:	
+		C# is statically typed language. Multi-paradigm. Functional features.
+		JavaScript is a scripting language for computers. It is often run in web browser applications to create dynamic content like message boxes popping up or a live clock. It is not related to, and different from, the programming language Java.
+
+
+

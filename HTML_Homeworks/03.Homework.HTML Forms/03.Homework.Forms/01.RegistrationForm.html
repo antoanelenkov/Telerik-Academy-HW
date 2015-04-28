@@ -1,0 +1,86 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Registration Form</title>
+    <link rel="stylesheet" type="text/css" href="01.RegistrationForm.css">
+</head>
+<body>
+    <form>
+        <table id="regTable">
+            <tfoot>
+                <tr>
+                    <td colspan="2" align="center" style="background: #60e0cc">
+                        <input type="submit" />
+                        <input type="reset" value="Clean this Form" />
+                    </td>
+                </tr>
+            </tfoot>
+            <tbody>
+                <tr>
+                    <td class="data">Last Name</td>
+                    <td class="userInput"><input type="text" size="30" required /></td>
+                </tr>
+                <tr>
+                    <td class="data">First Name</td>
+                    <td class="userInput"><input type="text" size="30" required /></td>
+                </tr>
+                <tr>
+                    <td class="data">Adress</td>
+                    <td class="userInput"><textarea rows="4" cols="30" required></textarea></td>
+                </tr>
+                <tr>
+                    <td class="data">City</td>
+                    <td class="userInput"><input type="text" size="20" required /> State <input type="text" size="2" /></td>
+                </tr>
+                <tr>
+                    <td class="data">Zip/Postal Code</td>
+                    <td class="userInput"><input type="text" size="5" pattern="[0-9]{4}" /></td>
+                </tr>
+                <tr>
+                    <td class="data">Country</td>
+                    <td class="userInput">
+                        <select>
+                            <option selected="selected">Bulgaria</option>
+                            <option>England</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="data">Phone(country code, area code, number)</td>
+                    <td class="userInput">(+<input type="text" size="4" pattern="[0-9]{3}" />) <input type="text" size="3" pattern="[0-9]{4}" /> <input type="text" size="8" pattern="[0-9]{6}" /></td>
+                </tr>
+                <tr>
+                    <td class="data">E-mail</td>
+                    <td class="userInput"><input type="email" size="30" /></td>
+                </tr>
+                <tr>
+                    <td class="data">Birth date</td>
+                    <td class="userInput"><input type="text" size="20" value="дд . мм . гггг г." /></td>
+                </tr>
+                <tr>
+                    <td class="data">Gender</td>
+                    <td class="userInput">
+                        <select>
+                            <option selected="selected">Male</option>
+                            <option>Female</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="data">Starting date</td>
+                    <td>
+                        <input type="radio" name="season" value="Spring 2015" />
+                        Spring 2015
+                        <input type="radio" name="season" value="Summer 2015" />
+                        Summer 2015
+                    </td>
+                </tr>
+                <tr>
+                    <td class="data">Comments/Questions</td>
+                    <td class="userInput"><textarea rows="6" cols="30"></textarea></td>
+                </tr>
+            </tbody>          
+        </table>
+    </form>
+</body>
+</html>

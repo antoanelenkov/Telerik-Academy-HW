@@ -1,0 +1,6 @@
+C:\Users\Antoan Elenkov\Documents\Visual Studio 2013\Projects\Telerik-Academy-HWs\C#HighQuality_Homework\10.Homework.UnitTesting\10.Homework.UnitTesting\bin\Debug\10.Homework.UnitTesting.exe.config
+C:\Users\Antoan Elenkov\Documents\Visual Studio 2013\Projects\Telerik-Academy-HWs\C#HighQuality_Homework\10.Homework.UnitTesting\10.Homework.UnitTesting\bin\Debug\10.Homework.UnitTesting.exe
+C:\Users\Antoan Elenkov\Documents\Visual Studio 2013\Projects\Telerik-Academy-HWs\C#HighQuality_Homework\10.Homework.UnitTesting\10.Homework.UnitTesting\bin\Debug\10.Homework.UnitTesting.pdb
+C:\Users\Antoan Elenkov\Documents\Visual Studio 2013\Projects\Telerik-Academy-HWs\C#HighQuality_Homework\10.Homework.UnitTesting\10.Homework.UnitTesting\obj\Debug\TestSchoolSystem.csprojResolveAssemblyReference.cache
+C:\Users\Antoan Elenkov\Documents\Visual Studio 2013\Projects\Telerik-Academy-HWs\C#HighQuality_Homework\10.Homework.UnitTesting\10.Homework.UnitTesting\obj\Debug\10.Homework.UnitTesting.exe
+C:\Users\Antoan Elenkov\Documents\Visual Studio 2013\Projects\Telerik-Academy-HWs\C#HighQuality_Homework\10.Homework.UnitTesting\10.Homework.UnitTesting\obj\Debug\10.Homework.UnitTesting.pdb

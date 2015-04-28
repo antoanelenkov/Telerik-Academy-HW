@@ -1,0 +1,5 @@
+C:\Users\Antoan Elenkov\Documents\Visual Studio 2013\Projects\Telerik-Academy HW\C#OOP_Homwerok\05.Homework.OOP.Principles2\03. RangeExceptions\bin\Debug\_03.RangeExceptions.exe.config
+C:\Users\Antoan Elenkov\Documents\Visual Studio 2013\Projects\Telerik-Academy HW\C#OOP_Homwerok\05.Homework.OOP.Principles2\03. RangeExceptions\bin\Debug\_03.RangeExceptions.exe
+C:\Users\Antoan Elenkov\Documents\Visual Studio 2013\Projects\Telerik-Academy HW\C#OOP_Homwerok\05.Homework.OOP.Principles2\03. RangeExceptions\bin\Debug\_03.RangeExceptions.pdb
+C:\Users\Antoan Elenkov\Documents\Visual Studio 2013\Projects\Telerik-Academy HW\C#OOP_Homwerok\05.Homework.OOP.Principles2\03. RangeExceptions\obj\Debug\_03.RangeExceptions.exe
+C:\Users\Antoan Elenkov\Documents\Visual Studio 2013\Projects\Telerik-Academy HW\C#OOP_Homwerok\05.Homework.OOP.Principles2\03. RangeExceptions\obj\Debug\_03.RangeExceptions.pdb

@@ -1,0 +1,14 @@
+﻿.data{
+text-align:center;
+width:150px;
+font-weight:bold;
+}
+.userInput{
+width:260px;
+}
+table td{
+    border:1px solid;
+    border-color:black;
+    border-collapse:collapse; 
+}
+

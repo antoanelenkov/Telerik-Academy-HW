@@ -1,0 +1,1 @@
+C:\Users\Antoan Elenkov\Documents\Visual Studio 2013\Projects\Telerik-Academy HW\C#OOP_Homwerok\03.Homework.LINQ\02.IEnumerableExtensions\bin\Debug\02.IEnumerableExtensions.exe.config

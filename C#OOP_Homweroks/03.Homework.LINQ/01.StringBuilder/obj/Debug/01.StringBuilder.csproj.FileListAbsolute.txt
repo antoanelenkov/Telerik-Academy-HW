@@ -1,0 +1,1 @@
+C:\Users\Antoan Elenkov\Documents\Visual Studio 2013\Projects\Telerik-Academy HW\C#OOP_Homwerok\03.Homework.LINQ\01.StringBuilder\bin\Debug\01.StringBuilder.exe.config

@@ -1,0 +1,12 @@
+C:\Users\Antoan Elenkov\Documents\Visual Studio 2013\Projects\Telerik-Academy-HWs\HTML_Homework\03.Homework.HTML Forms\03.Homework.Forms\03.Homework.Forms\bin\03.Homework.Forms.dll.config
+C:\Users\Antoan Elenkov\Documents\Visual Studio 2013\Projects\Telerik-Academy-HWs\HTML_Homework\03.Homework.HTML Forms\03.Homework.Forms\03.Homework.Forms\bin\03.Homework.Forms.dll
+C:\Users\Antoan Elenkov\Documents\Visual Studio 2013\Projects\Telerik-Academy-HWs\HTML_Homework\03.Homework.HTML Forms\03.Homework.Forms\03.Homework.Forms\bin\03.Homework.Forms.pdb
+C:\Users\Antoan Elenkov\Documents\Visual Studio 2013\Projects\Telerik-Academy-HWs\HTML_Homework\03.Homework.HTML Forms\03.Homework.Forms\03.Homework.Forms\obj\Debug\03.Homework.Forms.csprojResolveAssemblyReference.cache
+C:\Users\Antoan Elenkov\Documents\Visual Studio 2013\Projects\Telerik-Academy-HWs\HTML_Homework\03.Homework.HTML Forms\03.Homework.Forms\03.Homework.Forms\obj\Debug\03.Homework.Forms.dll
+C:\Users\Antoan Elenkov\Documents\Visual Studio 2013\Projects\Telerik-Academy-HWs\HTML_Homework\03.Homework.HTML Forms\03.Homework.Forms\03.Homework.Forms\obj\Debug\03.Homework.Forms.pdb
+C:\Users\Antoan Elenkov\Documents\Visual Studio 2013\Projects\Telerik-Academy-HWs\HTML_Homework\03.Homework.HTML Forms\03.Homework.Forms\bin\03.Homework.Forms.dll.config
+C:\Users\Antoan Elenkov\Documents\Visual Studio 2013\Projects\Telerik-Academy-HWs\HTML_Homework\03.Homework.HTML Forms\03.Homework.Forms\bin\03.Homework.Forms.dll
+C:\Users\Antoan Elenkov\Documents\Visual Studio 2013\Projects\Telerik-Academy-HWs\HTML_Homework\03.Homework.HTML Forms\03.Homework.Forms\bin\03.Homework.Forms.pdb
+C:\Users\Antoan Elenkov\Documents\Visual Studio 2013\Projects\Telerik-Academy-HWs\HTML_Homework\03.Homework.HTML Forms\03.Homework.Forms\obj\Debug\03.Homework.Forms.csprojResolveAssemblyReference.cache
+C:\Users\Antoan Elenkov\Documents\Visual Studio 2013\Projects\Telerik-Academy-HWs\HTML_Homework\03.Homework.HTML Forms\03.Homework.Forms\obj\Debug\03.Homework.Forms.dll
+C:\Users\Antoan Elenkov\Documents\Visual Studio 2013\Projects\Telerik-Academy-HWs\HTML_Homework\03.Homework.HTML Forms\03.Homework.Forms\obj\Debug\03.Homework.Forms.pdb
