@@ -1,0 +1,76 @@
+﻿input[type="text"] {
+    width: 400px;
+    height: 40px;
+    background: rgb(232,255,255); /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(232,255,255,1) 0%, rgba(221,241,249,1) 20%, rgba(254,255,255,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(232,255,255,1)), color-stop(20%,rgba(221,241,249,1)), color-stop(100%,rgba(254,255,255,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, rgba(232,255,255,1) 0%,rgba(221,241,249,1) 20%,rgba(254,255,255,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, rgba(232,255,255,1) 0%,rgba(221,241,249,1) 20%,rgba(254,255,255,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, rgba(232,255,255,1) 0%,rgba(221,241,249,1) 20%,rgba(254,255,255,1) 100%); /* IE10+ */
+    background: linear-gradient(to bottom, rgba(232,255,255,1) 0%,rgba(221,241,249,1) 20%,rgba(254,255,255,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e8ffff', endColorstr='#feffff',GradientType=0 ); /* IE6-9 */
+}
+
+#calculator {
+    background: rgb(225,255,255); /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(225,255,255,1) 0%, rgba(225,255,255,1) 7%, rgba(225,255,255,1) 12%, rgba(253,255,255,1) 12%, rgba(230,248,253,1) 30%, rgba(200,238,251,1) 54%, rgba(190,228,248,1) 75%, rgba(177,216,245,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(225,255,255,1)), color-stop(7%,rgba(225,255,255,1)), color-stop(12%,rgba(225,255,255,1)), color-stop(12%,rgba(253,255,255,1)), color-stop(30%,rgba(230,248,253,1)), color-stop(54%,rgba(200,238,251,1)), color-stop(75%,rgba(190,228,248,1)), color-stop(100%,rgba(177,216,245,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, rgba(225,255,255,1) 0%,rgba(225,255,255,1) 7%,rgba(225,255,255,1) 12%,rgba(253,255,255,1) 12%,rgba(230,248,253,1) 30%,rgba(200,238,251,1) 54%,rgba(190,228,248,1) 75%,rgba(177,216,245,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, rgba(225,255,255,1) 0%,rgba(225,255,255,1) 7%,rgba(225,255,255,1) 12%,rgba(253,255,255,1) 12%,rgba(230,248,253,1) 30%,rgba(200,238,251,1) 54%,rgba(190,228,248,1) 75%,rgba(177,216,245,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, rgba(225,255,255,1) 0%,rgba(225,255,255,1) 7%,rgba(225,255,255,1) 12%,rgba(253,255,255,1) 12%,rgba(230,248,253,1) 30%,rgba(200,238,251,1) 54%,rgba(190,228,248,1) 75%,rgba(177,216,245,1) 100%); /* IE10+ */
+    background: linear-gradient(to bottom, rgba(225,255,255,1) 0%,rgba(225,255,255,1) 7%,rgba(225,255,255,1) 12%,rgba(253,255,255,1) 12%,rgba(230,248,253,1) 30%,rgba(200,238,251,1) 54%,rgba(190,228,248,1) 75%,rgba(177,216,245,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e1ffff', endColorstr='#b1d8f5',GradientType=0 ); /* IE6-9 */
+    border: 1px solid #808080;
+}
+
+body {
+    font-size: 12px;
+}
+
+#binaryNumbers {
+    border: 1px solid #808080;
+    width: 400px;
+    height: 40px;
+    line-height: 10px;
+}
+
+table[id=operations] td {
+    padding-left: 1px;
+}
+
+table, td {
+    border-radius: 3px;
+}
+
+.spanned {
+    height: 75px;
+    width: 70px;
+}
+
+div {
+    border: 1px solid #808080;
+    border-radius: 3px;
+    height: 96px;
+    width: 70px;
+}
+
+button {
+    height: 27px;
+    width: 35px;
+    font-size: 11px;
+    text-align: center;
+}
+
+    button[id=equalButton] {
+        height: 62px;
+        width: 35px;
+        font-size:20px;
+    }
+
+    button[id=zeroButton] {
+        height: 27px;
+        width: 75px;
+    }
+.bigger{
+        font-size: 17px;
+}
