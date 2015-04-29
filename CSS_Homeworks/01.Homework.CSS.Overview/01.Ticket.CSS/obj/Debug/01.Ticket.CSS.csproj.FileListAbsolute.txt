@@ -1,0 +1,6 @@
+C:\Users\Antoan Elenkov\Documents\Visual Studio 2013\Projects\TelerikAcademy-Homeworks\CSS_Homeworks\01.Homework.CSS.Overview\01.Ticket.CSS\bin\01.Ticket.CSS.dll.config
+C:\Users\Antoan Elenkov\Documents\Visual Studio 2013\Projects\TelerikAcademy-Homeworks\CSS_Homeworks\01.Homework.CSS.Overview\01.Ticket.CSS\bin\01.Ticket.CSS.dll
+C:\Users\Antoan Elenkov\Documents\Visual Studio 2013\Projects\TelerikAcademy-Homeworks\CSS_Homeworks\01.Homework.CSS.Overview\01.Ticket.CSS\bin\01.Ticket.CSS.pdb
+C:\Users\Antoan Elenkov\Documents\Visual Studio 2013\Projects\TelerikAcademy-Homeworks\CSS_Homeworks\01.Homework.CSS.Overview\01.Ticket.CSS\obj\Debug\01.Ticket.CSS.csprojResolveAssemblyReference.cache
+C:\Users\Antoan Elenkov\Documents\Visual Studio 2013\Projects\TelerikAcademy-Homeworks\CSS_Homeworks\01.Homework.CSS.Overview\01.Ticket.CSS\obj\Debug\01.Ticket.CSS.dll
+C:\Users\Antoan Elenkov\Documents\Visual Studio 2013\Projects\TelerikAcademy-Homeworks\CSS_Homeworks\01.Homework.CSS.Overview\01.Ticket.CSS\obj\Debug\01.Ticket.CSS.pdb

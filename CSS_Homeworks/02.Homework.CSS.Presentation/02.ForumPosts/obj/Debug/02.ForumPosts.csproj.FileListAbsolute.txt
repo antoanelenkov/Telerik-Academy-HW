@@ -1,0 +1,5 @@
+C:\Users\Antoan Elenkov\Documents\Visual Studio 2013\Projects\TelerikAcademy-Homeworks\CSS_Homeworks\02.Homework.CSS.Presentation\02.ForumPosts\bin\02.ForumPosts.dll.config
+C:\Users\Antoan Elenkov\Documents\Visual Studio 2013\Projects\TelerikAcademy-Homeworks\CSS_Homeworks\02.Homework.CSS.Presentation\02.ForumPosts\bin\02.ForumPosts.dll
+C:\Users\Antoan Elenkov\Documents\Visual Studio 2013\Projects\TelerikAcademy-Homeworks\CSS_Homeworks\02.Homework.CSS.Presentation\02.ForumPosts\bin\02.ForumPosts.pdb
+C:\Users\Antoan Elenkov\Documents\Visual Studio 2013\Projects\TelerikAcademy-Homeworks\CSS_Homeworks\02.Homework.CSS.Presentation\02.ForumPosts\obj\Debug\02.ForumPosts.dll
+C:\Users\Antoan Elenkov\Documents\Visual Studio 2013\Projects\TelerikAcademy-Homeworks\CSS_Homeworks\02.Homework.CSS.Presentation\02.ForumPosts\obj\Debug\02.ForumPosts.pdb

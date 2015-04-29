@@ -1,0 +1,36 @@
+﻿img {
+    width: 22px;
+    height: 15px;
+}
+
+thead {
+    background-color: #02de1f;
+    color: white;
+    font-weight: normal;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #d4d4d4;
+}
+
+td {
+    padding: 10px;
+    border: thin;
+    border-left-color: #808080;
+    border-right-color: #808080;
+    padding-right:40px;
+}
+table, th, td {
+    border: 1px solid #808080;
+    border-bottom-color: white;
+    border-top-color: white;
+    border-collapse:collapse;
+}
+
+    td:last-of-type {
+        border-right-color: white;
+    }
+
+tr:last-of-type td {
+    border-bottom-color: #808080;
+}

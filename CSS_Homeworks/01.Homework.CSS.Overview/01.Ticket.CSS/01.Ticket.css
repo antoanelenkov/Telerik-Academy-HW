@@ -1,0 +1,36 @@
+﻿table{
+    background:#808080;
+    color:#ffffff;
+}
+caption{
+    background:#808080;
+    text-align:left;
+    font-size:20px;
+    color:#bfb3b3
+}
+#Name:before{
+    content:"O ";
+    color:#57db76;
+}
+#redText{
+    color:#ff0000;
+    font-weight:bold;
+}
+td:nth-child(1){
+    font-style:italic;
+    padding-right:10px;
+}
+td:nth-child(2){
+    padding-right:100px;
+}
+#status{
+    color:#ff6a00;
+    font-weight:bold;
+}
+.greyText{
+    color:#bfb3b3
+}
+
+table tr td{
+    padding:5px;
+}

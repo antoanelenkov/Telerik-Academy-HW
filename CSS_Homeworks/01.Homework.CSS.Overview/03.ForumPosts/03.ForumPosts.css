@@ -1,0 +1,48 @@
+﻿body {
+    background-color: #a7a1a1;
+}
+
+body>header {
+    text-align: center;
+}
+
+h1 {
+    color: #efe19e;
+}
+
+section h1 {
+    font-size: 25px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+li {
+    color: #a7a1a1;
+}
+
+    li:last-of-type {
+        text-decoration: underline;
+    }
+
+.current {
+    background-color: #e1d7d7;
+}
+
+footer, footer a {
+    font-size: 12px;
+    color: black;
+    font-weight: normal;
+}
+
+    body>footer {
+        font-size: 17px;
+        text-align: center;
+    }
+article header{
+        font-size: 20px;
+}
