@@ -25,7 +25,15 @@ div, h1, h3, h4, h5, h6, header, footer, body, section, nav, article, aside {
 
 body {
     font: 14px normal Arial;
-    color: white;
+    padding-top: 1%;
+    background: rgb(192,145,224); /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(192,145,224,1) 0%, rgba(139,39,206,1) 14%, rgba(148,45,216,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(192,145,224,1)), color-stop(14%,rgba(139,39,206,1)), color-stop(100%,rgba(148,45,216,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, rgba(192,145,224,1) 0%,rgba(139,39,206,1) 14%,rgba(148,45,216,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, rgba(192,145,224,1) 0%,rgba(139,39,206,1) 14%,rgba(148,45,216,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, rgba(192,145,224,1) 0%,rgba(139,39,206,1) 14%,rgba(148,45,216,1) 100%); /* IE10+ */
+    background: linear-gradient(to bottom, rgba(192,145,224,1) 0%,rgba(139,39,206,1) 14%,rgba(148,45,216,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c091e0', endColorstr='#942dd8',GradientType=0 ); /* IE6-9 */
 }
 
     body header {
@@ -54,6 +62,7 @@ body {
                 body header div#header-container div#reg-form-container div label {
                     width: 50px;
                     margin: 5px;
+                    color: white;
                 }
 
                 body header div#header-container div#reg-form-container div input {
@@ -62,6 +71,7 @@ body {
                     border-radius: 10px;
                     padding: 2px 5px;
                     margin: 5px;
+                    background-color: #a739f3;
                 }
 
             body header div#header-container div#reg-form-container button {
@@ -72,6 +82,8 @@ body {
                 border-style: outset;
                 border-radius: 10px;
                 padding: 5px 8px;
+                color: white;
+                background-color: #b55df2;
             }
 
                 body header div#header-container div#reg-form-container button:hover {
@@ -85,6 +97,8 @@ body {
             margin: 20px 20px 20px 20px;
             padding: 12px;
             border: 2px solid #000;
+            border-color:#5d0381;
+            border-radius: 15px;
         }
 
             body header nav ul.nav-list {
@@ -148,7 +162,10 @@ body {
         body section article {
             margin: 20px;
             padding: 20px;
-            border: 1px solid black;
+            border: 2px solid;
+             border-color:#5d0381;
+            border-radius: 10px;
+            color: white;
         }
 
             body section article header {
@@ -177,6 +194,7 @@ body {
 
                     body section article footer p a {
                         text-decoration: none;
+                        color: rgb(192,145,224);
                     }
 
                         body section article footer p a:hover {
@@ -187,6 +205,7 @@ body {
         float: left;
         width: 20%;
         margin: 20px;
+        color: white;
     }
 
         body aside > ul {
@@ -196,7 +215,8 @@ body {
             body aside > ul > li {
                 margin: 15px 0;
                 padding: 15px;
-                border: 1px solid black;
+                border: 2px solid;
+                            border-color:#5d0381;
                 border-radius: 5px;
             }
 
@@ -231,11 +251,12 @@ body {
                     }
 
                 body aside > ul > li ul {
-                    list-style-type: none;
+                    list-style-type:none;
                     margin-top: 10px;
                     margin-right: 0;
                     margin-bottom: 10px;
                     margin-left: 0px;
+
                 }
 
                     body aside > ul > li ul li {
@@ -243,9 +264,10 @@ body {
                         margin-left: 10px;
                         margin-bottom: 0px;
                         margin-right: 0px;
-                        background: url(images/li-dot.png) no-repeat;
+                        background: url("images/dot.png") no-repeat;
                         background-position: 0 50%;
                         padding-left: 25px;
+
                     }
 
     body footer {
@@ -254,6 +276,8 @@ body {
         padding-bottom: 25px;
         padding-right: 0px;
         padding-left: 0px;
+        text-align: center;
+        color: white;
     }
 
         body footer p {
