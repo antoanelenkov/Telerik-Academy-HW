@@ -3,3 +3,4 @@ C:\Users\Antoan Elenkov\Documents\Visual Studio 2013\Projects\TelerikAcademy-Hom
 C:\Users\Antoan Elenkov\Documents\Visual Studio 2013\Projects\TelerikAcademy-Homeworks\CSS_Homeworks\02.Homework.CSS.Presentation\03.NestedDivs\bin\03.NestedDivs.pdb
 C:\Users\Antoan Elenkov\Documents\Visual Studio 2013\Projects\TelerikAcademy-Homeworks\CSS_Homeworks\02.Homework.CSS.Presentation\03.NestedDivs\obj\Debug\03.NestedDivs.dll
 C:\Users\Antoan Elenkov\Documents\Visual Studio 2013\Projects\TelerikAcademy-Homeworks\CSS_Homeworks\02.Homework.CSS.Presentation\03.NestedDivs\obj\Debug\03.NestedDivs.pdb
+C:\Users\Antoan Elenkov\Documents\Visual Studio 2013\Projects\TelerikAcademy-Homeworks\CSS_Homeworks\02.Homework.CSS.Presentation\03.NestedDivs\obj\Debug\03.NestedDivs.csprojResolveAssemblyReference.cache

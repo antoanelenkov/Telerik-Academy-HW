@@ -1,0 +1,11 @@
+﻿body{
+    color:#0094ff;
+        font-family:Consolas;
+}
+h1{
+    font-size:15px;
+}
+header::first-letter{
+    font-size:30px;
+    font-family:Edwardian Script ITC;
+}
