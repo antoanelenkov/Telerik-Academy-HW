@@ -5,9 +5,22 @@
     <link href="04.Calculator.css" rel="stylesheet" />
 </head>
 <body>
+    <nav>
+        <ul>
+            <li>
+                <span>V</span>iew
+            </li>
+            <li>
+                <span>E</span>dit
+            </li>
+            <li>
+                <span>H</span>elp
+            </li>
+        </ul>
+    </nav>
     <table id="calculator">
         <tr>
-            <td><input type="text" /></td>
+            <td><input type="text" value="123456" /></td>
         </tr>
         <tr>
             <td>
@@ -20,7 +33,7 @@
                         <td>0000</td>
                         <td>0000</td>
                         <td>0000</td>
-                         <td>0000</td>
+                        <td>0000</td>
                     </tr>
                     <tr>
                         <td>63</td>
@@ -62,7 +75,7 @@
                         <td rowspan="3" colspan="2" class="spanned">
                             <div>
                                 <input type="radio" name="numeralSystem" />Hex<br />
-                                <input type="radio" name="numeralSystem" checked/>Dec<br />
+                                <input type="radio" name="numeralSystem" checked />Dec<br />
                                 <input type="radio" name="numeralSystem" />Oct<br />
                                 <input type="radio" name="numeralSystem" />Bin<br />
                             </div>
@@ -100,10 +113,10 @@
 
                         <td rowspan="3" colspan="2" class="spanned">
                             <div>
-                                <input type="radio" name="numeralSystem" checked />Qword<br />
-                                <input type="radio" name="numeralSystem" />Dword<br />
-                                <input type="radio" name="numeralSystem" />Word<br />
-                                <input type="radio" name="numeralSystem" />Byte<br />
+                                <input type="radio" name="numeralSystemVisiblity" checked />Qword<br />
+                                <input type="radio" name="numeralSystemVisiblity" />Dword<br />
+                                <input type="radio" name="numeralSystemVisiblity" />Word<br />
+                                <input type="radio" name="numeralSystemVisiblity" />Byte<br />
                             </div>
                         </td>
                         <td><button class="enabled">Or</button></td>
@@ -137,5 +150,6 @@
             </td>
         </tr>
     </table>
+
 </body>
 </html>
