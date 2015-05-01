@@ -1,0 +1,6 @@
+C:\Users\Antoan Elenkov\Documents\Visual Studio 2013\Projects\TelerikAcademy-Homeworks\CSS_Homeworks\03.Homework.CSS.Layout\01.TrieView\bin\01.TrieView.dll.config
+C:\Users\Antoan Elenkov\Documents\Visual Studio 2013\Projects\TelerikAcademy-Homeworks\CSS_Homeworks\03.Homework.CSS.Layout\01.TrieView\bin\01.TrieView.dll
+C:\Users\Antoan Elenkov\Documents\Visual Studio 2013\Projects\TelerikAcademy-Homeworks\CSS_Homeworks\03.Homework.CSS.Layout\01.TrieView\bin\01.TrieView.pdb
+C:\Users\Antoan Elenkov\Documents\Visual Studio 2013\Projects\TelerikAcademy-Homeworks\CSS_Homeworks\03.Homework.CSS.Layout\01.TrieView\obj\Debug\01.TrieView.csprojResolveAssemblyReference.cache
+C:\Users\Antoan Elenkov\Documents\Visual Studio 2013\Projects\TelerikAcademy-Homeworks\CSS_Homeworks\03.Homework.CSS.Layout\01.TrieView\obj\Debug\01.TrieView.dll
+C:\Users\Antoan Elenkov\Documents\Visual Studio 2013\Projects\TelerikAcademy-Homeworks\CSS_Homeworks\03.Homework.CSS.Layout\01.TrieView\obj\Debug\01.TrieView.pdb

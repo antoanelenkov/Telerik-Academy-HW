@@ -1,0 +1,78 @@
+﻿
+nav {
+    position: relative;
+    border-radius: 10px 10px 0 0;
+    background: rgb(91,91,91); /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(91,91,91,1) 0%, rgba(14,14,14,1) 98%, rgba(14,14,14,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(91,91,91,1)), color-stop(98%,rgba(14,14,14,1)), color-stop(100%,rgba(14,14,14,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, rgba(91,91,91,1) 0%,rgba(14,14,14,1) 98%,rgba(14,14,14,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, rgba(91,91,91,1) 0%,rgba(14,14,14,1) 98%,rgba(14,14,14,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, rgba(91,91,91,1) 0%,rgba(14,14,14,1) 98%,rgba(14,14,14,1) 100%); /* IE10+ */
+    background: linear-gradient(to bottom, rgba(91,91,91,1) 0%,rgba(14,14,14,1) 98%,rgba(14,14,14,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5b5b5b', endColorstr='#0e0e0e',GradientType=0 ); /* IE6-9 */
+    width: 800px;
+    padding-top: 20px;
+    padding-bottom:5px;
+}
+
+span {
+    font-size: 30px;
+    display: inline;
+    color: white;
+}
+
+img {
+    position:relative;
+    bottom:15px;
+    vertical-align: top;
+}
+
+input[type=submit] {
+    color: white;
+    background-size: cover;
+    height: 30px;
+    width: 60px;
+    border-radius: 15px;
+    background-image: url("images/go.png");
+    margin-top:5px;
+}
+
+img, nav span, input[type=submit], input[type=text] {
+    margin-left: 20px;
+    vertical-align: top;
+}
+
+input[type=text] {
+    margin-top: 5px;
+    height: 20px;
+    width:160px;
+    font-size:16px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+}
+
+h1 {
+    color: #fce60f;
+    font-size: 40px;
+    font-weight: normal;
+    margin: 10px;
+}
+
+p strong {
+    color: #b5b5b5;
+}
+
+section {
+    border-radius: 0 0 10px 10px;
+    background-color: #3b3b3b;
+    margin: 0;
+    width: 780px;
+    padding: 10px;
+}
+
+a, p {
+    color: #959595;
+    text-decoration: none;
+    margin: 0;
+    font-size: 20px;
+}

@@ -1,0 +1,6 @@
+C:\Users\Antoan Elenkov\Documents\Visual Studio 2013\Projects\TelerikAcademy-Homeworks\CSS_Homeworks\03.Homework.CSS.Layout\03.MembersLogin\bin\03.MembersLogin.dll.config
+C:\Users\Antoan Elenkov\Documents\Visual Studio 2013\Projects\TelerikAcademy-Homeworks\CSS_Homeworks\03.Homework.CSS.Layout\03.MembersLogin\bin\03.MembersLogin.dll
+C:\Users\Antoan Elenkov\Documents\Visual Studio 2013\Projects\TelerikAcademy-Homeworks\CSS_Homeworks\03.Homework.CSS.Layout\03.MembersLogin\bin\03.MembersLogin.pdb
+C:\Users\Antoan Elenkov\Documents\Visual Studio 2013\Projects\TelerikAcademy-Homeworks\CSS_Homeworks\03.Homework.CSS.Layout\03.MembersLogin\obj\Debug\03.MembersLogin.csprojResolveAssemblyReference.cache
+C:\Users\Antoan Elenkov\Documents\Visual Studio 2013\Projects\TelerikAcademy-Homeworks\CSS_Homeworks\03.Homework.CSS.Layout\03.MembersLogin\obj\Debug\03.MembersLogin.dll
+C:\Users\Antoan Elenkov\Documents\Visual Studio 2013\Projects\TelerikAcademy-Homeworks\CSS_Homeworks\03.Homework.CSS.Layout\03.MembersLogin\obj\Debug\03.MembersLogin.pdb

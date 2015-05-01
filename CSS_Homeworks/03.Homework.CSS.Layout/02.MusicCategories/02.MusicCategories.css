@@ -1,0 +1,54 @@
+﻿section {
+    padding-left: 20px;
+    padding-left: 15px;
+    padding-bottom: 25px;
+    width: 470px;
+    background: #eeeeee;
+    border: 1px hidden;
+    border-radius: 10px;
+}
+
+header h1 {
+    padding-top: 10px;
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+article {
+    margin-top: 50px;
+    padding: 15px;
+    width: 430px;
+    overflow: auto;
+    background: white;
+}
+
+    article, article img {
+        border: 2px solid #acacac;
+    }
+
+        article img {
+            margin-right: 15px;
+            float: left;
+        }
+
+        article p {
+            font-size: 18px;
+        }
+
+button {
+    position: relative;
+    background: url("images/button.png") no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+    float: right;
+    height: 28px;
+    padding-left: 25px;
+    padding-right: 20px;
+    margin-left: 5px;
+    bottom: 10px;
+}
+
+p {
+    margin-top: 0;
+}

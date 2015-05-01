@@ -1,0 +1,6 @@
+C:\Users\Antoan Elenkov\Documents\Visual Studio 2013\Projects\TelerikAcademy-Homeworks\CSS_Homeworks\03.Homework.CSS.Layout\02.MusicCategories\bin\02.MusicCategories.dll.config
+C:\Users\Antoan Elenkov\Documents\Visual Studio 2013\Projects\TelerikAcademy-Homeworks\CSS_Homeworks\03.Homework.CSS.Layout\02.MusicCategories\bin\02.MusicCategories.dll
+C:\Users\Antoan Elenkov\Documents\Visual Studio 2013\Projects\TelerikAcademy-Homeworks\CSS_Homeworks\03.Homework.CSS.Layout\02.MusicCategories\bin\02.MusicCategories.pdb
+C:\Users\Antoan Elenkov\Documents\Visual Studio 2013\Projects\TelerikAcademy-Homeworks\CSS_Homeworks\03.Homework.CSS.Layout\02.MusicCategories\obj\Debug\02.MusicCategories.dll
+C:\Users\Antoan Elenkov\Documents\Visual Studio 2013\Projects\TelerikAcademy-Homeworks\CSS_Homeworks\03.Homework.CSS.Layout\02.MusicCategories\obj\Debug\02.MusicCategories.pdb
+C:\Users\Antoan Elenkov\Documents\Visual Studio 2013\Projects\TelerikAcademy-Homeworks\CSS_Homeworks\03.Homework.CSS.Layout\02.MusicCategories\obj\Debug\02.MusicCategories.csprojResolveAssemblyReference.cache
