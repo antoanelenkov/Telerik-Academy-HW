@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.MusicCategories", "02.Mu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.MembersLogin", "03.MembersLogin\03.MembersLogin.csproj", "{57B45D18-9A8C-4B1D-A29F-3CB3C772C424}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.CSSDocumentalSite", "04.CSSDocumentalSite\04.CSSDocumentalSite.csproj", "{288AF13B-92DB-444D-96B6-5F93D3296AE8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{57B45D18-9A8C-4B1D-A29F-3CB3C772C424}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{57B45D18-9A8C-4B1D-A29F-3CB3C772C424}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{57B45D18-9A8C-4B1D-A29F-3CB3C772C424}.Release|Any CPU.Build.0 = Release|Any CPU
+		{288AF13B-92DB-444D-96B6-5F93D3296AE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{288AF13B-92DB-444D-96B6-5F93D3296AE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{288AF13B-92DB-444D-96B6-5F93D3296AE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{288AF13B-92DB-444D-96B6-5F93D3296AE8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
