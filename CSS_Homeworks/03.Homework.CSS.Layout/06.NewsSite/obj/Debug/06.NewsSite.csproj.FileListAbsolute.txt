@@ -1,0 +1,5 @@
+C:\Users\Antoan Elenkov\Documents\Visual Studio 2013\Projects\TelerikAcademy-Homeworks\CSS_Homeworks\03.Homework.CSS.Layout\06.NewsSite\bin\06.NewsSite.dll.config
+C:\Users\Antoan Elenkov\Documents\Visual Studio 2013\Projects\TelerikAcademy-Homeworks\CSS_Homeworks\03.Homework.CSS.Layout\06.NewsSite\bin\06.NewsSite.dll
+C:\Users\Antoan Elenkov\Documents\Visual Studio 2013\Projects\TelerikAcademy-Homeworks\CSS_Homeworks\03.Homework.CSS.Layout\06.NewsSite\bin\06.NewsSite.pdb
+C:\Users\Antoan Elenkov\Documents\Visual Studio 2013\Projects\TelerikAcademy-Homeworks\CSS_Homeworks\03.Homework.CSS.Layout\06.NewsSite\obj\Debug\06.NewsSite.dll
+C:\Users\Antoan Elenkov\Documents\Visual Studio 2013\Projects\TelerikAcademy-Homeworks\CSS_Homeworks\03.Homework.CSS.Layout\06.NewsSite\obj\Debug\06.NewsSite.pdb

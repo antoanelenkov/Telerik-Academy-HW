@@ -1,0 +1,6 @@
+C:\Users\Antoan Elenkov\Documents\Visual Studio 2013\Projects\TelerikAcademy-Homeworks\CSS_Homeworks\03.Homework.CSS.Layout\05.LaptopStore\bin\05.LaptopStore.dll.config
+C:\Users\Antoan Elenkov\Documents\Visual Studio 2013\Projects\TelerikAcademy-Homeworks\CSS_Homeworks\03.Homework.CSS.Layout\05.LaptopStore\bin\05.LaptopStore.dll
+C:\Users\Antoan Elenkov\Documents\Visual Studio 2013\Projects\TelerikAcademy-Homeworks\CSS_Homeworks\03.Homework.CSS.Layout\05.LaptopStore\bin\05.LaptopStore.pdb
+C:\Users\Antoan Elenkov\Documents\Visual Studio 2013\Projects\TelerikAcademy-Homeworks\CSS_Homeworks\03.Homework.CSS.Layout\05.LaptopStore\obj\Debug\05.LaptopStore.dll
+C:\Users\Antoan Elenkov\Documents\Visual Studio 2013\Projects\TelerikAcademy-Homeworks\CSS_Homeworks\03.Homework.CSS.Layout\05.LaptopStore\obj\Debug\05.LaptopStore.pdb
+C:\Users\Antoan Elenkov\Documents\Visual Studio 2013\Projects\TelerikAcademy-Homeworks\CSS_Homeworks\03.Homework.CSS.Layout\05.LaptopStore\obj\Debug\05.LaptopStore.csprojResolveAssemblyReference.cache
