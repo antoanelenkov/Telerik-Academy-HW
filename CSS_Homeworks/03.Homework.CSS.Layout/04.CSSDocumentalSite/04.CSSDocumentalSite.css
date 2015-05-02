@@ -3,7 +3,7 @@
     background-color: #f1f1f1;
   width: 947px;
     height: 710px;
-    padding: 2px;
+    padding: 3px;
 }
 
 
@@ -139,7 +139,7 @@ button[id=styles] {
 button[class=after] {
     border:2px solid black;
     background:white;
-    height:22px;
+    height:23px;
     padding-right: 0;
     padding-left: 37px;
 }
