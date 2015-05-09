@@ -10,7 +10,7 @@ namespace RemoveOddOccurance
 
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             LinkedList<int> collection = new LinkedList<int>(new int[] { 4, 2, 2, 5, 2, 3, 2, 3, 1, 5, 2 });
             Dictionary<int, int> countedNumbers = new Dictionary<int, int>();
