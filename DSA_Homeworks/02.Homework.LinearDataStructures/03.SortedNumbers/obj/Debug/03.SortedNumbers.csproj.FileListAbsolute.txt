@@ -1,0 +1,11 @@
+C:\Users\softwareacademy\Desktop\Antoan\02.Homework.LinearDataStructures\03.SortedNumbers\bin\Debug\03.SortedNumbers.exe.config
+C:\Users\softwareacademy\Desktop\Antoan\02.Homework.LinearDataStructures\03.SortedNumbers\bin\Debug\03.SortedNumbers.exe
+C:\Users\softwareacademy\Desktop\Antoan\02.Homework.LinearDataStructures\03.SortedNumbers\bin\Debug\03.SortedNumbers.pdb
+C:\Users\softwareacademy\Desktop\Antoan\02.Homework.LinearDataStructures\03.SortedNumbers\obj\Debug\03.SortedNumbers.exe
+C:\Users\softwareacademy\Desktop\Antoan\02.Homework.LinearDataStructures\03.SortedNumbers\obj\Debug\03.SortedNumbers.pdb
+C:\Users\Antoan Elenkov\Documents\Visual Studio 2013\Projects\TelerikAcademy-Homeworks\DataStructuresAndAlgorithmes_Homeworks\02.Homework.LinearDataStructures\03.SortedNumbers\bin\Debug\03.SortedNumbers.exe.config
+C:\Users\Antoan Elenkov\Documents\Visual Studio 2013\Projects\TelerikAcademy-Homeworks\DataStructuresAndAlgorithmes_Homeworks\02.Homework.LinearDataStructures\03.SortedNumbers\obj\Debug\03.SortedNumbers.exe
+C:\Users\Antoan Elenkov\Documents\Visual Studio 2013\Projects\TelerikAcademy-Homeworks\DataStructuresAndAlgorithmes_Homeworks\02.Homework.LinearDataStructures\03.SortedNumbers\obj\Debug\03.SortedNumbers.pdb
+C:\Users\Antoan Elenkov\Documents\Visual Studio 2013\Projects\TelerikAcademy-Homeworks\DSA_Homeworks\02.Homework.LinearDataStructures\03.SortedNumbers\bin\Debug\03.SortedNumbers.exe.config
+C:\Users\Antoan Elenkov\Documents\Visual Studio 2013\Projects\TelerikAcademy-Homeworks\DSA_Homeworks\02.Homework.LinearDataStructures\03.SortedNumbers\obj\Debug\03.SortedNumbers.exe
+C:\Users\Antoan Elenkov\Documents\Visual Studio 2013\Projects\TelerikAcademy-Homeworks\DSA_Homeworks\02.Homework.LinearDataStructures\03.SortedNumbers\obj\Debug\03.SortedNumbers.pdb

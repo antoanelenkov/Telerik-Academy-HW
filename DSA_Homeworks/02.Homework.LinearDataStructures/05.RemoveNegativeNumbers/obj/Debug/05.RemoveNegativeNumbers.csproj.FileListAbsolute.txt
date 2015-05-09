@@ -1,0 +1,6 @@
+C:\Users\softwareacademy\Desktop\Antoan\02.Homework.LinearDataStructures\05.RemoveNegativeNumbers\bin\Debug\05.RemoveNegativeNumbers.exe.config
+C:\Users\softwareacademy\Desktop\Antoan\02.Homework.LinearDataStructures\05.RemoveNegativeNumbers\bin\Debug\05.RemoveNegativeNumbers.exe
+C:\Users\softwareacademy\Desktop\Antoan\02.Homework.LinearDataStructures\05.RemoveNegativeNumbers\bin\Debug\05.RemoveNegativeNumbers.pdb
+C:\Users\softwareacademy\Desktop\Antoan\02.Homework.LinearDataStructures\05.RemoveNegativeNumbers\obj\Debug\05.RemoveNegativeNumbers.csprojResolveAssemblyReference.cache
+C:\Users\softwareacademy\Desktop\Antoan\02.Homework.LinearDataStructures\05.RemoveNegativeNumbers\obj\Debug\05.RemoveNegativeNumbers.exe
+C:\Users\softwareacademy\Desktop\Antoan\02.Homework.LinearDataStructures\05.RemoveNegativeNumbers\obj\Debug\05.RemoveNegativeNumbers.pdb
