@@ -1,2 +1,42 @@
-﻿body {
+﻿@thumbnail-width: 150px;
+@thumbnail-height: 125px;
+@image-width: 640px;
+@image-height: 480px;
+
+.opacity (@opacity: 0.5) {
+    opacity: @opacity;
+}
+
+#main-nav-list {
+    list-style-type: none;
+    text-align: center;
+
+    li {
+        display: inline-block;
+
+        &:hover {
+            .opacity;
+        }
+        img {
+            width: @thumbnail-width;
+            height: @thumbnail-height;
+        }
+    }
+}
+
+#enlarged-picture {
+    input[type="radio"] {
+        display: none;
+    }
+
+    .image {
+        display: none;
+    }
+
+    input:checked + .image {
+        display: block;
+        width: @image-width;
+        height: @image-height;
+        margin: 0 auto;
+    }
 }

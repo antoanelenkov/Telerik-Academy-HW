@@ -1,10 +1,59 @@
 ﻿<!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <title></title>
+    <meta charset="utf-8" />
+    <title>Animal Gallery</title>
     <link href="02.WebGallery.css" rel="stylesheet" />
 </head>
 <body>
+    <div id="wrapper">
+        <form>
+            <header>
+                <nav>
+                    <ul id="main-nav-list">
+                        <li>
+                            <label for="pic1">
+                                <img src="images/image1.jpg"  width="100" class="thumbnail" />
+                            </label>
+                        </li>
+                        <li>
+                            <label for="pic2">
+                                <img src="images/image2.jpg"  width="100" class="thumbnail" />
+                            </label>
+                        </li>
+                        <li>
+                            <label for="pic3">
+                                <img src="images/image3.jpg"  width="100" class="thumbnail" />
+                            </label>
+                        </li>
+                        <li>
+                            <label for="pic4">
+                                <img src="images/image4.jpg"  width="100" class="thumbnail" />
+                            </label>
+                        </li>
+                        <li>
+                            <label for="pic5">
+                                <img src="images/image5.jpg"  width="100" class="thumbnail" />
+                            </label>
+                        </li>
+                        <li>
+                            <label for="pic6">
+                                <img src="images/image6.jpg"  width="100" class="thumbnail" />
+                            </label>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
 
+            <div id="enlarged-picture">
+                <input type="radio" id="pic1" name="pictures" checked /><img src="images/image1.jpg" width="300" class="image" />
+                <input type="radio" id="pic2" name="pictures" /><img src="images/image2.jpg"  width="300" class="image" />
+                <input type="radio" id="pic3" name="pictures" /><img src="images/image3.jpg"  width="300" class="image" />
+                <input type="radio" id="pic4" name="pictures" /><img src="images/image4.jpg"  width="300" class="image" />
+                <input type="radio" id="pic5" name="pictures" /><img src="images/image5.jpg"  width="300" class="image" />
+                <input type="radio" id="pic6" name="pictures" /><img src="images/image6.jpg"  width="300" class="image" />
+            </div>
+        </form>
+    </div>
 </body>
 </html>

@@ -58,6 +58,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="02.WebGallery.less" />
+    <Content Include="02.WebGallery.css.map">
+      <DependentUpon>02.WebGallery.css</DependentUpon>
+    </Content>
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -68,6 +71,9 @@
   <ItemGroup>
     <Content Include="02.WebGallery.css" />
     <Content Include="02.WebGallery.html" />
+    <Content Include="02.WebGallery.min.css">
+      <DependentUpon>02.WebGallery.css</DependentUpon>
+    </Content>
     <Content Include="images\image1.jpg" />
     <Content Include="images\image2.jpg" />
     <Content Include="images\image3.jpg" />
