@@ -159,7 +159,7 @@ function BinarySearch(arr, number) {
 var resultIndex = BinarySearch(arr, 0);
 console.log(resultIndex === -1 ? 'The number is not found!' : 'The number is found at index: ' + resultIndex);
 
-//recursion
+//Solution with recursion
 var index = Math.floor((arr.length - 1) / 2);
 var range=index;
 var count=0;
@@ -185,5 +185,6 @@ function BinarySearch2(arr, number, range) {
         return BinarySearch2(arr, number, range);
     }
 }
+
 var resultIndex = BinarySearch2(arr, 327,range);
 console.log(resultIndex === -1 ? 'The number is not found!' : 'The number is found at index: ' + resultIndex);
