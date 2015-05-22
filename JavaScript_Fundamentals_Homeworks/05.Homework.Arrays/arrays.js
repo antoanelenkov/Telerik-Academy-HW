@@ -123,32 +123,67 @@ for (var i = 0; i < resultArr.length; i += 1) {
 console.log('The most frequent number is: ' + finalNumber + ' with ' + occurances + ' occurances');
 
 //07.Write a script that finds the index of given element in a sorted array of integers by using the binary search algorithm.
-var arr = [1, 1, 1, 2, 2, 3, 3, 4, 4, 9, 12, 12, 13, 14, 16, 20, 37];
+var arr = [0, 1, 1, 2, 2, 3, 3, 4, 4, 9, 11, 12, 13, 14, 16, 20, 37];
 
-function BinarySearch(arr,number){
+//iteration
+function BinarySearch(arr, number) {
     var result;
-    var index = Math.floor((arr.length - 1) / 2);
+    var index = Math.floor((arr.length-1 ) / 2);
+    var range=index;
     var count=0;
-    while (count<arr.length-1) {
-        count++;
+    while (count<=2){
+        range=Math.ceil(range/2);
         if (arr[index] === number) {
             result = index;
             break;
         }
-        if (number > arr[index]) {
-            index = Math.floor(index + (arr.length - index) / 2);
+        else if (number > arr[index]) {
+            index = index + range;
         }
-        if (number < arr[index]) {
-            index = Math.floor(index - index / 2);
+        else if (number < arr[index]) {
+            index = index - range;
+        }
+
+        if(range===1){
+            count++;
         }
     }
-    if(result===undefined){
+    if (result === undefined) {
         return -1;
     }
-    else{
+    else {
         return result;
     }
 }
 
-console.log( BinarySearch(arr,37)===-1?'The number is not found!':'The number is found at index: ' + BinarySearch(arr,37));
+var resultIndex = BinarySearch(arr, 0);
+console.log(resultIndex === -1 ? 'The number is not found!' : 'The number is found at index: ' + resultIndex);
 
+//recursion
+var index = Math.floor((arr.length - 1) / 2);
+var range=index;
+var count=0;
+function BinarySearch2(arr, number, range) {
+    range=Math.ceil(range/2);
+    var result;
+    console.log(range);
+    if(range===1){
+        count++;
+    }
+    if (count>=2) {
+        return -1;
+    }
+    if (arr[index] === number) {
+        return index;
+    }
+    else if (number > arr[index]) {
+        index = index + range;
+        return BinarySearch2(arr, number, range);
+    }
+    else {
+        index = index - range;
+        return BinarySearch2(arr, number, range);
+    }
+}
+var resultIndex = BinarySearch2(arr, 327,range);
+console.log(resultIndex === -1 ? 'The number is not found!' : 'The number is found at index: ' + resultIndex);
