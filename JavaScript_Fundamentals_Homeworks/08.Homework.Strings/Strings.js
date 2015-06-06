@@ -319,23 +319,23 @@ for (var item in emails) {
 var text = 'ABBA-.lamal,exe.Not a "palindrome. test asddsa! aha hahaha hahah'
 var words = text.split(/[\s,!.-/"/']+/);
 console.log(words.join(' '));
-var resultArr=[];
+var resultArr = [];
 for (var i = 0; i < words.length; i += 1) {
-    var isPalindrome=true;
-    for (var j = 0; j < words[i].length/2; j += 1) {
-        if(words[i][j]!==words[i][words[i].length-1-j]){
-            isPalindrome=false;
+    var isPalindrome = true;
+    for (var j = 0; j < words[i].length / 2; j += 1) {
+        if (words[i][j] !== words[i][words[i].length - 1 - j]) {
+            isPalindrome = false;
             break;
         }
     }
-    if(isPalindrome){
+    if (isPalindrome) {
         resultArr.push(words[i]);
     }
 }
 
 console.log('\nTASK 10');
-console.log('TEXT: '+text);
-console.log('Palindromes in the text are: \n'+resultArr);
+console.log('TEXT: ' + text);
+console.log('Palindromes in the text are: \n' + resultArr);
 
 //Problem 12. Generate list
 //Write a function that creates a HTML <ul> using a template for every HTML <li>.
@@ -353,18 +353,27 @@ console.log('Palindromes in the text are: \n'+resultArr);
 //var peopleList = generateList(people, template);
 ////peopleList = '<ul><li><strong>Peter</strong> <span>14</span></li><li>…</li>…</ul>'
 
-var people = [{name: 'Peter', age: 14},{name:'Lady Gaga', age: 29},{name:'My car', age: 16}];
+var people = [{name: 'Peter', age: 14}, {name: 'Lady Gaga', age: 29}, {name: 'My car', age: 16}];
 var element = document.getElementById('list-item').innerHTML;
 var peopleList = generateList(people, element);
-document.getElementById('list-item').innerHTML=peopleList;
+document.getElementById('list-item').innerHTML = peopleList;
 //peopleList = '<ul><li><strong>Peter</strong> <span>14</span></li><li>…</li>…</ul>'
 
-function generateList(people,element){
-    var result='<ul>';
-    for(var person in people){
-        result+='<li>'+element.replace('-{name}-',people[person].name).replace('-{age}-',people[person].age)+'</li>'
+function generateList(people, element) {
+    var result = '<ul>';
+    for (var person in people) {
+        result += '<li>' + element.replace('-{name}-', people[person].name).replace('-{age}-', people[person].age) + '</li>'
     }
-    result+='</ul>';
+    result += '</ul>';
 
     return result;
 }
+
+var  antoan=function(){
+    var name = 'peter';
+    var age=16;
+    console.log('as');
+    var obj;
+    return {name:'antoan'};
+}();
+//console.log(antoan.name);
