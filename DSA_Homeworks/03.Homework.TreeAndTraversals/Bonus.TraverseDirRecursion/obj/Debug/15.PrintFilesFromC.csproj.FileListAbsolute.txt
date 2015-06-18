@@ -1,0 +1,12 @@
+C:\TFS_Antoan\10.Recursion\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+C:\TFS_Antoan\10.Recursion\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+C:\TFS_Antoan\10.Recursion\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+C:\TFS_Antoan\10.Recursion\ConsoleApplication1\obj\Debug\15.PrintFilesFromC.csprojResolveAssemblyReference.cache
+C:\TFS_Antoan\10.Recursion\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+C:\TFS_Antoan\10.Recursion\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
+C:\TFS_Antoan\10.Recursion\15.PrintFilesFromC\bin\Debug\ConsoleApplication1.exe.config
+C:\TFS_Antoan\10.Recursion\15.PrintFilesFromC\obj\Debug\ConsoleApplication1.exe
+C:\TFS_Antoan\10.Recursion\15.PrintFilesFromC\obj\Debug\ConsoleApplication1.pdb
+C:\TFS_Antoan\10.Recursion\15.PrintFilesFromC\bin\Debug\ConsoleApplication1.exe
+C:\TFS_Antoan\10.Recursion\15.PrintFilesFromC\bin\Debug\ConsoleApplication1.pdb
+C:\TFS_Antoan\10.Recursion\15.PrintFilesFromC\obj\Debug\15.PrintFilesFromC.csprojResolveAssemblyReference.cache

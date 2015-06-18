@@ -1,0 +1,5 @@
+C:\TFS_Antoan\16.LinearDataStructures\17.TraverseDirDFS\bin\Debug\17.TraverseDirDFS.exe.config
+C:\TFS_Antoan\16.LinearDataStructures\17.TraverseDirDFS\bin\Debug\17.TraverseDirDFS.exe
+C:\TFS_Antoan\16.LinearDataStructures\17.TraverseDirDFS\bin\Debug\17.TraverseDirDFS.pdb
+C:\TFS_Antoan\16.LinearDataStructures\17.TraverseDirDFS\obj\Debug\17.TraverseDirDFS.exe
+C:\TFS_Antoan\16.LinearDataStructures\17.TraverseDirDFS\obj\Debug\17.TraverseDirDFS.pdb
