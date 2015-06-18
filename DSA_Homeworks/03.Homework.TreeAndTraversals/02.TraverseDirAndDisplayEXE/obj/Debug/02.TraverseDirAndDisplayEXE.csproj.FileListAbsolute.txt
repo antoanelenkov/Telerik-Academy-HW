@@ -1,0 +1,11 @@
+C:\TFS_Antoan\17.TreesAndTraversals\02.TraverseDirAndDisplayEXE\bin\Debug\02.TraverseDirAndDisplayEXE.exe.config
+C:\TFS_Antoan\17.TreesAndTraversals\02.TraverseDirAndDisplayEXE\bin\Debug\02.TraverseDirAndDisplayEXE.exe
+C:\TFS_Antoan\17.TreesAndTraversals\02.TraverseDirAndDisplayEXE\bin\Debug\02.TraverseDirAndDisplayEXE.pdb
+C:\TFS_Antoan\17.TreesAndTraversals\02.TraverseDirAndDisplayEXE\obj\Debug\02.TraverseDirAndDisplayEXE.exe
+C:\TFS_Antoan\17.TreesAndTraversals\02.TraverseDirAndDisplayEXE\obj\Debug\02.TraverseDirAndDisplayEXE.pdb
+C:\Users\Antoan Elenkov\Desktop\TFS_Antoan\17.TreesAndTraversals\02.TraverseDirAndDisplayEXE\bin\Debug\02.TraverseDirAndDisplayEXE.exe.config
+C:\Users\Antoan Elenkov\Desktop\TFS_Antoan\17.TreesAndTraversals\02.TraverseDirAndDisplayEXE\obj\Debug\02.TraverseDirAndDisplayEXE.exe
+C:\Users\Antoan Elenkov\Desktop\TFS_Antoan\17.TreesAndTraversals\02.TraverseDirAndDisplayEXE\obj\Debug\02.TraverseDirAndDisplayEXE.pdb
+C:\Users\Antoan Elenkov\Desktop\TFS_Antoan\17.TreesAndTraversals\02.TraverseDirAndDisplayEXE\bin\Debug\02.TraverseDirAndDisplayEXE.exe
+C:\Users\Antoan Elenkov\Desktop\TFS_Antoan\17.TreesAndTraversals\02.TraverseDirAndDisplayEXE\bin\Debug\02.TraverseDirAndDisplayEXE.pdb
+C:\Users\Antoan Elenkov\Desktop\TFS_Antoan\17.TreesAndTraversals\02.TraverseDirAndDisplayEXE\obj\Debug\02.TraverseDirAndDisplayEXE.csprojResolveAssemblyReference.cache

@@ -1,0 +1,15 @@
+C:\TFS_Antoan\17.TreesAndTraversals\01.OperationsWithTree\bin\Debug\01.OperationsWithTree.exe.config
+C:\TFS_Antoan\17.TreesAndTraversals\01.OperationsWithTree\obj\Debug\01.OperationsWithTree.csprojResolveAssemblyReference.cache
+C:\TFS_Antoan\17.TreesAndTraversals\01.OperationsWithTree\bin\Debug\01.OperationsWithTree.exe
+C:\TFS_Antoan\17.TreesAndTraversals\01.OperationsWithTree\bin\Debug\01.OperationsWithTree.pdb
+C:\TFS_Antoan\17.TreesAndTraversals\01.OperationsWithTree\obj\Debug\01.OperationsWithTree.exe
+C:\TFS_Antoan\17.TreesAndTraversals\01.OperationsWithTree\obj\Debug\01.OperationsWithTree.pdb
+C:\Users\Antoan Elenkov\Desktop\TFS_Antoan\17.TreesAndTraversals\01.OperationsWithTree\bin\Debug\01.OperationsWithTree.exe.config
+C:\Users\Antoan Elenkov\Desktop\TFS_Antoan\17.TreesAndTraversals\01.OperationsWithTree\obj\Debug\01.OperationsWithTree.exe
+C:\Users\Antoan Elenkov\Desktop\TFS_Antoan\17.TreesAndTraversals\01.OperationsWithTree\obj\Debug\01.OperationsWithTree.pdb
+C:\Users\Antoan Elenkov\Desktop\TFS_Antoan\17.TreesAndTraversals\01.OperationsWithTree\bin\Debug\01.OperationsWithTree.exe
+C:\Users\Antoan Elenkov\Desktop\TFS_Antoan\17.TreesAndTraversals\01.OperationsWithTree\bin\Debug\01.OperationsWithTree.pdb
+C:\Users\Antoan Elenkov\Desktop\TFS_Antoan\17.TreesAndTraversals\01.OperationsWithTree\obj\Debug\01.OperationsWithTree.csprojResolveAssemblyReference.cache
+C:\Users\Antoan Elenkov\Documents\Visual Studio 2013\Projects\Telerik-Academy-HWs\DSA_Homeworks\03.Homework.TreeAndTraversals\01.OperationsWithTree\bin\Debug\01.OperationsWithTree.exe.config
+C:\Users\Antoan Elenkov\Documents\Visual Studio 2013\Projects\Telerik-Academy-HWs\DSA_Homeworks\03.Homework.TreeAndTraversals\01.OperationsWithTree\obj\Debug\01.OperationsWithTree.exe
+C:\Users\Antoan Elenkov\Documents\Visual Studio 2013\Projects\Telerik-Academy-HWs\DSA_Homeworks\03.Homework.TreeAndTraversals\01.OperationsWithTree\obj\Debug\01.OperationsWithTree.pdb

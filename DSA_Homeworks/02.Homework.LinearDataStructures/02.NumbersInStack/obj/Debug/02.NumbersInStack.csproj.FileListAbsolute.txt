@@ -13,3 +13,6 @@ C:\Users\Antoan Elenkov\Documents\Visual Studio 2013\Projects\TelerikAcademy-Hom
 C:\Users\Antoan Elenkov\Documents\Visual Studio 2013\Projects\TelerikAcademy-Homeworks\DSA_Homeworks\02.Homework.LinearDataStructures\02.NumbersInStack\bin\Debug\02.NumbersInStack.exe.config
 C:\Users\Antoan Elenkov\Documents\Visual Studio 2013\Projects\TelerikAcademy-Homeworks\DSA_Homeworks\02.Homework.LinearDataStructures\02.NumbersInStack\obj\Debug\02.NumbersInStack.exe
 C:\Users\Antoan Elenkov\Documents\Visual Studio 2013\Projects\TelerikAcademy-Homeworks\DSA_Homeworks\02.Homework.LinearDataStructures\02.NumbersInStack\obj\Debug\02.NumbersInStack.pdb
+C:\Users\Antoan Elenkov\Documents\Visual Studio 2013\Projects\Telerik-Academy-HWs\DSA_Homeworks\02.Homework.LinearDataStructures\02.NumbersInStack\bin\Debug\02.NumbersInStack.exe.config
+C:\Users\Antoan Elenkov\Documents\Visual Studio 2013\Projects\Telerik-Academy-HWs\DSA_Homeworks\02.Homework.LinearDataStructures\02.NumbersInStack\obj\Debug\02.NumbersInStack.exe
+C:\Users\Antoan Elenkov\Documents\Visual Studio 2013\Projects\Telerik-Academy-HWs\DSA_Homeworks\02.Homework.LinearDataStructures\02.NumbersInStack\obj\Debug\02.NumbersInStack.pdb

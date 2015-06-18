@@ -1,0 +1,9 @@
+C:\TFS_Antoan\16.LinearDataStructures\09.PrintSequence\bin\Debug\09.PrintSequence.exe.config
+C:\TFS_Antoan\16.LinearDataStructures\09.PrintSequence\bin\Debug\09.PrintSequence.exe
+C:\TFS_Antoan\16.LinearDataStructures\09.PrintSequence\bin\Debug\09.PrintSequence.pdb
+C:\TFS_Antoan\16.LinearDataStructures\09.PrintSequence\obj\Debug\09.PrintSequence.csprojResolveAssemblyReference.cache
+C:\TFS_Antoan\16.LinearDataStructures\09.PrintSequence\obj\Debug\09.PrintSequence.exe
+C:\TFS_Antoan\16.LinearDataStructures\09.PrintSequence\obj\Debug\09.PrintSequence.pdb
+C:\Users\Antoan Elenkov\Documents\Visual Studio 2013\Projects\Telerik-Academy-HWs\DSA_Homeworks\02.Homework.LinearDataStructures\09.PrintSequence\bin\Debug\09.PrintSequence.exe.config
+C:\Users\Antoan Elenkov\Documents\Visual Studio 2013\Projects\Telerik-Academy-HWs\DSA_Homeworks\02.Homework.LinearDataStructures\09.PrintSequence\obj\Debug\09.PrintSequence.exe
+C:\Users\Antoan Elenkov\Documents\Visual Studio 2013\Projects\Telerik-Academy-HWs\DSA_Homeworks\02.Homework.LinearDataStructures\09.PrintSequence\obj\Debug\09.PrintSequence.pdb

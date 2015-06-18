@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.RemoveNegativeNumbers", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.RemoveOddOccurance", "06.RemoveOddOccurance\06.RemoveOddOccurance.csproj", "{6350FB11-2179-4CD1-A73A-0B30E40C0801}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09.PrintSequence", "09.PrintSequence\09.PrintSequence.csproj", "{5933016E-3166-4041-89F4-4EB83CACA907}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{6350FB11-2179-4CD1-A73A-0B30E40C0801}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6350FB11-2179-4CD1-A73A-0B30E40C0801}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6350FB11-2179-4CD1-A73A-0B30E40C0801}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5933016E-3166-4041-89F4-4EB83CACA907}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5933016E-3166-4041-89F4-4EB83CACA907}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5933016E-3166-4041-89F4-4EB83CACA907}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5933016E-3166-4041-89F4-4EB83CACA907}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
