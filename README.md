@@ -1,1 +1,0 @@
-Telerik Academy homeworks 
