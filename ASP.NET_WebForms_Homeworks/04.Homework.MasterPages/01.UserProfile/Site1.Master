@@ -1,0 +1,38 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="_01.UserProfile.Site1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div id="header">
+            USER INFO
+        </div>
+        <div id="nav">
+            <ul>
+                <li>
+                    <a href="~/PersonalInfo.aspx" runat="server">Personal Info</a>
+                </li>
+                <li>
+                    <a href="~/Friends.aspx" runat="server">Friends</a>
+                </li>
+                <li>
+                    <a href="~/AdditionalInfo.aspx" runat="server">Additional Info</a>
+                </li>
+            </ul>
+        </div>
+        <div id="content">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+                <div id="footer">
+             &copy; 2015 Indeavr
+        </div>
+    </form>
+</body>
+</html>

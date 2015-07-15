@@ -1,0 +1,28 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="_01.SiteMap.Site" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link href="Style.css" rel="stylesheet" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <h1>Fitness Store</h1>
+        <div>
+            <asp:Menu ID="menu"
+                runat="server"
+                StaticDisplayLevels="2"
+                DataSourceID="SiteMapDataSource"
+                Orientation="Horizontal"
+                CssClass="menu">
+            </asp:Menu>
+            <asp:SiteMapPath ID="breadcrump" runat="server" />
+            <asp:ContentPlaceHolder ID="content" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+    <asp:SiteMapDataSource ID="SiteMapDataSource" runat="server" />
+</body>
+</html>
