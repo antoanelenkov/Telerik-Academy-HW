@@ -1,5 +1,0 @@
-C:\Users\Antoan Elenkov\Documents\Visual Studio 2013\Projects\Telerik-Academy-HWs\C#HighQuality_Homeworks\09.Homework.DefensiveProgramming\Exceptions-Homework\bin\Debug\Exceptions-Homework.exe
-C:\Users\Antoan Elenkov\Documents\Visual Studio 2013\Projects\Telerik-Academy-HWs\C#HighQuality_Homeworks\09.Homework.DefensiveProgramming\Exceptions-Homework\bin\Debug\Exceptions-Homework.pdb
-C:\Users\Antoan Elenkov\Documents\Visual Studio 2013\Projects\Telerik-Academy-HWs\C#HighQuality_Homeworks\09.Homework.DefensiveProgramming\Exceptions-Homework\obj\Debug\Exceptions-Homework.csprojResolveAssemblyReference.cache
-C:\Users\Antoan Elenkov\Documents\Visual Studio 2013\Projects\Telerik-Academy-HWs\C#HighQuality_Homeworks\09.Homework.DefensiveProgramming\Exceptions-Homework\obj\Debug\Exceptions-Homework.exe
-C:\Users\Antoan Elenkov\Documents\Visual Studio 2013\Projects\Telerik-Academy-HWs\C#HighQuality_Homeworks\09.Homework.DefensiveProgramming\Exceptions-Homework\obj\Debug\Exceptions-Homework.pdb
