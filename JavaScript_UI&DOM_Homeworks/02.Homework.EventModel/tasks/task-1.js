@@ -59,7 +59,7 @@ var eventsModule = (function () {
         }
     }
 
-    var domOperations = function (element) {
+    var eventOperations = function (element) {
         var selectedElements;
 
         if (helpers.isString(element)) {
@@ -74,9 +74,9 @@ var eventsModule = (function () {
         // Change buttons content
         selectedElements = element
             .getElementsByClassName('button');
-        for (var item in selectedElements) {
-            selectedElements[item].innerHTML = 'hide';
-        }
+
+        //Since selectedElements is an HTMLcollection, it must be called this way.
+        Array.prototype.forEach.call(selectedElements, function (item) {item.innerHTML = 'hide';});
 
         // Add functionality to hide content of elements with class 'content'
         for (var i = 0; i < selectedElements.length; i += 1) {
