@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<div id="wrapper">
+</div>
+<script id="template" type="dasdasdasdas">
+      {{#headers}}
+      <p>{{this}}</p>
+      <p>{{@key}}</p>
+      <p>{{@index}}</p>
+      {{/headers}}
+      {{#if headers}}
+      {{headers}}
+      {{/if}}
+      {{log "Look at me!"}}<!--console.log-->
+</script>
+<script src="handlebars.js"></script>
+<script>
+    var obj = {
+                boolean:true,
+                headers: ['Vendor', 'Model', 'OS'],
+                items: [{
+                    col1: 'Nokia',
+                    col2: 'Lumia 920',
+                    col3: 'Windows Phone'
+                }, {
+                    col1: 'LG',
+                    col2: 'Nexus 5',
+                    col3: 'Android'
+                }, {
+                    col1: 'Apple',
+                    col2: 'iPhone 6',
+                    col3: 'iOS'
+                }]
+            },
+            html = document.getElementById('template').innerHTML,
+            template = Handlebars.compile(html),
+            result = template(obj);
+
+    document.getElementById('wrapper').innerHTML = result;
+</script>
+</body>
+</html>

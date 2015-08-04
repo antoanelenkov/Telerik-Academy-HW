@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<div id="wrapper">
+</div>
+<script id="template" type="dasdasdasdas">
+       <div class="container">
+       <h1>Animals</h1>
+       <ul class="animals-list">
+       {{#each animals}}
+       <li>
+       <a href={{#if url}}"{{this.url}}"{{else}}"http:\/\/cdn.playbuzz.com/cdn/3170bee8-985c-47bc-bbb5-2bcb41e85fe9/d8aa4750-deef-44ac-83a1-f2b5e6ee029a.jpg"{{/if}}>
+
+       {{#if this.url}}
+       See a {{this.name}}
+       {{else}}
+       No link for {{this.name}} , here is Batman!
+       {{/if}}
+
+       </a>
+       </li>
+       {{/each}}
+       </ul>
+       </div>
+</script>
+<script src="handlebars.js"></script>
+<script src="jquery.js"></script>
+<script>
+    var data = {
+                animals: [{
+                    name: 'Lion',
+                    url: 'https://susanmcmovies.files.wordpress.com/2014/12/the-lion-king-wallpaper-the-lion-king-2-simbas-pride-4685023-1024-768.jpg'
+                }, {
+                    name: 'Turtle',
+                    url: 'http://www.enkivillage.com/s/upload/images/a231e4349b9e3f28c740d802d4565eaf.jpg'
+                }, {
+                    name: 'Dog'
+                }, {
+                    name: 'Cat',
+                    url: 'http://i.imgur.com/Ruuef.jpg'
+                }, {
+                    name: 'Dog Again'
+                }]
+            },
+            html = document.getElementById('template').innerHTML,
+            template = Handlebars.compile(html),
+            result = template(data);
+
+    document.getElementById('wrapper').innerHTML = result;
+</script>
+<script src="task-2.js"></script>
+</body>
+</html>
