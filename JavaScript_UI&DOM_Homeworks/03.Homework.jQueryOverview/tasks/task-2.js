@@ -31,6 +31,7 @@ function solve() {
         selectedElements.html('hide');
 
         // Add functionality to hide content of elements with class 'content'
+
         selectedElements.on('click', function (ev) {
                 //var $currentSibling = $(ev.target).next();
                 var $currentSibling = $(this).next();
@@ -39,7 +40,6 @@ function solve() {
                 && !($currentSibling.hasClass('button'))) {
                     $currentSibling = $currentSibling.next();
                 }
-
                 if ($currentSibling.hasClass('content')) {
                     if ($($currentSibling).css('display') !== 'none') {
                         $currentSibling.css('display', 'none');
@@ -51,9 +51,12 @@ function solve() {
                     }
                 }
             }
-        );
+        )
+        ;
     };
 };
 
+//var fake=Object.create(HTMLElement);
+//solve()(fake);
 
 module.exports = solve;
