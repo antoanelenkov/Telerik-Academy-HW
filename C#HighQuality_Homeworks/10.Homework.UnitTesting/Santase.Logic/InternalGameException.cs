@@ -4,11 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SchoolSystem
+namespace Santase.Logic
 {
-    class Program
+    public class InternalGameException : Exception
     {
-        static void Main(string[] args)
+        public InternalGameException(string message)
+            : base(message)
         {
         }
     }

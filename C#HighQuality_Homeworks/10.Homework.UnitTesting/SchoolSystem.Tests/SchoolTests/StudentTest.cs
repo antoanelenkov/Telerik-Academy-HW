@@ -1,4 +1,4 @@
-﻿namespace SchoolSystem.Tests.SchoolTests
+﻿namespace SchoolSystem.Tests
 {
     using System;
     using Microsoft.VisualStudio.TestTools.UnitTesting;
