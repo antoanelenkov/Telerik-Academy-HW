@@ -13,7 +13,7 @@
         [TestInitialize]
         public void InitializeComponents()
         {
-            student1 = new Student("Antoan");
+            student1 = new Student(" Antoan ");
             MathGymn = new School();
         }
 
@@ -21,15 +21,7 @@
         public void StudentsCollection_ShouldHaveCount1()
         {
             MathGymn.AddStudent(student1);
-            Assert.AreEqual(1, MathGymn.StudentsCollection.Count);       
-        }
-
-        [TestMethod]
-        public void StudentsCollection_ShouldHaveCount0()
-        {
-            MathGymn.AddStudent(student1);
-            MathGymn.RemoveStudent(student1);
-            Assert.AreEqual(0, MathGymn.StudentsCollection.Count);
+            Assert.AreEqual(1, MathGymn.StudentsCollection.Count, "The number of students is not correct");       
         }
 
         [TestMethod]
@@ -74,6 +66,15 @@
         public void RemoveStudent_IfNotInThisCourse_ShouldThrow()
         {
             MathGymn.RemoveStudent(new Student("Random"));
+        }
+
+        [TestMethod]
+        public void RemoveStudent()
+        {
+            MathGymn.AddStudent(student1);
+            MathGymn.RemoveStudent(student1);
+
+            Assert.AreEqual(0, MathGymn.StudentsCollection.Count);
         }
     }
 }
