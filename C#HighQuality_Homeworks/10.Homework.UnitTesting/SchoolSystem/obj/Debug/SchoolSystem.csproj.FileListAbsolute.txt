@@ -10,3 +10,9 @@ C:\Users\Antoan Elenkov\Documents\Visual Studio 2013\Projects\Telerik-Academy-HW
 C:\Users\Antoan Elenkov\Documents\Visual Studio 2013\Projects\Telerik-Academy-HWs\C#HighQuality_Homework\10.Homework.UnitTesting\SchoolSystem\bin\Debug\SchoolSystem.cs.exe
 C:\Users\Antoan Elenkov\Documents\Visual Studio 2013\Projects\Telerik-Academy-HWs\C#HighQuality_Homework\10.Homework.UnitTesting\SchoolSystem\bin\Debug\SchoolSystem.cs.pdb
 C:\Users\Antoan Elenkov\Documents\Visual Studio 2013\Projects\Telerik-Academy-HWs\C#HighQuality_Homework\10.Homework.UnitTesting\SchoolSystem\obj\Debug\SchoolSystem.csprojResolveAssemblyReference.cache
+C:\Антоан\Telerik-Academy-HW\C#HighQuality_Homeworks\10.Homework.UnitTesting\SchoolSystem\bin\Debug\SchoolSystem.cs.exe.config
+C:\Антоан\Telerik-Academy-HW\C#HighQuality_Homeworks\10.Homework.UnitTesting\SchoolSystem\obj\Debug\SchoolSystem.cs.exe
+C:\Антоан\Telerik-Academy-HW\C#HighQuality_Homeworks\10.Homework.UnitTesting\SchoolSystem\obj\Debug\SchoolSystem.cs.pdb
+C:\Антоан\Telerik-Academy-HW\C#HighQuality_Homeworks\10.Homework.UnitTesting\SchoolSystem\bin\Debug\SchoolSystem.cs.exe
+C:\Антоан\Telerik-Academy-HW\C#HighQuality_Homeworks\10.Homework.UnitTesting\SchoolSystem\bin\Debug\SchoolSystem.cs.pdb
+C:\Антоан\Telerik-Academy-HW\C#HighQuality_Homeworks\10.Homework.UnitTesting\SchoolSystem\obj\Debug\SchoolSystem.csprojResolveAssemblyReference.cache

@@ -1,5 +1,6 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using System.Collections.Generic;
 
 namespace SchoolSystem.Tests.SchoolTests
 {
@@ -7,6 +8,7 @@ namespace SchoolSystem.Tests.SchoolTests
     public class CourseTest
     {
         private Course course1;
+        private Student testStudent;
         private Student[] collectionWithStudents;
 
         [TestInitialize]
@@ -14,6 +16,7 @@ namespace SchoolSystem.Tests.SchoolTests
         {
             this.collectionWithStudents=this.StudentsGenerator();
             this.course1 = new Course();
+            this.testStudent = new Student("as");
         }
 
 
@@ -28,8 +31,24 @@ namespace SchoolSystem.Tests.SchoolTests
         }
 
         [TestMethod]
+        public void CreateCourse()
+        {
+            var testCourse = new Course(new HashSet<Student>());
+
+            Assert.IsInstanceOfType(testCourse,typeof(Course));
+        }
+
+        [TestMethod]
+        public void AddStudent()
+        {
+            this.course1.AddStudent(this.testStudent);
+
+            Assert.AreEqual(1, course1.SetOfStudents.Count);
+        }
+
+        [TestMethod]
         [ExpectedException(typeof(IndexOutOfRangeException))]
-        public void ShouldNotAddMoreThan30Students()
+        public void AddStudent_ShouldNotAddMoreThan30Students()
         {
             foreach (var student in this.collectionWithStudents)
             {
@@ -39,9 +58,18 @@ namespace SchoolSystem.Tests.SchoolTests
 
         [TestMethod]
         [ExpectedException(typeof(ArgumentException))]
-        public void ShouldNotRemoveStudentIfNotInThisCourse()
+        public void RemoveStudent_IfNotInThisCourse_ShouldThrow()
         {
             course1.RemoveStudent(new Student("Random"));
+        }
+
+        [TestMethod]
+        public void RemoveStudent_IfInThisCourse()
+        {
+            course1.AddStudent(this.testStudent);
+            course1.RemoveStudent(this.testStudent);
+
+            Assert.AreEqual(0, course1.SetOfStudents.Count);
         }
     }
 }
