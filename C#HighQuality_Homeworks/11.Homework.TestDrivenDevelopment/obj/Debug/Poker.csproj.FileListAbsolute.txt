@@ -1,0 +1,5 @@
+C:\Антоан\Telerik-Academy-HW\C#HighQuality_Homeworks\11.Homework.TestDrivenDevelopment\bin\Debug\Poker.exe
+C:\Антоан\Telerik-Academy-HW\C#HighQuality_Homeworks\11.Homework.TestDrivenDevelopment\bin\Debug\Poker.pdb
+C:\Антоан\Telerik-Academy-HW\C#HighQuality_Homeworks\11.Homework.TestDrivenDevelopment\obj\Debug\Poker.csprojResolveAssemblyReference.cache
+C:\Антоан\Telerik-Academy-HW\C#HighQuality_Homeworks\11.Homework.TestDrivenDevelopment\obj\Debug\Poker.exe
+C:\Антоан\Telerik-Academy-HW\C#HighQuality_Homeworks\11.Homework.TestDrivenDevelopment\obj\Debug\Poker.pdb

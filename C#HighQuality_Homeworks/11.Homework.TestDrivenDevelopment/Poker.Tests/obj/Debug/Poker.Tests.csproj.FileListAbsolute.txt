@@ -1,0 +1,9 @@
+C:\Антоан\Telerik-Academy-HW\C#HighQuality_Homeworks\Poker.Tests\bin\Debug\Poker.Tests.dll
+C:\Антоан\Telerik-Academy-HW\C#HighQuality_Homeworks\Poker.Tests\bin\Debug\Poker.Tests.pdb
+C:\Антоан\Telerik-Academy-HW\C#HighQuality_Homeworks\Poker.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Антоан\Telerik-Academy-HW\C#HighQuality_Homeworks\Poker.Tests\bin\Debug\Poker.exe
+C:\Антоан\Telerik-Academy-HW\C#HighQuality_Homeworks\Poker.Tests\bin\Debug\Poker.pdb
+C:\Антоан\Telerik-Academy-HW\C#HighQuality_Homeworks\Poker.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+C:\Антоан\Telerik-Academy-HW\C#HighQuality_Homeworks\Poker.Tests\obj\Debug\Poker.Tests.csprojResolveAssemblyReference.cache
+C:\Антоан\Telerik-Academy-HW\C#HighQuality_Homeworks\Poker.Tests\obj\Debug\Poker.Tests.dll
+C:\Антоан\Telerik-Academy-HW\C#HighQuality_Homeworks\Poker.Tests\obj\Debug\Poker.Tests.pdb
