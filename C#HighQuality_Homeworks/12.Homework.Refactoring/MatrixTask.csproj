@@ -37,7 +37,11 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Matrica.cs" />
+    <Compile Include="ConsoleUI.cs" />
+    <Compile Include="IPrinter.cs" />
+    <Compile Include="IReader.cs" />
+    <Compile Include="Matrix.cs" />
+    <Compile Include="MatrixTester.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -1,93 +1,174 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
 
-namespace Task3{
-    class WalkInMatrica {
-        static void change( ref int dx,ref int dy ) {
-            int[] dirX = {1,1,1,0, -1,-1,-1,0 };
-            
-			
-			int[] dirY = { 1,0,-1,-1, -1,0,1,1 };
-            int cd = 0;
-            for( int count = 0; count < 8; count++ )
-                if( dirX[count] == dx && dirY[count] == dy ) { cd = count; break; }
-            if( cd == 7 ) { dx = dirX[0]; dy = dirY[0]; return; }
-            dx = dirX[cd+1];
+namespace MatrixTask
+{
+    public class RotatingMatrix
+    {
+        private int size;
+        private int row;
+        private int col;
+        private int[,] field;
 
-
-            dy = dirY[cd + 1];
+        public RotatingMatrix(int size)
+        {
+            this.field = new int[size, size];
+            this.Size = size;
         }
-        static bool proverka( int[,] arr, int x, int y ){
+
+        public int Size
+        {
+            get { return size; }
+            set { size = value; }
+        }
+        public int Row
+        {
+            get { return row; }
+            set { row = value; }
+        }
+
+        public int Col
+        {
+            get { return col; }
+            set { col = value; }
+        }
+
+        public int this[int row,int col]
+        {
+            get
+            {
+                return this.field[row, col];
+            }
+            set
+            {
+                this.field[row,col]= value;
+            }
+        }
+
+        public void FindFreeCell(ref int row, ref int col)
+        {
+            for (int i = 0; i < this.field.GetLength(0); i++)
+            {
+                for (int j = 0; j < this.field.GetLength(0); j++)
+                {
+                    if (field[i, j] == 0)
+                    {
+                        row = i; col = j;
+                        return;
+                    }
+                }
+            }
+        }
+
+        public bool NextCellIsFree(int row, int col)
+        {
             int[] dirX = { 1, 1, 1, 0, -1, -1, -1, 0 };
             int[] dirY = { 1, 0, -1, -1, -1, 0, 1, 1 };
-            for( int i = 0; i < 8; i++ ){
-                if( x + dirX[i] >= arr.GetLength( 0 ) || x + dirX[i] < 0 ) dirX[i] = 0;
+            int numberOfDirections = dirX.Length;
 
-				
-				if( y + dirY[i] >= arr.GetLength( 0 ) || y + dirY[i] < 0 )dirY[i] = 0;
+            for (int i = 0; i < numberOfDirections; i++)
+            {
+                if (row + dirX[i] >= this.field.GetLength(0) || row + dirX[i] < 0)
+                {
+                    dirX[i] = 0;
+                }
+
+                if (col + dirY[i] >= this.field.GetLength(0) || col + dirY[i] < 0)
+                {
+                    dirY[i] = 0;
+                }
             }
-            for( int i = 0; i < 8; i++ )
-                if( arr[x + dirX[i], y + dirY[i]] == 0 )return true;
+
+            for (int i = 0; i < numberOfDirections; i++)
+            {
+                if (this.field[row + dirX[i], col + dirY[i]] == 0)
+                {
+                    return true;
+                }
+            }
 
             return false;
         }
 
-        static void find_cell ( int[,] arr, out int x, out int y )
+        public void Fill()
         {
-            x = 0;
-            y = 0;
-            for( int i = 0; i < arr.GetLength( 0 ); i++ )
+            int dx = 1,
+               dy = 1,
+               row = 0,
+               col = 0,
+               currentNumber = 1;
 
-                for( int j = 0; j < arr.GetLength( 0 ); j++ )
-                    if( arr[i, j] == 0 ) {x = i;y = j;return;}
 
+            for (int i = 0; i < this.Size * this.Size; i++)
+            {
+                this[row, col] = currentNumber;
+
+                if (this.NextCellIsFree(row, col))
+                {
+                    while ((row + dx >= this.Size
+                   || row + dx < 0
+                   || col + dy >= this.Size
+                   || col + dy < 0
+                   || this[row + dx, col + dy] != 0))
+                    {
+                        this.ChangeDirection(ref dx, ref dy);
+                    }
+
+                    row += dx;
+                    col += dy;
+                }
+                else
+                {
+                    this.FindFreeCell(ref row, ref col);
+
+                    dx = 1;
+                    dy = 1;
+                }
+
+                currentNumber++;
+            }
         }
 
-        static void Main( string[] args ){
-            //Console.WriteLine( "Enter a positive number " );
-            //string input = Console.ReadLine(  );
-            //int n = 0;
-            //while ( !int.TryParse( input, out n ) || n < 0 || n > 100 )
-            //{
-            //    Console.WriteLine( "You haven't entered a correct positive number" );
-            //    input = Console.ReadLine(  );
-            //}
-            int n = 3;
-            int[,] matrica = new int[n, n];
-            int step = n, k = 1, i = 0, j = 0, dx = 1, dy = 1;
-            while( true ){ //malko e kofti tova uslovie, no break-a raboti 100% : )
-                matrica[i, j] = k;
+        private void ChangeDirection(ref int dx, ref int dy)
+        {
+            int[] dirX = { 1, 1, 1, 0, -1, -1, -1, 0 };
+            int[] dirY = { 1, 0, -1, -1, -1, 0, 1, 1 };
 
-                if( !proverka( matrica, i, j ) ){ break; } // prekusvame ako sme se zadunili
-                if( i+dx >= n || i+dx < 0 || j+dy >= n || j+dy < 0 || matrica[i+dx, j+dy] != 0 )
-
-
-                while ( ( i + dx >= n || i + dx < 0 || j + dy >= n || j + dy < 0 || matrica[i + dx, j + dy] != 0 ) ) {change( ref dx, ref dy );}
-                i += dx; j += dy; k++;
-            }
-            for( int p = 0; p < n; p++ ){
-                for( int q = 0; q < n; q++ ) Console.Write( "{0,3}", matrica[p, q] );
-                Console.WriteLine(  );                
-            }
-            find_cell( matrica, out i, out j );
-            if( i != 0 && j != 0 ) { // taka go napravih, zashtoto funkciqta ne mi davashe da ne si definiram out parametrite
-                dx = 1; dy = 1;
-
-
-                while ( true ) { //malko e kofti tova uslovie, no break-a raboti 100% : )
-                    matrica[i, j] = k;
-                    if( !proverka( matrica, i, j ) ){break;}// prekusvame ako sme se zadunili
-                    if( i + dx >= n || i + dx < 0 || j + dy >= n || j + dy < 0 || matrica[i + dx, j + dy] != 0 )
-
-
-                    while ( ( i + dx >= n || i + dx < 0 || j + dy >= n || j + dy < 0 || matrica[i + dx, j + dy] != 0 ) ) change( ref dx, ref dy );
-                    i += dx; j += dy; k++;
+            int currentDir = 0;
+            for (int i = 0; i < 8; i++)
+                if (dirX[i] == dx && dirY[i] == dy)
+                {
+                    currentDir = i;
+                    break;
                 }
-            }            
-            for( int pp = 0; pp < n; pp++ ){
-                for( int qq = 0; qq < n; qq++ )Console.Write( "{0,3}", matrica[pp, qq] );
 
-                Console.WriteLine(  );
+            if (currentDir == 7)
+            {
+                dx = dirX[0];
+                dy = dirY[0];
+                return;
             }
+
+            dx = dirX[currentDir + 1];
+            dy = dirY[currentDir + 1];
+        }
+
+        public override string ToString()
+        {
+            var sb = new StringBuilder();
+
+            for (int i = 0; i < this.Size; i++)
+            {
+                for (int j = 0; j < this.Size; j++)
+                {
+                    sb.AppendFormat("{0,3}", this[i, j]);
+                }
+                sb.AppendLine();
+            }
+
+            return sb.ToString();
         }
     }
 }
