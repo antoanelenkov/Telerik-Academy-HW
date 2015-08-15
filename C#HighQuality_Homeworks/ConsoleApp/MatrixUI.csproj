@@ -43,6 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ConsoleUI.cs" />
+    <Compile Include="Interfaces\IUserInterface.cs" />
     <Compile Include="MatrixProceeder.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

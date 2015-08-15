@@ -1,14 +1,19 @@
-﻿using MatrixTask;
-namespace ConsoleApp
+﻿namespace MatrixUI
 {
+    using MatrixTask;
+    using MatrixUI.Interfaces;
+
     internal class MatrixProceeder
     {
-        static void Main()
+        static void Main(string[] args)
         {
-            ConsoleUI currentUI = new ConsoleUI();
-            //string input = currentUI.Read();
-            //MatrixSolver solver = new MatrixSolver(input);          
-            //currentUI.Print(solver.Output);
+            IUserInterface consoleUI = new ConsoleUI();
+
+            int input = consoleUI.Read();
+
+            RotatingMatrixSolver matrix = new RotatingMatrixSolver(input);
+
+            consoleUI.Write(matrix.Field);
         }
     }
 }
