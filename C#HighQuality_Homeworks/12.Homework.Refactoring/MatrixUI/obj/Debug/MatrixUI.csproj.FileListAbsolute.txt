@@ -1,0 +1,8 @@
+C:\Антоан\Telerik-Academy-HWS\C#HighQuality_Homeworks\12.Homework.Refactoring\MatrixUI\bin\Debug\ConsoleApp.exe.config
+C:\Антоан\Telerik-Academy-HWS\C#HighQuality_Homeworks\12.Homework.Refactoring\MatrixUI\bin\Debug\ConsoleApp.exe
+C:\Антоан\Telerik-Academy-HWS\C#HighQuality_Homeworks\12.Homework.Refactoring\MatrixUI\bin\Debug\ConsoleApp.pdb
+C:\Антоан\Telerik-Academy-HWS\C#HighQuality_Homeworks\12.Homework.Refactoring\MatrixUI\bin\Debug\GameFifteen.dll
+C:\Антоан\Telerik-Academy-HWS\C#HighQuality_Homeworks\12.Homework.Refactoring\MatrixUI\bin\Debug\GameFifteen.pdb
+C:\Антоан\Telerik-Academy-HWS\C#HighQuality_Homeworks\12.Homework.Refactoring\MatrixUI\obj\Debug\MatrixUI.csprojResolveAssemblyReference.cache
+C:\Антоан\Telerik-Academy-HWS\C#HighQuality_Homeworks\12.Homework.Refactoring\MatrixUI\obj\Debug\ConsoleApp.exe
+C:\Антоан\Telerik-Academy-HWS\C#HighQuality_Homeworks\12.Homework.Refactoring\MatrixUI\obj\Debug\ConsoleApp.pdb

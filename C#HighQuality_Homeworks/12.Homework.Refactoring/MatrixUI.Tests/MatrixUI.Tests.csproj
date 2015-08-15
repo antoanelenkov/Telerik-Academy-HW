@@ -54,13 +54,13 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\ConsoleApp\MatrixUI.csproj">
-      <Project>{683d04aa-195c-4a99-a5a6-41d2a39783b1}</Project>
-      <Name>MatrixUI</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\MatrixTask.csproj">
+    <ProjectReference Include="..\MatrixTask\MatrixTask.csproj">
       <Project>{4d520899-7061-4eaa-b67e-d14ee8b30462}</Project>
       <Name>MatrixTask</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MatrixUI\MatrixUI.csproj">
+      <Project>{683d04aa-195c-4a99-a5a6-41d2a39783b1}</Project>
+      <Name>MatrixUI</Name>
     </ProjectReference>
   </ItemGroup>
   <Choose>

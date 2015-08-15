@@ -1,0 +1,5 @@
+C:\Антоан\Telerik-Academy-HWS\C#HighQuality_Homeworks\12.Homework.Refactoring\MatrixTask\bin\Debug\GameFifteen.dll
+C:\Антоан\Telerik-Academy-HWS\C#HighQuality_Homeworks\12.Homework.Refactoring\MatrixTask\bin\Debug\GameFifteen.pdb
+C:\Антоан\Telerik-Academy-HWS\C#HighQuality_Homeworks\12.Homework.Refactoring\MatrixTask\obj\x86\Debug\MatrixTask.csprojResolveAssemblyReference.cache
+C:\Антоан\Telerik-Academy-HWS\C#HighQuality_Homeworks\12.Homework.Refactoring\MatrixTask\obj\x86\Debug\GameFifteen.dll
+C:\Антоан\Telerik-Academy-HWS\C#HighQuality_Homeworks\12.Homework.Refactoring\MatrixTask\obj\x86\Debug\GameFifteen.pdb

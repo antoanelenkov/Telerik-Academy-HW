@@ -1,0 +1,11 @@
+C:\Антоан\Telerik-Academy-HWS\C#HighQuality_Homeworks\12.Homework.Refactoring\MatrixUI.Tests\bin\Debug\MatrixUI.Tests.dll
+C:\Антоан\Telerik-Academy-HWS\C#HighQuality_Homeworks\12.Homework.Refactoring\MatrixUI.Tests\bin\Debug\MatrixUI.Tests.pdb
+C:\Антоан\Telerik-Academy-HWS\C#HighQuality_Homeworks\12.Homework.Refactoring\MatrixUI.Tests\bin\Debug\ConsoleApp.exe
+C:\Антоан\Telerik-Academy-HWS\C#HighQuality_Homeworks\12.Homework.Refactoring\MatrixUI.Tests\bin\Debug\GameFifteen.dll
+C:\Антоан\Telerik-Academy-HWS\C#HighQuality_Homeworks\12.Homework.Refactoring\MatrixUI.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Антоан\Telerik-Academy-HWS\C#HighQuality_Homeworks\12.Homework.Refactoring\MatrixUI.Tests\bin\Debug\GameFifteen.pdb
+C:\Антоан\Telerik-Academy-HWS\C#HighQuality_Homeworks\12.Homework.Refactoring\MatrixUI.Tests\bin\Debug\ConsoleApp.pdb
+C:\Антоан\Telerik-Academy-HWS\C#HighQuality_Homeworks\12.Homework.Refactoring\MatrixUI.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+C:\Антоан\Telerik-Academy-HWS\C#HighQuality_Homeworks\12.Homework.Refactoring\MatrixUI.Tests\obj\Debug\MatrixUI.Tests.csprojResolveAssemblyReference.cache
+C:\Антоан\Telerik-Academy-HWS\C#HighQuality_Homeworks\12.Homework.Refactoring\MatrixUI.Tests\obj\Debug\MatrixUI.Tests.dll
+C:\Антоан\Telerik-Academy-HWS\C#HighQuality_Homeworks\12.Homework.Refactoring\MatrixUI.Tests\obj\Debug\MatrixUI.Tests.pdb

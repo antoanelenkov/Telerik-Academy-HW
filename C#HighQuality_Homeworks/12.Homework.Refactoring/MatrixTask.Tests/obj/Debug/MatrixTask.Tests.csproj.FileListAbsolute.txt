@@ -1,0 +1,8 @@
+C:\Антоан\Telerik-Academy-HWS\C#HighQuality_Homeworks\12.Homework.Refactoring\MatrixTask.Tests\bin\Debug\MatrixTask.Tests.dll
+C:\Антоан\Telerik-Academy-HWS\C#HighQuality_Homeworks\12.Homework.Refactoring\MatrixTask.Tests\bin\Debug\MatrixTask.Tests.pdb
+C:\Антоан\Telerik-Academy-HWS\C#HighQuality_Homeworks\12.Homework.Refactoring\MatrixTask.Tests\bin\Debug\GameFifteen.dll
+C:\Антоан\Telerik-Academy-HWS\C#HighQuality_Homeworks\12.Homework.Refactoring\MatrixTask.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Антоан\Telerik-Academy-HWS\C#HighQuality_Homeworks\12.Homework.Refactoring\MatrixTask.Tests\bin\Debug\GameFifteen.pdb
+C:\Антоан\Telerik-Academy-HWS\C#HighQuality_Homeworks\12.Homework.Refactoring\MatrixTask.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+C:\Антоан\Telerik-Academy-HWS\C#HighQuality_Homeworks\12.Homework.Refactoring\MatrixTask.Tests\obj\Debug\MatrixTask.Tests.dll
+C:\Антоан\Telerik-Academy-HWS\C#HighQuality_Homeworks\12.Homework.Refactoring\MatrixTask.Tests\obj\Debug\MatrixTask.Tests.pdb

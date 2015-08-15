@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MatrixTask", "MatrixTask.csproj", "{4D520899-7061-4EAA-B67E-D14EE8B30462}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MatrixUI", "..\ConsoleApp\MatrixUI.csproj", "{683D04AA-195C-4A99-A5A6-41D2A39783B1}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MatrixTask.Tests", "MatrixTask.Tests\MatrixTask.Tests.csproj", "{0B20D535-3E13-48D1-ABD8-691146D15A78}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MatrixUI.Tests", "MatrixUI.Tests\MatrixUI.Tests.csproj", "{63F80F54-065E-47BC-ABD4-F72DEC00B0CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MatrixTask", "MatrixTask\MatrixTask.csproj", "{4D520899-7061-4EAA-B67E-D14EE8B30462}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MatrixUI", "MatrixUI\MatrixUI.csproj", "{683D04AA-195C-4A99-A5A6-41D2A39783B1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,20 +19,6 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{4D520899-7061-4EAA-B67E-D14EE8B30462}.Debug|Any CPU.ActiveCfg = Debug|x86
-		{4D520899-7061-4EAA-B67E-D14EE8B30462}.Debug|x86.ActiveCfg = Debug|x86
-		{4D520899-7061-4EAA-B67E-D14EE8B30462}.Debug|x86.Build.0 = Debug|x86
-		{4D520899-7061-4EAA-B67E-D14EE8B30462}.Release|Any CPU.ActiveCfg = Release|x86
-		{4D520899-7061-4EAA-B67E-D14EE8B30462}.Release|x86.ActiveCfg = Release|x86
-		{4D520899-7061-4EAA-B67E-D14EE8B30462}.Release|x86.Build.0 = Release|x86
-		{683D04AA-195C-4A99-A5A6-41D2A39783B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{683D04AA-195C-4A99-A5A6-41D2A39783B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{683D04AA-195C-4A99-A5A6-41D2A39783B1}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{683D04AA-195C-4A99-A5A6-41D2A39783B1}.Debug|x86.Build.0 = Debug|Any CPU
-		{683D04AA-195C-4A99-A5A6-41D2A39783B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{683D04AA-195C-4A99-A5A6-41D2A39783B1}.Release|Any CPU.Build.0 = Release|Any CPU
-		{683D04AA-195C-4A99-A5A6-41D2A39783B1}.Release|x86.ActiveCfg = Release|Any CPU
-		{683D04AA-195C-4A99-A5A6-41D2A39783B1}.Release|x86.Build.0 = Release|Any CPU
 		{0B20D535-3E13-48D1-ABD8-691146D15A78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{0B20D535-3E13-48D1-ABD8-691146D15A78}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0B20D535-3E13-48D1-ABD8-691146D15A78}.Debug|x86.ActiveCfg = Debug|Any CPU
@@ -49,6 +35,20 @@ Global
 		{63F80F54-065E-47BC-ABD4-F72DEC00B0CE}.Release|Any CPU.Build.0 = Release|Any CPU
 		{63F80F54-065E-47BC-ABD4-F72DEC00B0CE}.Release|x86.ActiveCfg = Release|Any CPU
 		{63F80F54-065E-47BC-ABD4-F72DEC00B0CE}.Release|x86.Build.0 = Release|Any CPU
+		{4D520899-7061-4EAA-B67E-D14EE8B30462}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{4D520899-7061-4EAA-B67E-D14EE8B30462}.Debug|x86.ActiveCfg = Debug|x86
+		{4D520899-7061-4EAA-B67E-D14EE8B30462}.Debug|x86.Build.0 = Debug|x86
+		{4D520899-7061-4EAA-B67E-D14EE8B30462}.Release|Any CPU.ActiveCfg = Release|x86
+		{4D520899-7061-4EAA-B67E-D14EE8B30462}.Release|x86.ActiveCfg = Release|x86
+		{4D520899-7061-4EAA-B67E-D14EE8B30462}.Release|x86.Build.0 = Release|x86
+		{683D04AA-195C-4A99-A5A6-41D2A39783B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{683D04AA-195C-4A99-A5A6-41D2A39783B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{683D04AA-195C-4A99-A5A6-41D2A39783B1}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{683D04AA-195C-4A99-A5A6-41D2A39783B1}.Debug|x86.Build.0 = Debug|Any CPU
+		{683D04AA-195C-4A99-A5A6-41D2A39783B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{683D04AA-195C-4A99-A5A6-41D2A39783B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{683D04AA-195C-4A99-A5A6-41D2A39783B1}.Release|x86.ActiveCfg = Release|Any CPU
+		{683D04AA-195C-4A99-A5A6-41D2A39783B1}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
