@@ -3,17 +3,21 @@
     using System;
     using System.Text;
 
+    /// <summary>
+    /// Perform matrix operations like adding and multiplying of matrices
+    /// </summary>
+    /// <typeparam name="T">This parameter must be any numeric type</typeparam>
     class Matrix<T>
     {
         private int heigth;
         private int width;
-        private T[,] arr;
+        private T[,] field;
 
         public Matrix(int heigth, int width)
         {
             this.width = width;
             this.heigth = heigth;
-            arr = new T[this.heigth, this.width];
+            field = new T[this.heigth, this.width];
         }
 
         public int Heigth
@@ -25,32 +29,44 @@
             get { return this.width; }
         }
 
-        public T this[int heigth, int width]
+        /// <summary>
+        /// Gives you the possibility to work with the Matrix object directly using its field
+        /// </summary>
+        /// <param name="row">Current row</param>
+        /// <param name="col">Current column</param>
+        /// <returns></returns>
+        public T this[int row, int col]
         {
             get
             {
-                if (width < 0 || width > this.width - 1 || heigth < 0 || heigth > this.heigth - 1)
+                if (col < 0 || col > this.width - 1 || row < 0 || row > this.heigth - 1)
                 {
                     throw new IndexOutOfRangeException("There is no such index!");
                 }
                 else
                 {
-                    return this.arr[heigth, width];
+                    return this.field[row, col];
                 }
             }
             set
             {
-                if (width < 0 || width > this.width - 1 || heigth < 0 || heigth > this.heigth - 1)
+                if (col < 0 || col > this.width - 1 || row < 0 || row > this.heigth - 1)
                 {
                     throw new IndexOutOfRangeException("There is no such index!");
                 }
                 else
                 {
-                    this.arr[heigth, width] = value;
+                    this.field[row, col] = value;
                 }
             }
         }
 
+        /// <summary>
+        /// Defining operation "adding" of matrices
+        /// </summary>
+        /// <param name="first">first matrix to add</param>
+        /// <param name="second">second matrix to add</param>
+        /// <returns></returns>
         public static Matrix<T> operator +(Matrix<T> first, Matrix<T> second)
         {
             if (first.Heigth != second.Heigth || first.Width != second.Width)
@@ -73,6 +89,12 @@
             }
         }
 
+        /// <summary>
+        /// Defining operation "subtracting" of matrices
+        /// </summary>
+        /// <param name="first">first matrix to subtract</param>
+        /// <param name="second">second matrix to subtract</param>
+        /// <returns></returns>
         public static Matrix<T> operator -(Matrix<T> first, Matrix<T> second)
         {
             if (first.Heigth != second.Heigth || first.Width != second.Width)
@@ -95,7 +117,11 @@
             }
         }
 
-
+        /// <summary>
+        /// Defining operation "multiplying" of matrices
+        /// </summary>
+        /// <param name="first">first matrix to multiply</param>
+        /// <param name="second">second matrix to multiply</param>
         public static Matrix<T> operator *(Matrix<T> first, Matrix<T> second)
         {
             if (first.Heigth != second.Width || first.Width != second.Heigth)
@@ -122,6 +148,11 @@
             }
         }
 
+        /// <summary>
+        /// Checks if a matrix has zero elements and if not, the matrix is evaluated in "true", otherwise "false"
+        /// </summary>
+        /// <param name="matrix">matrix to check</param>
+        /// <returns>If the matrix is evaluated in "true" or "false"</returns>
         public static bool operator true(Matrix<T> matrix)
         {
             for (int i = 0; i < matrix.Heigth; i++)
@@ -137,6 +168,11 @@
             return true;
         }
 
+        /// <summary>
+        /// Checks if a matrix has only zero elements and if not, the matrix is evaluated in "true", otherwise "false"
+        /// </summary>
+        /// <param name="matrix">matrix to check</param>
+        /// <returns>If the matrix is evaluated in "true" or "false"</returns>
         public static bool operator false(Matrix<T> matrix)
         {
             for (int i = 0; i < matrix.Heigth; i++)
@@ -152,6 +188,10 @@
             return true;
         }
 
+        /// <summary>
+        /// Transform the matrix in a good-looking string
+        /// </summary>
+        /// <returns>the transformed matrix</returns>
         public override string ToString()
         {
             string[] result = new string[this.Heigth];
@@ -160,7 +200,7 @@
                 var sb = new StringBuilder();
                 for (int j = 0; j < this.Width; j++)
                 {
-                    sb.Append(this.arr[i, j] + ",");
+                    sb.Append(this.field[i, j] + ",");
                 }
                 sb.Remove(sb.Length - 1, 1);
                 result[i] = sb.ToString();
