@@ -3,7 +3,7 @@
  */
 import {game} from 'tasks/game.js';
 
-var storage=localStorage,
+var storage=sessionStorage,
     theGame;
 
 function getHighScore(){
