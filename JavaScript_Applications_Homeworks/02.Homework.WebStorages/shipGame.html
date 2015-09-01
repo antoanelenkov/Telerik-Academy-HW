@@ -3,56 +3,76 @@
 <head>
     <meta charset="UTF-8">
     <title></title>
-</head>
-<body>
-<table>
-    <tr>
-        <td>
-            Name:
-        </td>
-        <td>
-            <input type="text" id="name">
-        </td>
-    </tr>
-    <tr>
-        <td>
-            <button id="startGame">Start Game</button>
-        </td>
-    </tr>
-    <tr>
-        <td>
-            Guess a number:
-        </td>
-        <td>
-            <input type="text" id="userNumber"/>
-        </td>
-    </tr>
-    <tr>
-        <td>
-            <button id="guessNumber">Try it!</button>
-        </td>
-    </tr>
-    <tr>
-        <td>
-            RESULT:
-        </td>
-        <td id="result">
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="styles/Style.css">
+    <script src="bower_components/system.js/dist/system.js"></script>
+    <script>
+        System.config({
+            transpiler:'babel',
+            map:{
+                babel:'node_modules/babel-core/browser.js'
+            }
+        });
 
-        </td>
-    </tr>
-    <tr>
-        <td>
-            Get Highscore:
-        </td>
-        <td>
-            <button id="highScore">Show Highscore</button>
-        </td>
-    </tr>
-</table>
+        System.import('tasks/UIcontroller.js');
+    </script>
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+</head>
+
+<body>
+<div class="container-fluid">
+    <p></p>
+    <div class="row ">
+        <div class="col-sm-1">
+            <label class="badge centered">Name: </label>
+        </div>
+        <div class="col-sm-2">
+            <input type="text" id="name" class="form-control"/>
+        </div>
+        <div class="col-sm-1">
+            <button id="startGame" class="btn btn-primary">Start Game</button>
+        </div>
+    </div>
+    <p></p>
+    <div id="gameContainer" class="hidden">
+        <div class="row ">
+            <div class="col-sm-1">
+                <label class="badge">Guess a number: </label>
+            </div>
+            <div class="col-sm-2">
+                <input type="text" id="userNumber" class="form-control"/>
+            </div>
+        </div>
+        <p></p>
+        <div class="row ">
+            <div class="col-sm-1">
+                <button id="guessNumber" class="btn btn-primary">Try it!</button>
+            </div>
+        </div>
+        <p></p>
+        <div class="row ">
+            <div class="col-sm-1">
+                <button id="highScore" class="btn btn-primary">Show Highscore</button>
+            </div>
+            <div class="col-sm-1">
+                <button id="hideHighScore" class="btn btn-primary">Hide Highscore</button>
+            </div>
+        </div>
+        <div class="row ">
+            <div class="col-sm-1">
+                <label id="result"></label>
+            </div>
+        </div>
+    </div>
+</div>
+
+<label  id="congratLabel" class=""></label>
+
 <div id="highScoreInfo">
 
 </div>
-<script src="tasks/task-1.js"></script>
+<script src="tasks/game.js"></script>
 <script src="tasks/UIcontroller.js"></script>
 </body>
 </html>

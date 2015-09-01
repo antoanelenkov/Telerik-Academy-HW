@@ -1,13 +1,20 @@
+import {game} from 'tasks/game.js'
+import gameController from 'tasks/gameController.js'
+
 var startGameBtn=document.getElementById('startGame'),
     guessBtn=document.getElementById('guessNumber'),
     showHighScoreBtn=document.getElementById('highScore'),
-    theGame;
+    hideHighScoreBtn=document.getElementById('hideHighScore'),
+    highScoreContainer=document.getElementById('highScoreInfo'),
+    gameContainer=document.getElementById('gameContainer'),
+    theGame,
+    guessingTries=0;
 
 startGameBtn.addEventListener('click',function(ev){
-    var name=document.getElementById('name').value;
+    var userName=document.getElementById('name').value;
 
-    var game=solve();
-    theGame=Object.create(game).init(name);
+    theGame=gameController.startGame(userName);
+    gameContainer.className='';
 })
 
 guessBtn.addEventListener('click',function(ev){
@@ -16,17 +23,28 @@ guessBtn.addEventListener('click',function(ev){
         sheep=theGame.guess(userNumber).sheep,
         rams=theGame.guess(userNumber).rams;
 
-console.log(document.getElementById('userNumber'))
+    guessingTries+=1;
+
+    if(rams===4){
+        var congratLabel=document.getElementById('congratLabel');
+        congratLabel.innerHTML='Congratulations, you guessed with ' + guessingTries +' tries.';
+        theGame.saveToHighScore(guessingTries);
+        guessingTries=0;
+    }
+
     result.innerHTML='sheeps: '+ sheep + ' rams: '+rams;
 });
 
 showHighScoreBtn.addEventListener('click',function(ev){
-    var highScoreContainer=document.getElementById('highScoreInfo');
     var highScore=theGame.getHighScore();
 
     highScoreContainer.innerHTML='';
 
     for(var i = 0;i < highScore.length;i+=1){
-        highScoreContainer.innerHTML+=' Name: '+highScore[i].name + '<br>'+ ' Result from guessed: ' + highScore[i].guessedNumber  + '<br>'+'<hr>' ;
+        highScoreContainer.innerHTML+=' Name: '+highScore[i].name + '<br>'+ ' Number of tries: ' + highScore[i].tries  + '<br>'+'<hr>' ;
     }
 });
+
+hideHighScoreBtn.addEventListener('click',function(ev){
+    highScoreContainer.innerHTML='';
+})

@@ -1,8 +1,8 @@
-function solve() {
+import controller from 'tasks/gameController.js'
+
 var game=(function(){
     var gameInitialized=false;
     var gameNumber;
-    var storage=sessionStorage;
 
     var game={
         init:function(playerName, endCallback) {
@@ -24,22 +24,17 @@ var game=(function(){
             console.log('my number '+number);
 
             guessed=getNumberOfSheepAndRams(number);
-            storage.setItem(this.playerName,JSON.stringify(guessed));
+
 
             return getNumberOfSheepAndRams(number);
         },
         getHighScore:function(count){
-            var topPlayers=[];
-
-            for(var i=0;i<storage.length;i+=1){
-                console.log(storage.key(i));
-                topPlayers.push({
-                        name:storage.key(i),
-                        guessedNumber: storage.getItem( storage.key( i ))
-                    });
-            }
+            var topPlayers=controller.getHighScore();
 
             return topPlayers;
+        },
+        saveToHighScore:function(tries){
+            controller.saveToHighScore(this.playerName,tries);
         }
     }
 
@@ -87,9 +82,7 @@ var game=(function(){
 
     return game;
 })();
-    return game;
-}
 
-
+export {game};
 
 //module.exports = solve;
