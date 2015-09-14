@@ -1,4 +1,4 @@
-﻿## Creational Patterns Homework
+﻿##  Creational Patterns Homework
 
 * Select 3 creational design patterns
 * Write a short description (about half page) for each of them
@@ -6,4 +6,4 @@
 * Use Markdown for the description (.md files) and upload it on your own GitHub
 * Prefer Bulgarian language
 * Provide your own C# examples for their use
-* Provide a UML diagram or image of the pattern
+* Provide a UML diagram or image of the pattern 
