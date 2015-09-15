@@ -25,7 +25,7 @@
 
 ## Имплментация 
 
-```
+```c#
 using System;
  
 namespace DoFactory.GangOfFour.Proxy.RealWorld
