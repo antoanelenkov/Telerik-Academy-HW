@@ -33,7 +33,7 @@
 
 ## Имплментация 
 
-```
+```c#
 using System;
  
 namespace PrototypeExample

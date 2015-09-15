@@ -24,7 +24,7 @@
 
 ## Имплментация 
 
-```
+```c#
 public class Customer
 {
     public int CustomerID { get; set; }
