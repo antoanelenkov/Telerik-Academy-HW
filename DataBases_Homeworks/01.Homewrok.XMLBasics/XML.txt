@@ -1,0 +1,4 @@
+1. Extensible Markup Language (XML) is a markup language that defines a set of rules for encoding documents
+ in a format which is both human-readable and machine-readable.
+3. XML namespaces are used to avoid elements naming conflicts.
+4.I did it :)

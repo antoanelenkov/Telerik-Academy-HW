@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<students xmlns="urn:students">
+  <student>
+    <name>Sutdent1</name>
+    <sex>male</sex>
+    <birthDate>1990-12-20</birthDate>
+    <phone>0883522252</phone>
+    <email>student@abv.bg</email>
+    <course>DB</course>
+    <specialty>Web developer</specialty>
+    <id>14690</id>
+    <passedExams>
+      <exam>
+        <name>C# 1</name>
+        <tutor>Nikolay Kostov</tutor>
+        <score>500</score>
+      </exam>
+      <exam>
+        <name>C# 2</name>
+        <tutor>Doncho</tutor>
+        <score>310</score>
+      </exam>
+    </passedExams>
+    <enrollment>
+      <date>2016-02-29</date>
+      <examScore>400</examScore>
+    </enrollment>
+    <endrosements>
+      <teacherName>Doncho</teacherName>
+      <text>The best student</text>
+    </endrosements>
+  </student>
+  <student>
+    <name>Sutdent2</name>
+    <sex>female</sex>
+    <birthDate>1995-12-20</birthDate>
+    <phone>0885555999</phone>
+    <email>student2@abv.bg</email>
+    <course>DB</course>
+    <specialty>Web developer</specialty>
+    <id>14650</id>
+    <passedExams>
+      <exam>
+        <name>C# 1</name>
+        <tutor>Nikolay</tutor>
+        <score>400</score>
+      </exam>
+      <exam>
+        <name>C# 2</name>
+        <tutor>Doncho</tutor>
+        <score>450</score>
+      </exam>
+    </passedExams>
+  </student>
+</students>
