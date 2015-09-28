@@ -2,6 +2,7 @@
 DML - A data manipulation language (DML) is a family of syntax elements similar to a computer programming language used for selecting, inserting, deleting and updating data in a database.
 DDL - A data definition language or data description language (DDL) is a syntax similar to a computer programming language for defining data structures, especially database schemas.
 
+
 SQL commands:
 SELECT
 INSERT
