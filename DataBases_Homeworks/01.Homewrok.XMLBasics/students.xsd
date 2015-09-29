@@ -24,6 +24,7 @@
                           <xs:element name="tutor" type="xs:string" />
                           <xs:element name="score" type="xs:unsignedShort" />
                         </xs:sequence>
+                        <xs:attribute name="passedWithExcellence" type="xs:boolean" use="optional"/>
                       </xs:complexType>
                     </xs:element>
                   </xs:sequence>
@@ -31,10 +32,10 @@
               </xs:element>
               <xs:element name="enrollment" minOccurs="0">
                 <xs:complexType>
-                        <xs:sequence>
-                          <xs:element name="date" type="xs:date" />
-                          <xs:element name="examScore" type="xs:unsignedShort" />
-                        </xs:sequence>
+                  <xs:sequence>
+                    <xs:element name="date" type="xs:date" />
+                    <xs:element name="examScore" type="xs:unsignedShort" />
+                  </xs:sequence>
                 </xs:complexType>
               </xs:element>
               <xs:element name="endrosements" minOccurs="0">

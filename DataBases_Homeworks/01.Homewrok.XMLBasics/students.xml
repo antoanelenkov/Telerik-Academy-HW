@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<students xmlns="urn:students">
+<?xml-stylesheet type="text/xsl" href="students.xslt" ?>
+<students xmlns:student="urn:students">
   <student>
     <name>Sutdent1</name>
     <sex>male</sex>
@@ -10,12 +11,12 @@
     <specialty>Web developer</specialty>
     <id>14690</id>
     <passedExams>
-      <exam>
+      <exam passedWithExcellence="true">
         <name>C# 1</name>
-        <tutor>Nikolay Kostov</tutor>
+        <tutor>Nikolay</tutor>
         <score>500</score>
       </exam>
-      <exam>
+      <exam passedWithExcellence="true">
         <name>C# 2</name>
         <tutor>Doncho</tutor>
         <score>310</score>
