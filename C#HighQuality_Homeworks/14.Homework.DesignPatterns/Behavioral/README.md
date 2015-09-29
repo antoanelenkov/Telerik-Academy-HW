@@ -1,4 +1,4 @@
-﻿##  Creational Patterns Homework
+﻿##  Behavioral Patterns Homework
 
 * Select 4 behavioral design patterns
 * Write a short description (about half page) for each of them
