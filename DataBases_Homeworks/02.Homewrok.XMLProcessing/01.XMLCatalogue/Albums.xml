@@ -1,0 +1,26 @@
+﻿<albums>
+ <album>
+  <name>albuma na kilata</name>
+  <artist>100 kila</artist>
+ </album>
+ <album>
+  <name>albuma na krisko</name>
+  <artist>Krisko</artist>
+ </album>
+ <album>
+  <name>albuma na krisko2</name>
+  <artist>Krisko</artist>
+ </album>
+ <album>
+  <name>albuma to delete</name>
+  <artist>Krisko</artist>
+ </album>
+ <album>
+  <name>albuma to delete2</name>
+  <artist>Krisko</artist>
+ </album>
+ <album>
+  <name>albuma to delete3</name>
+  <artist>Krisko</artist>
+ </album>
+</albums>

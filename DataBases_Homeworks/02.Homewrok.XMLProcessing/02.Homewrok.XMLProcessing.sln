@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.XMLCatalogue", "01.XMLCatalogue\01.XMLCatalogue.csproj", "{9FF7FFE7-41E3-4C3B-B490-A289E8FEAF14}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02-03.ExtractArtists", "02-03.ExtractArtists\02-03.ExtractArtists.csproj", "{BF482B62-D827-460C-9A78-AC2671CB3258}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.DeleteAlbums", "04.DeleteAlbums\04.DeleteAlbums.csproj", "{44E5BA4A-F4A3-483C-8286-26410F6478F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05-06.ExtractSongsTitle", "5-6.ExtractSongsTitle\05-06.ExtractSongsTitle.csproj", "{025E403A-97D2-46F6-A5AD-6D4E24201703}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07.Person", "7.Person\07.Person.csproj", "{C7D6B719-BC59-4017-887A-91C9325582BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08.CreateAlbum", "08.CreateAlbum\08.CreateAlbum.csproj", "{00005BFE-627B-4989-9808-704F97DFCA24}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09.TraverseDir", "09.TraverseDir\09.TraverseDir.csproj", "{010F929E-2A2E-4FDD-89C7-9EA921041CC8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9FF7FFE7-41E3-4C3B-B490-A289E8FEAF14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FF7FFE7-41E3-4C3B-B490-A289E8FEAF14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FF7FFE7-41E3-4C3B-B490-A289E8FEAF14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FF7FFE7-41E3-4C3B-B490-A289E8FEAF14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF482B62-D827-460C-9A78-AC2671CB3258}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF482B62-D827-460C-9A78-AC2671CB3258}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF482B62-D827-460C-9A78-AC2671CB3258}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF482B62-D827-460C-9A78-AC2671CB3258}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44E5BA4A-F4A3-483C-8286-26410F6478F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44E5BA4A-F4A3-483C-8286-26410F6478F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44E5BA4A-F4A3-483C-8286-26410F6478F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44E5BA4A-F4A3-483C-8286-26410F6478F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{025E403A-97D2-46F6-A5AD-6D4E24201703}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{025E403A-97D2-46F6-A5AD-6D4E24201703}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{025E403A-97D2-46F6-A5AD-6D4E24201703}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{025E403A-97D2-46F6-A5AD-6D4E24201703}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7D6B719-BC59-4017-887A-91C9325582BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7D6B719-BC59-4017-887A-91C9325582BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7D6B719-BC59-4017-887A-91C9325582BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7D6B719-BC59-4017-887A-91C9325582BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00005BFE-627B-4989-9808-704F97DFCA24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00005BFE-627B-4989-9808-704F97DFCA24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00005BFE-627B-4989-9808-704F97DFCA24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00005BFE-627B-4989-9808-704F97DFCA24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{010F929E-2A2E-4FDD-89C7-9EA921041CC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{010F929E-2A2E-4FDD-89C7-9EA921041CC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{010F929E-2A2E-4FDD-89C7-9EA921041CC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{010F929E-2A2E-4FDD-89C7-9EA921041CC8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <?xml-stylesheet type="text/xsl" href="students.xslt" ?>
-<students xmlns:student="urn:students">
+<students xmlns="urn:students">
   <student>
     <name>Sutdent1</name>
     <sex>male</sex>
@@ -9,6 +9,7 @@
     <email>student@abv.bg</email>
     <course>DB</course>
     <specialty>Web developer</specialty>
+    <pe>d</pe>
     <id>14690</id>
     <passedExams>
       <exam passedWithExcellence="true">

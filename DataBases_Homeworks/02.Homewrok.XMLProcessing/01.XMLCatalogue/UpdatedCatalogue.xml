@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<catalogue>
+  <album>
+    <name>albuma na kilata</name>
+    <artist>100 kila</artist>
+    <year>2015</year>
+    <producer>Facing the Sun</producer>
+    <price>15.55</price>
+    <songs>
+      <song>
+        <title>Lanec na vrata mi</title>
+        <duration>3:55</duration>
+      </song>
+      <song>
+        <title>System</title>
+        <duration>3:15</duration>
+      </song>
+      <song>
+        <title>Freestyle II</title>
+        <duration>3:25</duration>
+      </song>
+      <song>
+        <title>Di boss</title>
+        <duration>2:55</duration>
+      </song>
+    </songs>
+  </album>
+  <album>
+    <name>albuma na krisko</name>
+    <artist>Krisko</artist>
+    <year>2011</year>
+    <producer>Sam sum si records</producer>
+    <price>16.95</price>
+    <songs>
+      <song>
+        <title>Shtoto e maimuna</title>
+        <duration>1:55</duration>
+      </song>
+      <song>
+        <title>Ela i si zemiiiiiiiiiiii</title>
+        <duration>4:15</duration>
+      </song>
+      <song>
+        <title>minalo vreme</title>
+        <duration>3:25</duration>
+      </song>
+      <song>
+        <title>Ideal Petroff</title>
+        <duration>1:55</duration>
+      </song>
+    </songs>
+  </album>
+  <album>
+    <name>albuma na krisko2</name>
+    <artist>Krisko</artist>
+    <year>2015</year>
+    <producer>Sam sum si records</producer>
+    <price>6.95</price>
+    <songs>
+      <song>
+        <title>Ideal Petroff2</title>
+        <duration>1:55</duration>
+      </song>
+    </songs>
+  </album>
+</catalogue>
