@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<catalogue>
+<catalogue xmlns="urn:catalogue">
   <album>
     <name>albuma na kilata</name>
     <artist>100 kila</artist>
-    <year>2015</year>
+    <year>2009</year>
     <producer>Facing the Sun</producer>
     <price>15.55</price>
     <songs>
@@ -20,6 +20,7 @@
         <duration>3:25</duration>
       </song>
       <song>
+        <title>Di boss</title>
         <title>Di boss</title>
         <duration>2:55</duration>
       </song>
@@ -53,7 +54,7 @@
   <album>
     <name>albuma na krisko2</name>
     <artist>Krisko</artist>
-    <year>2015</year>
+    <year>2008</year>
     <producer>Sam sum si records</producer>
     <price>6.95</price>
     <songs>

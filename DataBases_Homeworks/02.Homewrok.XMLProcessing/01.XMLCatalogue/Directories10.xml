@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<directories>
+  <dir path="D:\Antoan\Telerik Academy\Telerik-Academy-HW\DSA_Homeworks\03.Homework.TreeAndTraversals\01.OperationsWithTree">
+    <dir path="D:\Antoan\Telerik Academy\Telerik-Academy-HW\DSA_Homeworks\03.Homework.TreeAndTraversals\01.OperationsWithTree\bin">
+      <dir path="D:\Antoan\Telerik Academy\Telerik-Academy-HW\DSA_Homeworks\03.Homework.TreeAndTraversals\01.OperationsWithTree\bin\Debug">
+        <file path="01.OperationsWithTree.exe" />
+        <file path="01.OperationsWithTree.exe.config" />
+        <file path="01.OperationsWithTree.pdb" />
+        <file path="01.OperationsWithTree.vshost.exe" />
+        <file path="01.OperationsWithTree.vshost.exe.config" />
+        <file path="01.OperationsWithTree.vshost.exe.manifest" />
+      </dir>
+    </dir>
+    <dir path="D:\Antoan\Telerik Academy\Telerik-Academy-HW\DSA_Homeworks\03.Homework.TreeAndTraversals\01.OperationsWithTree\obj">
+      <dir path="D:\Antoan\Telerik Academy\Telerik-Academy-HW\DSA_Homeworks\03.Homework.TreeAndTraversals\01.OperationsWithTree\obj\Debug">
+        <file path="01.OperationsWithTree.csproj.FileListAbsolute.txt" />
+        <file path="01.OperationsWithTree.csprojResolveAssemblyReference.cache" />
+        <file path="01.OperationsWithTree.exe" />
+        <file path="01.OperationsWithTree.pdb" />
+        <file path="DesignTimeResolveAssemblyReferencesInput.cache" />
+        <file path="TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+        <file path="TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+        <file path="TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+      </dir>
+    </dir>
+    <dir path="D:\Antoan\Telerik Academy\Telerik-Academy-HW\DSA_Homeworks\03.Homework.TreeAndTraversals\01.OperationsWithTree\Properties">
+      <file path="AssemblyInfo.cs" />
+    </dir>
+    <file path="01.OperationsWithTree.csproj" />
+    <file path="App.config" />
+    <file path="Node.cs" />
+    <file path="Program.cs" />
+  </dir>
+  <dir path="D:\Antoan\Telerik Academy\Telerik-Academy-HW\DSA_Homeworks\03.Homework.TreeAndTraversals\02.TraverseDirAndDisplayEXE">
+    <dir path="D:\Antoan\Telerik Academy\Telerik-Academy-HW\DSA_Homeworks\03.Homework.TreeAndTraversals\02.TraverseDirAndDisplayEXE\bin">
+      <dir path="D:\Antoan\Telerik Academy\Telerik-Academy-HW\DSA_Homeworks\03.Homework.TreeAndTraversals\02.TraverseDirAndDisplayEXE\bin\Debug">
+        <file path="02.TraverseDirAndDisplayEXE.exe" />
+        <file path="02.TraverseDirAndDisplayEXE.exe.config" />
+        <file path="02.TraverseDirAndDisplayEXE.pdb" />
+        <file path="02.TraverseDirAndDisplayEXE.vshost.exe" />
+        <file path="02.TraverseDirAndDisplayEXE.vshost.exe.config" />
+        <file path="02.TraverseDirAndDisplayEXE.vshost.exe.manifest" />
+      </dir>
+    </dir>
+    <dir path="D:\Antoan\Telerik Academy\Telerik-Academy-HW\DSA_Homeworks\03.Homework.TreeAndTraversals\02.TraverseDirAndDisplayEXE\obj">
+      <dir path="D:\Antoan\Telerik Academy\Telerik-Academy-HW\DSA_Homeworks\03.Homework.TreeAndTraversals\02.TraverseDirAndDisplayEXE\obj\Debug">
+        <file path="02.TraverseDirAndDisplayEXE.csproj.FileListAbsolute.txt" />
+        <file path="02.TraverseDirAndDisplayEXE.csprojResolveAssemblyReference.cache" />
+        <file path="02.TraverseDirAndDisplayEXE.exe" />
+        <file path="02.TraverseDirAndDisplayEXE.pdb" />
+        <file path="DesignTimeResolveAssemblyReferencesInput.cache" />
+        <file path="TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+        <file path="TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+        <file path="TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+      </dir>
+    </dir>
+    <dir path="D:\Antoan\Telerik Academy\Telerik-Academy-HW\DSA_Homeworks\03.Homework.TreeAndTraversals\02.TraverseDirAndDisplayEXE\Properties">
+      <file path="AssemblyInfo.cs" />
+    </dir>
+    <file path="02.TraverseDirAndDisplayEXE.csproj" />
+    <file path="App.config" />
+    <file path="Program.cs" />
+  </dir>
+  <dir path="D:\Antoan\Telerik Academy\Telerik-Academy-HW\DSA_Homeworks\03.Homework.TreeAndTraversals\Bonus.TraverseDirBFS">
+    <dir path="D:\Antoan\Telerik Academy\Telerik-Academy-HW\DSA_Homeworks\03.Homework.TreeAndTraversals\Bonus.TraverseDirBFS\bin">
+      <dir path="D:\Antoan\Telerik Academy\Telerik-Academy-HW\DSA_Homeworks\03.Homework.TreeAndTraversals\Bonus.TraverseDirBFS\bin\Debug">
+        <file path="18.Labirinth.exe" />
+        <file path="18.Labirinth.exe.config" />
+        <file path="18.Labirinth.pdb" />
+        <file path="18.Labirinth.vshost.exe" />
+        <file path="18.Labirinth.vshost.exe.config" />
+        <file path="18.Labirinth.vshost.exe.manifest" />
+      </dir>
+    </dir>
+    <dir path="D:\Antoan\Telerik Academy\Telerik-Academy-HW\DSA_Homeworks\03.Homework.TreeAndTraversals\Bonus.TraverseDirBFS\obj">
+      <dir path="D:\Antoan\Telerik Academy\Telerik-Academy-HW\DSA_Homeworks\03.Homework.TreeAndTraversals\Bonus.TraverseDirBFS\obj\Debug">
+        <file path="18.BFS.csproj.FileListAbsolute.txt" />
+        <file path="18.Labirinth.csproj.FileListAbsolute.txt" />
+        <file path="18.Labirinth.csprojResolveAssemblyReference.cache" />
+        <file path="18.Labirinth.exe" />
+        <file path="18.Labirinth.pdb" />
+        <file path="18.TraverseDirBFS.csproj.FileListAbsolute.txt" />
+        <file path="18.TraverseDirBFS.csprojResolveAssemblyReference.cache" />
+        <file path="DesignTimeResolveAssemblyReferencesInput.cache" />
+        <file path="TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+        <file path="TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+        <file path="TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+      </dir>
+    </dir>
+    <dir path="D:\Antoan\Telerik Academy\Telerik-Academy-HW\DSA_Homeworks\03.Homework.TreeAndTraversals\Bonus.TraverseDirBFS\Properties">
+      <file path="AssemblyInfo.cs" />
+    </dir>
+    <file path="18.TraverseDirBFS.csproj" />
+    <file path="App.config" />
+    <file path="BFS.cs" />
+  </dir>
+  <dir path="D:\Antoan\Telerik Academy\Telerik-Academy-HW\DSA_Homeworks\03.Homework.TreeAndTraversals\Bonus.TraverseDirDFS">
+    <dir path="D:\Antoan\Telerik Academy\Telerik-Academy-HW\DSA_Homeworks\03.Homework.TreeAndTraversals\Bonus.TraverseDirDFS\bin">
+      <dir path="D:\Antoan\Telerik Academy\Telerik-Academy-HW\DSA_Homeworks\03.Homework.TreeAndTraversals\Bonus.TraverseDirDFS\bin\Debug">
+        <file path="17.TraverseDirDFS.exe" />
+        <file path="17.TraverseDirDFS.exe.config" />
+        <file path="17.TraverseDirDFS.pdb" />
+        <file path="17.TraverseDirDFS.vshost.exe" />
+        <file path="17.TraverseDirDFS.vshost.exe.config" />
+      </dir>
+    </dir>
+    <dir path="D:\Antoan\Telerik Academy\Telerik-Academy-HW\DSA_Homeworks\03.Homework.TreeAndTraversals\Bonus.TraverseDirDFS\obj">
+      <dir path="D:\Antoan\Telerik Academy\Telerik-Academy-HW\DSA_Homeworks\03.Homework.TreeAndTraversals\Bonus.TraverseDirDFS\obj\Debug">
+        <file path="17.TraverseDirDFS.csproj.FileListAbsolute.txt" />
+        <file path="17.TraverseDirDFS.exe" />
+        <file path="17.TraverseDirDFS.pdb" />
+        <file path="DesignTimeResolveAssemblyReferencesInput.cache" />
+        <file path="TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+        <file path="TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+        <file path="TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+      </dir>
+    </dir>
+    <dir path="D:\Antoan\Telerik Academy\Telerik-Academy-HW\DSA_Homeworks\03.Homework.TreeAndTraversals\Bonus.TraverseDirDFS\Properties">
+      <file path="AssemblyInfo.cs" />
+    </dir>
+    <file path="17.TraverseDirDFS.csproj" />
+    <file path="App.config" />
+    <file path="DFS.cs" />
+  </dir>
+  <dir path="D:\Antoan\Telerik Academy\Telerik-Academy-HW\DSA_Homeworks\03.Homework.TreeAndTraversals\Bonus.TraverseDirRecursion">
+    <dir path="D:\Antoan\Telerik Academy\Telerik-Academy-HW\DSA_Homeworks\03.Homework.TreeAndTraversals\Bonus.TraverseDirRecursion\bin">
+      <dir path="D:\Antoan\Telerik Academy\Telerik-Academy-HW\DSA_Homeworks\03.Homework.TreeAndTraversals\Bonus.TraverseDirRecursion\bin\Debug">
+        <file path="ConsoleApplication1.exe" />
+        <file path="ConsoleApplication1.exe.config" />
+        <file path="ConsoleApplication1.pdb" />
+        <file path="ConsoleApplication1.vshost.exe" />
+        <file path="ConsoleApplication1.vshost.exe.config" />
+        <file path="ConsoleApplication1.vshost.exe.manifest" />
+      </dir>
+    </dir>
+    <dir path="D:\Antoan\Telerik Academy\Telerik-Academy-HW\DSA_Homeworks\03.Homework.TreeAndTraversals\Bonus.TraverseDirRecursion\obj">
+      <dir path="D:\Antoan\Telerik Academy\Telerik-Academy-HW\DSA_Homeworks\03.Homework.TreeAndTraversals\Bonus.TraverseDirRecursion\obj\Debug">
+        <file path="15.PrintFilesFromC.csproj.FileListAbsolute.txt" />
+        <file path="15.PrintFilesFromC.csprojResolveAssemblyReference.cache" />
+        <file path="ConsoleApplication1.csproj.FileListAbsolute.txt" />
+        <file path="ConsoleApplication1.exe" />
+        <file path="ConsoleApplication1.pdb" />
+        <file path="DesignTimeResolveAssemblyReferencesInput.cache" />
+        <file path="TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+        <file path="TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+        <file path="TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+      </dir>
+    </dir>
+    <dir path="D:\Antoan\Telerik Academy\Telerik-Academy-HW\DSA_Homeworks\03.Homework.TreeAndTraversals\Bonus.TraverseDirRecursion\Properties">
+      <file path="AssemblyInfo.cs" />
+    </dir>
+    <file path="15.PrintFilesFromC.csproj" />
+    <file path="App.config" />
+    <file path="TraverseDirectoryDFS.cs" />
+  </dir>
+  <file path="02.Homework.TreesAndTraversals.sln" />
+  <file path="02.Homework.TreesAndTraversals.v12.suo" />
+</directories>

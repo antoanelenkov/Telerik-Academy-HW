@@ -4,15 +4,17 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{9FF7FFE7-41E3-4C3B-B490-A289E8FEAF14}</ProjectGuid>
-    <OutputType>Library</OutputType>
+    <ProjectGuid>{58F75D99-5FB2-43B7-A0D6-5D4F3E22EABF}</ProjectGuid>
+    <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>_01.XMLCatalogue</RootNamespace>
-    <AssemblyName>01.XMLCatalogue</AssemblyName>
+    <RootNamespace>_16.XSDSchema</RootNamespace>
+    <AssemblyName>16.XSDSchema</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -22,6 +24,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -40,23 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Albums.xml" />
-    <Content Include="Catalogue.html" />
-    <Content Include="Catalogue.xml" />
-    <Content Include="Catalogue.xslt" />
-    <Content Include="Directories10.xml" />
-    <Content Include="Directories9.xml" />
-    <Content Include="Person.txt" />
-    <Content Include="Person.xml" />
-    <Content Include="UpdatedCatalogue.xml" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="catalogue.xsd">
-      <SubType>Designer</SubType>
-    </None>
+    <None Include="App.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
