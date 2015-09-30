@@ -19,6 +19,7 @@
                 writer.Indentation = 1;
                 writer.IndentChar = ' ';
 
+                writer.WriteStartDocument();
                 writer.WriteStartElement("albums");
 
                 using (XmlReader reader = XmlReader.Create(CataloguePath))
@@ -39,6 +40,7 @@
                 }
 
                 writer.WriteEndElement();
+                writer.WriteEndDocument();
             }
 
 
