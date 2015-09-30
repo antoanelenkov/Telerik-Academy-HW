@@ -70,10 +70,7 @@ var game=(function(){
                 }
             }
         }
-        console.log({
-            sheep: sheep,
-            rams:rams
-        });
+
         return {
             sheep: sheep,
             rams:rams

@@ -30,6 +30,28 @@ function solve(){
     };
 }
 
+function solve(){
+    return function (students) {
+        var resultStudents= _.chain(students)
+            .filter(function(student){
+                return student.firstName < student.lastName;
+            })
+            .map(function(student){
+                return student={fullName:student.firstName+' '+student.lastName};
+            })
+            .sortBy('fullName')
+            .reverse()
+            .each(function(person){
+                console.log(person.fullName)
+            });
+
+        return resultStudents;
+    };
+}
+
+module.exports = solve;
+
+
 var student1={firstName:"Antoan",lastName:"Elenkov"};
 var student2={firstName:"Antoan",lastName:"Nikolov"};
 var student3={firstName:"Petar",lastName:"Ivanov"};

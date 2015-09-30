@@ -6,3 +6,6 @@ C:\Антоан\Telerik-Academy-HWS\C#HighQuality_Homeworks\12.Homework.Refactor
 C:\Антоан\Telerik-Academy-HWS\C#HighQuality_Homeworks\12.Homework.Refactoring\MatrixUI\obj\Debug\MatrixUI.csprojResolveAssemblyReference.cache
 C:\Антоан\Telerik-Academy-HWS\C#HighQuality_Homeworks\12.Homework.Refactoring\MatrixUI\obj\Debug\ConsoleApp.exe
 C:\Антоан\Telerik-Academy-HWS\C#HighQuality_Homeworks\12.Homework.Refactoring\MatrixUI\obj\Debug\ConsoleApp.pdb
+D:\Antoan\Telerik Academy\Telerik-Academy-HW\C#HighQuality_Homeworks\12.Homework.Refactoring\MatrixUI\bin\Debug\ConsoleApp.exe.config
+D:\Antoan\Telerik Academy\Telerik-Academy-HW\C#HighQuality_Homeworks\12.Homework.Refactoring\MatrixUI\obj\Debug\ConsoleApp.exe
+D:\Antoan\Telerik Academy\Telerik-Academy-HW\C#HighQuality_Homeworks\12.Homework.Refactoring\MatrixUI\obj\Debug\ConsoleApp.pdb

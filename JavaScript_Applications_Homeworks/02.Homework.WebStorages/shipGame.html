@@ -8,9 +8,9 @@
     <script src="bower_components/system.js/dist/system.js"></script>
     <script>
         System.config({
-            transpiler:'babel',
-            map:{
-                babel:'node_modules/babel-core/browser.js'
+            transpiler: 'babel',
+            map: {
+                babel: 'node_modules/babel-core/browser.js'
             }
         });
 
@@ -23,18 +23,22 @@
 <body>
 <div class="container-fluid">
     <p></p>
-    <div class="row ">
-        <div class="col-sm-1">
-            <label class="badge centered">Name: </label>
-        </div>
-        <div class="col-sm-2">
-            <input type="text" id="name" class="form-control"/>
-        </div>
-        <div class="col-sm-1">
-            <button id="startGame" class="btn btn-primary">Start Game</button>
+
+    <div id="startGameContainer" class="">
+        <div class="row ">
+            <div class="col-sm-1">
+                <label class="badge centered">Name: </label>
+            </div>
+            <div class="col-sm-2">
+                <input type="text" id="name" class="form-control"/>
+            </div>
+            <div class="col-sm-1">
+                <button id="startGame" class="btn btn-primary">Start Game</button>
+            </div>
         </div>
     </div>
     <p></p>
+
     <div id="gameContainer" class="hidden">
         <div class="row ">
             <div class="col-sm-1">
@@ -45,18 +49,23 @@
             </div>
         </div>
         <p></p>
+
         <div class="row ">
             <div class="col-sm-1">
                 <button id="guessNumber" class="btn btn-primary">Try it!</button>
             </div>
         </div>
         <p></p>
+
         <div class="row ">
             <div class="col-sm-1">
                 <button id="highScore" class="btn btn-primary">Show Highscore</button>
             </div>
             <div class="col-sm-1">
                 <button id="hideHighScore" class="btn btn-primary">Hide Highscore</button>
+            </div>
+            <div class="col-sm-1">
+                <button id="restartGame" class="btn btn-primary">Restart</button>
             </div>
         </div>
         <div class="row ">
@@ -67,9 +76,16 @@
     </div>
 </div>
 
-<label  id="congratLabel" class=""></label>
+<label id="congratLabel" class=""></label>
 
-<div id="highScoreInfo">
+<div class="row">
+    <div class="col-md-1"></div>
+    <div class="col-md-4">
+        <div id="highScoreInfo">
+        </div>
+        <div class="col-md-7"></div>
+    </div>
+
 
 </div>
 <script src="tasks/game.js"></script>
