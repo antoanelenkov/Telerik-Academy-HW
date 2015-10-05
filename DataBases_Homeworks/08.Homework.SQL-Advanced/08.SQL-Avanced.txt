@@ -53,14 +53,14 @@ AND e.AddressID=a.AddressID
 AND a.TownID=t.TownID
 GROUP BY   t.Name, d.Name
 
-11.PROBLEM
+11.*
 SELECT e.FirstName + ' ' + e.LastName AS [Names of manager with 5 employees]
 FROM Employees e, Employees m
 WHERE e.ManagerID = m.EmployeeID OR m.ManagerID IS NULL
 GROUP BY e.EmployeeID, e.FirstName, e.LastName
 HAVING COUNT(*)=5
 
-12.PROBLEM
+12.
 SELECT e.FirstName + ' ' + e.LastName AS [Name of Employee],ISNULL(m.FirstName+' '+m.LastName,('no manager')) AS [Manager]
 FROM Employees e
 LEFT OUTER JOIN Employees m
@@ -101,21 +101,32 @@ CONSTRAINT  PK_Groups PRIMARY KEY(Name)
 GO
 
 18.
+ALTER TABLE Users
+ADD GroupId INT FOREIGN KEY REFERENCES Groups(name)
 
 19
+INSERT INTO Groups
+VALUES 
+(2),
+(3)
+GO
 INSERT INTO Users
-(Username,Pass,FirstName,LastName,GroupId)
-VALUES ('antoan40o0o','a999999a','Antoan','Elenkov','1')
+values 
+('zaio2','11111','Zaio','Baio1',GetDate(),1),
+('zaio3','11111','Zaio','Baio2',GetDate(),2),
+('zaio4','11111','Zaio','Baio3',GetDate(),3)
+GO
 
 20.
-
 UPDATE Users SET
-UserName='Antoan'
-WHERE Username='AntoanPetrov'
+UserName='updated'
+WHERE Username='zaio2'
 
 21.
-DELETE FROM Users
-WHERE Username='Antoan'
+DELETE  Users
+WHERE LastName='Baio3'
+GO
+
 
 22.
 INSERT INTO  Users
@@ -123,13 +134,42 @@ INSERT INTO  Users
 SELECT e.FirstName,e.LastName,LOWER(LEFT(e.FirstName,1))+LOWER(LEFT(e.LastName,1))+LEFT(e.EmployeeID,4),e.EmployeeID+'12345',NULL
 FROM Employees e
 
-27.PROBLEM!!!
-SELECT top 1   t.Name AS [Town Name],
-		COUNT(*) AS [EmployeeCount]
-FROM Employees e
-	JOIN Addresses a
-		ON e.AddressID=a.AddressID
-	JOIN Towns t
-		ON a.TownID=t.TownID
-Group BY t.Name
-ORDER BY  EmployeeCount DESC
+23.
+UPDATE  Users
+SET Pass=NULL
+WHERE DATEDIFF(day, LastLogin, '2016-3-10 00:00:00') > 0
+
+24.
+DELETE Users
+WHERE Pass IS  NULL
+
+25.
+SELECT AVG(e.Salary), e.JobTitle , d.Name  FROM Employees e, Departments d
+WHERE d.DepartmentID=e.DepartmentID
+GROUP BY e.JobTitle, d.Name
+
+26.
+SELECT MIN(e.Salary) as 'Min Salary', e.JobTitle , d.Name as 'Department name', 
+e.FirstName + ' '+ e.LastName as 'Full Name'  FROM Employees e, Departments d
+WHERE d.DepartmentID=e.DepartmentID
+GROUP BY e.JobTitle, d.Name, e.FirstName + ' ' + e.LastName
+
+27.
+SELECT TOP  1 COUNT(a.TownID) as [EmployeeCount] FROM Addresses a
+JOIN Employees e
+ON e.AddressID=a.AddressID
+JOIN Towns t
+ON t.TownID=a.TownID
+GROUP BY t.TownID 
+ORDER BY EmployeeCount DESC
+
+28.
+SELECT  COUNT(a.TownID) as [EmployeeCount], t.Name FROM Addresses a
+JOIN Employees e
+ON e.AddressID=a.AddressID
+JOIN Towns t
+ON t.TownID=a.TownID
+WHERE e.ManagerID IS  NOT NULL
+GROUP BY t.Name 
+ORDER BY EmployeeCount DESC
+
