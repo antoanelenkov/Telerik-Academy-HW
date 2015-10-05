@@ -1,7 +1,7 @@
 ## Structured Query Language (SQL) 
 ### _Homework_
 
-1.	What is SQL? What is DML? What is DDL? Recite the most important SQL commands.
+1.	What is SQL? What is DML? What is DDL? Recite the most important SQL commands. 
 1.	What is Transact-SQL (T-SQL)?
 1.	Start SQL Management Studio and connect to the database TelerikAcademy. Examine the major tables in the "TelerikAcademy" database.
 1.	Write a SQL query to find all information about all departments (use "TelerikAcademy" database).
