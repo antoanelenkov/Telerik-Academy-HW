@@ -160,21 +160,21 @@ WHERE Id=10
 
 --SOME OTHER TIME. When evaluating my HW, be honest, if you have done this tasks, don't give me all points ;)
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-7. Define a function in the database TelerikAcademy that returns all Employee''s names (first or middle or last name) and all town''s names that are comprised of given set
-of letters. Example 'oistmiahf' will return 'Sofia', 'Smith', … but not 'Rob' and 'Guy'.
+--7. Define a function in the database TelerikAcademy that returns all Employee''s names (first or middle or last name) and all town''s names that are comprised of given set
+--of letters. Example 'oistmiahf' will return 'Sofia', 'Smith', … but not 'Rob' and 'Guy'.
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-8. Using database cursor write a T-SQL script that scans all employees and their addresses and prints all pairs of employees that live in the same town.
+--8. Using database cursor write a T-SQL script that scans all employees and their addresses and prints all pairs of employees that live in the same town.
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-9. * Write a T-SQL script that shows for each town a list of all employees that live in it. Sample output:
-			Sofia -> Svetlin Nakov, Martin Kulov, George Denchev
-			Ottawa -> Jose Saraiva
+--9. * Write a T-SQL script that shows for each town a list of all employees that live in it. Sample output:
+--			Sofia -> Svetlin Nakov, Martin Kulov, George Denchev
+--			Ottawa -> Jose Saraiva
 			
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-10. Define a .NET aggregate function StrConcat that takes as input a sequence of strings and return a single string that consists of the input strings separated by ','. 
-For example the following SQL statement should return a single string:
-			SELECT StrConcat(FirstName + ' ' + LastName)
-			FROM Employees
+--10. Define a .NET aggregate function StrConcat that takes as input a sequence of strings and return a single string that consists of the input strings separated by ','. 
+--For example the following SQL statement should return a single string:
+--			SELECT StrConcat(FirstName + ' ' + LastName)
+--			FROM Employees
 
 
