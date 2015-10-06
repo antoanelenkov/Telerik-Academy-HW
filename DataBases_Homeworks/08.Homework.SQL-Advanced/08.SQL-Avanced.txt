@@ -173,3 +173,136 @@ WHERE e.ManagerID IS  NOT NULL
 GROUP BY t.Name 
 ORDER BY EmployeeCount DESC
 
+29.
+--WorkHours--
+DROP TABLE dbo.WorkHours
+CREATE TABLE WorkHours(
+Id INT PRIMARY KEY IDENTITY(1,1),
+EmployeeId INT NOT NULL,
+DateOfReport DATETIME,
+Task NVARCHAR(50),
+HoursOfWork INT,
+Comments NVARCHAR(500),
+CONSTRAINT FK_WorkHours_Employees FOREIGN KEY (EmployeeId) REFERENCES Employees(EmployeeID)
+)
+
+
+--Add some records--
+DECLARE @counter int
+SET @counter=0
+
+WHILE @counter<30
+BEGIN
+INSERT INTO WorkHours(EmployeeId,DateOfReport,Task,HoursOfWork,Comments)
+VALUES (@counter,GETDATE(),'task'+CONVERT(VARCHAR(5), @counter),8,'comment'+CONVERT(VARCHAR(5), @counter))
+SET @counter=@counter +1
+END
+DROP TABLE WorkHoursLog
+GO
+
+--WorkLogs--
+CREATE TABLE WorkHoursLog(
+Id int PRIMARY KEY IDENTITY(1,1),
+WorkHoursId int,
+EmployeeId INT FOREIGN KEY REFERENCES Employees(EmployeeId),
+DateOfReport DATETIME,
+Task NVARCHAR(50),
+HoursOfWork INT,
+Comments NVARCHAR(500),
+[Action] varchar(10) NOT NULL
+)
+
+-- triggers --
+
+--INSERT--
+DROP TRIGGER trg_WorkHours_Insert
+GO
+CREATE TRIGGER trg_WorkHours_Insert ON WorkHours
+FOR INSERT 
+AS
+INSERT INTO WorkHoursLog(WorkHoursId, EmployeeId, DateOfReport, Task, HoursOfWork, Comments, [Action])
+    SELECT Id, EmployeeID, DateOfReport, Task, HoursOfWork, Comments, 'Insert'
+    FROM inserted
+PRINT 'FOR INSERT trigger fired.'
+GO
+
+--DELTETE--
+DROP TRIGGER trg_WorkHours_Delete
+GO
+CREATE TRIGGER trg_WorkHours_Delete ON WorkHours
+FOR DELETE 
+AS
+INSERT INTO WorkHoursLog(WorkHoursId,EmployeeId, DateOfReport, Task, HoursOfWork, Comments, [Action])
+    SELECT Id, EmployeeId, DateOfReport, Task, HoursOfWork, Comments, 'Delete'
+    FROM deleted
+PRINT 'FOR DELETE trigger fired.'
+GO
+
+--UPDATE--
+DROP TRIGGER trg_WorkHours_Update
+GO
+CREATE TRIGGER trg_WorkHours_Update ON WorkHours
+FOR UPDATE 
+AS
+INSERT INTO WorkHoursLog(WorkHoursId,EmployeeId, DateOfReport, Task, HoursOfWork, Comments, [Action])
+    SELECT Id, EmployeeId, DateOfReport, Task, HoursOfWork, Comments, 'UPDATE'
+    FROM inserted
+PRINT 'FOR UPDATE trigger fired.'
+GO
+
+
+--Trigers tests--
+
+--DELETE--
+DELETE FROM  WorkHours 
+WHERE EmployeeId=25
+
+
+--INSERT--
+DECLARE @counter INT
+SET @counter=31
+
+INSERT INTO WorkHours(EmployeeId,DateOfReport,Task,HoursOfWork,Comments)
+VALUES (@counter,GETDATE(),'task'+CONVERT(VARCHAR(5), @counter),8,'comment'+CONVERT(VARCHAR(5), @counter))
+
+--UPDATE--
+UPDATE WorkHours
+SET HoursOfWork=9 
+WHERE HoursOfWork=8
+
+
+30.
+BEGIN TRAN
+
+ALTER TABLE Departments
+	DROP CONSTRAINT FK_Departments_Employees
+GO
+
+DELETE e FROM  Employees e, Departments d
+	WHERE e.DepartmentID=d.DepartmentID
+	AND d.Name='Sales'
+
+ROLLBACK TRAN
+
+31.
+BEGIN TRAN
+
+DROP TABLE EmployeesProjects
+
+ROLLBACK TRAN
+
+32.
+BEGIN TRAN
+
+SELECT *  INTO  #Temp_EmployeesProjects
+FROM EmployeesProjects
+
+DROP TABLE EmployeesProjects
+
+SELECT * INTO EmployeesPRojects
+FROM #Temp_EmployeesProjects
+
+ROLLBACK TRAN
+
+
+
