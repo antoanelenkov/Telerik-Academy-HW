@@ -10,7 +10,7 @@
             NorthwindEntities dbContext = new NorthwindEntities();
 
             System.Console.WriteLine(dbContext.Products.FirstOrDefault().ProductName);
-
+            System.Console.WriteLine("It's connected!");
         }
     }
 }
