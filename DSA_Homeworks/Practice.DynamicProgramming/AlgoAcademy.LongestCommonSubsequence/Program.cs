@@ -1,7 +1,33 @@
-﻿using System;
+﻿/*Дадени са ви 2 редици от числа.Първата редица има дължина N на брой числа, а втората – M на
+брой числа.Намерете дължината на най-дългата обща подредица от числа измежду двете
+редици.
+Не е задължително числата в намерената подредица да са задължително последователни в
+редиците.
+Например, ако имаме редиците
+• 24, 13, 10, 25, 1, 21, 26
+• 13, 26, 10, 1, 23, 24, 21
+то най-дългата обща подредица измежду тях ще е 13, 10, 1, 21 и нейната дължина е 4.
+Входни данни
+Входните данни ще бъдат дадени на конзолата.
+На първият ред ще бъде дадено числото N.
+На вторият ред ще бъде дадено числото M.
+На третия ред ще са дадени N-те числа от първата редица разделени с по 1 интервал.
+На четвъртия ред ще са дадени M-те числа от втората редица разделени с по 1 интервал.
+Изходни данни
+Изходните данни ще се извеждат на конзолата.
+На единствения ред на стандартния изход изкарайте дължината на най-дългата обща подредица.
+Ограничения
+• N и M ще бъдат цели числа между 1 и 100, включително.
+• Числата в двете подредици ще имат дължина межди 1 и 100 цифри.
+• Позволено време за работа на програмата: 0.1 секунда.Позволена памет: 16 MB.*/
 
-namespace AlgoAcademy.LongestCommonSubsequence
+namespace AlgoAcademy.BigIntegerestCommonSubsequence
 {
+    using System;
+    using System.Numerics;
+    using System.Linq;
+
+
     class Program
     {
         static void Main()
@@ -9,87 +35,27 @@ namespace AlgoAcademy.LongestCommonSubsequence
             var firstSequenceLength = int.Parse(Console.ReadLine());
             var secondSequenceLength = int.Parse(Console.ReadLine());
 
-            var firstSequence = new int[firstSequenceLength];
-            var secondSequence = new int[firstSequenceLength];
+            var firstSequence = Console.ReadLine().Split(' ');
+            var secondSequence = Console.ReadLine().Split(' ');
 
-            var allFirstNumbers = Console.ReadLine().Split(' ');
-            var allSecondNumbers = Console.ReadLine().Split(' ');
+            var buffer = new int[secondSequenceLength+1, firstSequenceLength+1];
 
-            for (int i = 0; i < allFirstNumbers.Length; i++)
+            for (int i = 1; i < buffer.GetLength(0); i++)
             {
-                firstSequence[i] = int.Parse(allFirstNumbers[i]);
-            }
-
-            for (int i = 0; i < allSecondNumbers.Length; i++)
-            {
-                secondSequence[i] = int.Parse(allSecondNumbers[i]);
-            }
-
-            var nodeMatrix = new int[firstSequenceLength, secondSequenceLength];
-
-            for (int i = 0; i < nodeMatrix.GetLength(0); i++)
-            {
-                for (int j = 0; j < nodeMatrix.GetLength(1); j++)
+                for (int j = 1; j < buffer.GetLength(1); j++)
                 {
-                    if (firstSequence[i] == secondSequence[j])
+                    if (secondSequence[i-1] == firstSequence[j-1])
                     {
-                        nodeMatrix[i, j] = 1;
+                        buffer[i, j] = buffer[i - 1, j - 1]+1;
+                    }
+                    else
+                    {
+                        buffer[i, j] = buffer[i, j] + (new int[] { buffer[i - 1, j], buffer[i, j - 1] }).Max();
                     }
                 }
             }
-            for (int i = 0; i < nodeMatrix.GetLength(0); i++)
-            {
-                for (int j = 0; j < nodeMatrix.GetLength(1); j++)
-                {
-                    if (i == 0 && j == 0)
-                    {
-                        continue;
-                    }
 
-                    if (i == 0)
-                    {
-                        nodeMatrix[i, j] = nodeMatrix[i, j] + nodeMatrix[i, j - 1];
-                        continue;
-                    }
-
-                    if (j == 0)
-                    {
-                        nodeMatrix[i, j] = nodeMatrix[i, j] + nodeMatrix[i-1, j];
-                        continue;
-                    }
-
-                    nodeMatrix[i, j] = nodeMatrix[i, j] + GetMax(nodeMatrix[i - 1, j], nodeMatrix[i - 1, j - 1], nodeMatrix[i, j - 1]);
-                }
-            }
-
-            Console.WriteLine(nodeMatrix[firstSequenceLength-1,secondSequenceLength-1]);
+            Console.WriteLine(buffer[secondSequenceLength,firstSequenceLength]);
         }
-
-        private static int GetMax(int a, int b, int c)
-        {
-            if (a > b)
-            {
-                if (a > c)
-                {
-                    return a;
-                }
-                else
-                {
-                    return c;
-                }
-            }
-            else
-            {
-                if (b > c)
-                {
-                    return b;
-                }
-                else
-                {
-                    return c;
-                }
-            }
-        }
-
     }
 }
