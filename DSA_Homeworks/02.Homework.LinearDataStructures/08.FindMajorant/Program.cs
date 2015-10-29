@@ -18,7 +18,7 @@ namespace _08.FindMajorant
 
             if (mostOccurances >= (numbers.Count / 2 + 1))
             {
-                Console.WriteLine("there is majorant: {0} with {1} occurances in array of length {2}", resultNumber, mostOccurances, numbers.Count);
+                Console.WriteLine(" there is majorant: {0} with {1} occurances in array of length {2}", resultNumber, mostOccurances, numbers.Count);
             }
             else
             {
