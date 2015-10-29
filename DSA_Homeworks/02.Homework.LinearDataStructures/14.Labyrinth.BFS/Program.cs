@@ -45,6 +45,10 @@ namespace _14.Labyrinth.BFS
             {
                 for (int j = 0; j < labyrinth.GetLength(1); j++)
                 {
+                    if(labyrinth[i, j] == "0")
+                    {
+                        labyrinth[i, j] = "u";
+                    }
                     Console.Write(labyrinth[i, j].PadLeft(3));
                 }
                 Console.WriteLine();
