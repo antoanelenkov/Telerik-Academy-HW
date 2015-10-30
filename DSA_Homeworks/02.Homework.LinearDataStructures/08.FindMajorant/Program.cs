@@ -13,8 +13,31 @@ namespace _08.FindMajorant
         static void Main()
         {
             var numbers = new List<int>() { 1, 1, 1, 2, 3, 6, 6, 6, 6, 6, 6, 6, 4, 4, 4, 4, 4, 6, 6, 6, 6, 6, 6, 6, 7, 7 };
+            var countOfNumbers = new Dictionary<int, int>();
 
-            // Figure it out how to do it with dynamic optimization
+            for (int i = 0; i < numbers.Count; i++)
+            {
+                if (!countOfNumbers.ContainsKey(numbers[i]))
+                {
+                    countOfNumbers[numbers[i]] = 1;
+                }
+                else
+                {
+                    countOfNumbers[numbers[i]]++;
+                }
+            }
+
+            var mostOccurances = 0;
+            var resultNumber = numbers[0];
+
+            foreach (var pair in countOfNumbers)
+            {
+                if (pair.Value > mostOccurances)
+                {
+                    mostOccurances = pair.Value;
+                    resultNumber = pair.Key;
+                }
+            }
 
             if (mostOccurances >= (numbers.Count / 2 + 1))
             {
