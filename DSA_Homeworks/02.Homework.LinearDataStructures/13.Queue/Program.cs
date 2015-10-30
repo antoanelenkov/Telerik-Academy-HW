@@ -13,12 +13,12 @@ namespace Queue
             var queue = new MyQueue<int>(1);
             var queu2 = new Queue<int>();
             
-            queue.Queue(3);
-            queue.Queue(5);
-            queue.Queue(4);
+            queue.Enqueue(3);
+            queue.Enqueue(5);
+            queue.Enqueue(4);
             System.Console.WriteLine(queue.Peek());
-            System.Console.WriteLine(queue.Enqueue());
-            System.Console.WriteLine(queue.Enqueue());
+            System.Console.WriteLine(queue.Dequeue());
+            System.Console.WriteLine(queue.Dequeue());
 
         }
     }

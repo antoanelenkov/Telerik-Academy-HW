@@ -23,7 +23,7 @@ namespace Queue
 
         public int Count { get; set; }
 
-        public void Queue(T value)
+        public void Enqueue(T value)
         {
             if (this.Count == this.Collection.Length)
             {
@@ -42,7 +42,7 @@ namespace Queue
             this.Count++;
         }
 
-        public T Enqueue()
+        public T Dequeue()
         {
             this.Count--;
 
