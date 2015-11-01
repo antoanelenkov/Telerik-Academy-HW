@@ -1,6 +1,0 @@
-C:\TFS_Antoan\16.LinearDataStructures\18.Labirinth\bin\Debug\18.Labirinth.exe.config
-C:\TFS_Antoan\16.LinearDataStructures\18.Labirinth\obj\Debug\18.Labirinth.csprojResolveAssemblyReference.cache
-C:\TFS_Antoan\16.LinearDataStructures\18.Labirinth\bin\Debug\18.Labirinth.exe
-C:\TFS_Antoan\16.LinearDataStructures\18.Labirinth\bin\Debug\18.Labirinth.pdb
-C:\TFS_Antoan\16.LinearDataStructures\18.Labirinth\obj\Debug\18.Labirinth.exe
-C:\TFS_Antoan\16.LinearDataStructures\18.Labirinth\obj\Debug\18.Labirinth.pdb
