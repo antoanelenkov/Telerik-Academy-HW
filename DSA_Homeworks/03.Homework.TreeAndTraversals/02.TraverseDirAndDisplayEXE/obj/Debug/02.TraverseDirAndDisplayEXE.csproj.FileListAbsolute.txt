@@ -9,3 +9,9 @@ C:\Users\Antoan Elenkov\Desktop\TFS_Antoan\17.TreesAndTraversals\02.TraverseDirA
 C:\Users\Antoan Elenkov\Desktop\TFS_Antoan\17.TreesAndTraversals\02.TraverseDirAndDisplayEXE\bin\Debug\02.TraverseDirAndDisplayEXE.exe
 C:\Users\Antoan Elenkov\Desktop\TFS_Antoan\17.TreesAndTraversals\02.TraverseDirAndDisplayEXE\bin\Debug\02.TraverseDirAndDisplayEXE.pdb
 C:\Users\Antoan Elenkov\Desktop\TFS_Antoan\17.TreesAndTraversals\02.TraverseDirAndDisplayEXE\obj\Debug\02.TraverseDirAndDisplayEXE.csprojResolveAssemblyReference.cache
+D:\Antoan\Telerik Academy\Telerik-Academy-HW\DSA_Homeworks\03.Homework.TreeAndTraversals\02.TraverseDirAndDisplayEXE\bin\Debug\02.TraverseDirAndDisplayEXE.exe.config
+D:\Antoan\Telerik Academy\Telerik-Academy-HW\DSA_Homeworks\03.Homework.TreeAndTraversals\02.TraverseDirAndDisplayEXE\bin\Debug\02.TraverseDirAndDisplayEXE.exe
+D:\Antoan\Telerik Academy\Telerik-Academy-HW\DSA_Homeworks\03.Homework.TreeAndTraversals\02.TraverseDirAndDisplayEXE\bin\Debug\02.TraverseDirAndDisplayEXE.pdb
+D:\Antoan\Telerik Academy\Telerik-Academy-HW\DSA_Homeworks\03.Homework.TreeAndTraversals\02.TraverseDirAndDisplayEXE\obj\Debug\02.TraverseDirAndDisplayEXE.csprojResolveAssemblyReference.cache
+D:\Antoan\Telerik Academy\Telerik-Academy-HW\DSA_Homeworks\03.Homework.TreeAndTraversals\02.TraverseDirAndDisplayEXE\obj\Debug\02.TraverseDirAndDisplayEXE.exe
+D:\Antoan\Telerik Academy\Telerik-Academy-HW\DSA_Homeworks\03.Homework.TreeAndTraversals\02.TraverseDirAndDisplayEXE\obj\Debug\02.TraverseDirAndDisplayEXE.pdb

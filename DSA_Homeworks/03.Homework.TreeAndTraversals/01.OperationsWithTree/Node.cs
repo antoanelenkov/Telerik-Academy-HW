@@ -1,21 +1,23 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-/*    6
+/*  
+ 
+      6
     1 2
     2 4
     3 4
     4 6
-    6 8*/
+    6 8
+
+*/
 
 namespace _01.OperationsWithTree
 {
     public class Node<T>
     {
-        private ICollection<Node<T>> children;
+        public ICollection<Node<T>> children;
         public T Value { get; set; }
         public bool HasParent { get; set; }
 

@@ -2,13 +2,18 @@
 using System.Collections.Generic;
 using System.IO;
 
-/*Write a program to traverse the directory C:\WINDOWS and all its subdirectories recursively and to display all files matching the mask *.cs */
+/*Write a program to traverse the directory C:\WINDOWS and all its subdirectories recursively and to display all files matching the mask *.exe */
 
 namespace _02.TraverseDirAndDisplayEXE
 {
     class Program
     {
-        private static void TraverseDirDFS(DirectoryInfo directory)
+        static void Main(string[] args)
+        {
+            TraverseDirDFS(new DirectoryInfo("C:\\"), "exe");
+        }   
+
+        private static void TraverseDirDFS(DirectoryInfo directory, string extensionName)
         {
             Stack<DirectoryInfo> dirs = new Stack<DirectoryInfo>();
             DirectoryInfo dir = directory;
@@ -20,7 +25,7 @@ namespace _02.TraverseDirAndDisplayEXE
                 {
                     var currentDir = dirs.Pop();
 
-                    if (currentDir.Extension.Contains("cs"))
+                    if (currentDir.Extension.Contains(extensionName))
                     {
                         Console.WriteLine(currentDir.FullName);
                     }
@@ -32,16 +37,15 @@ namespace _02.TraverseDirAndDisplayEXE
                         dirs.Push(child);
                     }
                 }
-                catch(UnauthorizedAccessException){
+                catch (UnauthorizedAccessException)
+                {
                     continue;
                 }
- 
+                catch (PathTooLongException)
+                {
+                    Console.WriteLine("Name of directory is too long to be handled...");
+                }
             }
-        }
-
-        static void Main(string[] args)
-        {
-            TraverseDirDFS(new DirectoryInfo("C:\\"));
         }
     }
 }

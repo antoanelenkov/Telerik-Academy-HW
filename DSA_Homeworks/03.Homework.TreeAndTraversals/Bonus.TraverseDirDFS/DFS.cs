@@ -27,7 +27,7 @@ namespace _18.DFS
 
         static void Main(string[] args)
         {
-            TraverseDirDFS(new DirectoryInfo("C:\\TFS_Antoan\\"));
+            TraverseDirDFS(new DirectoryInfo("C:\\"));
         }
     }
 }

@@ -14,31 +14,168 @@ using System.Linq;
 Write a program to read the tree and find:
  a) the root node
  b) all leaf nodes
- c) all middle nodes*/
+ c) all middle nodes
+ (*) all paths in the tree with given sum `S` of their nodes
+ (*) all subtrees with given sum `S` of their nodes*/
 
 namespace _01.OperationsWithTree
 {
     class Program
     {
+        private static int maxDepth = 0;
+        private static int depth = 0;
+        private static ICollection<Stack<int>> pathsWithSumS = new List<Stack<int>>();
+        private static List<Stack<int>> subtreesWithSumS = new List<Stack<int>>();
+        private static Stack<int> currentValues = new Stack<int>();
+
         static void Main(string[] args)
         {
-            int[,] inputValues = readConsoleInput();
+            int[,] inputValues = ReadConsoleInput();
             ICollection<Node<int>> treeStructure = ConstructTree(inputValues);
 
             //a) the root node
-            var root = FindRoot(treeStructure);
+            Node<int> root = FindRoot(treeStructure);
             Console.WriteLine("1. The root is: " + root.ToString());
 
             //b) all leaf nodes
             var leafs = FindLeafs(treeStructure);
-            Console.WriteLine("2. Leafs are: " +String.Join(", ",leafs));
+            Console.WriteLine("2. Leafs are: " + String.Join(", ", leafs));
 
             //c) all middle nodes
             var middleNodes = FindMiddleNodes(treeStructure);
             Console.WriteLine("3. Middle nodes are: " + String.Join(", ", middleNodes));
+
+            //d) find longest path
+            FindLongestPath(root);
+            Console.WriteLine("4. Longest path is from {0} nodes", maxDepth);
+
+            //e) (*) all paths in the tree with given sum `S` of their nodes
+            var sum = 9;
+            FindAllPathWithSumS(root, sum, pathsWithSumS);
+
+            Console.WriteLine("All paths with sum of {0}", sum);
+            PrintTrees(pathsWithSumS);
+
+            //d) (*) all subtrees with given sum `S` of their nodes
+            var sumD = 6;
+
+            GenerateSubtreesWithSumS(treeStructure, sumD, subtreesWithSumS);
+
+            Console.WriteLine("All subtrees with sum of {0}", sumD);
+            PrintTrees(subtreesWithSumS);
         }
 
-        
+        private static void PrintTrees(IEnumerable<IEnumerable<int>> trees)
+        {
+            foreach (var list in trees)
+            {
+                foreach (var item in list)
+                {
+                    Console.Write(item + " ");
+                }
+                Console.WriteLine();
+            }
+        }
+
+        private static void GenerateSubtreesWithSumS(ICollection<Node<int>> treeStructure, int sumD, ICollection<Stack<int>> resultCollection)
+        {
+            foreach (var node in treeStructure)
+            {
+                currentValues = new Stack<int>();
+
+                FindAllPathWithSumS(node, sumD, resultCollection);
+            }
+        }
+
+        private static void FindAllPathWithSumS(Node<int> node, int sum, ICollection<Stack<int>> resultCollection)
+        {
+            currentValues.Push(node.Value);
+
+            if (node.children.Count == 0)
+            {
+                var currentSum = 0;
+                currentValues.ToList().ForEach(x => currentSum += x);
+
+                if (currentSum == sum)
+                {
+                    var stackToAdd = new Stack<int>();
+
+                    foreach (var item in currentValues)
+                    {
+                        stackToAdd.Push(item);
+                    }
+
+                    resultCollection.Add(new Stack<int>(stackToAdd));
+                }
+
+                return;
+            }
+
+            foreach (var children in node.children)
+            {
+
+                FindAllPathWithSumS(children, sum, resultCollection);
+                currentValues.Pop();
+            }
+        }
+
+        private static void FindLongestPath(Node<int> node)
+        {
+            depth++;
+
+            if (depth > maxDepth)
+            {
+                maxDepth = depth;
+            }
+
+            if (node.children.Count == 0)
+            {
+                return;
+            }
+
+            foreach (var children in node.children)
+            {
+
+                FindLongestPath(children);
+                depth--;
+            }          
+        }
+
+        private static int FindLongestPath(ICollection<Node<int>> treeStructure)
+        {
+            var root = treeStructure.FirstOrDefault(x => x.HasParent == false);
+            var nodes = new Stack<Node<int>>();
+            var depth = 0;
+            var maxDepth = 0;
+            nodes.Push(root);
+
+            while (nodes.Count > 0)
+            {
+                var node = nodes.Pop();
+
+                if (node.children.Count == 0)
+                {
+                    if (depth > maxDepth)
+                    {
+                        maxDepth = depth;
+                    }
+
+                    continue;
+                }
+
+                depth++;
+
+                foreach (var child in node.children)
+                {
+                    nodes.Push(child);
+                }
+
+            }
+
+            return maxDepth;
+        }
+
+
 
         private static Node<int> FindRoot(ICollection<Node<int>> treeStructure)
         {
@@ -76,7 +213,7 @@ namespace _01.OperationsWithTree
 
             foreach (var node in treeStructure)
             {
-                if (node.HasParent&&node.CountOfChildren()>0)
+                if (node.HasParent && node.CountOfChildren() > 0)
                 {
                     middleNodes.Add(node);
                 }
@@ -85,7 +222,7 @@ namespace _01.OperationsWithTree
             return middleNodes;
         }
 
-        private static int[,] readConsoleInput()
+        private static int[,] ReadConsoleInput()
         {
             //Console.WriteLine("Enter value for number of nodes: ");
             //var nodesCount = int.Parse(Console.ReadLine());

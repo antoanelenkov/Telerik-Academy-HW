@@ -1,17 +1,19 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.31101.0
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.OperationsWithTree", "01.OperationsWithTree\01.OperationsWithTree.csproj", "{DA29DA54-2E03-4A3C-A103-D3335D2BE6E7}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.TraverseDirAndDisplayEXE", "02.TraverseDirAndDisplayEXE\02.TraverseDirAndDisplayEXE.csproj", "{44A948C8-F541-4371-9A54-6FFC98B3D069}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "18.TraverseDirBFS", "Bonus.TraverseDirBFS\18.TraverseDirBFS.csproj", "{D04AE063-BC54-4427-A012-7DF42D0EC98B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "18.TraverseDirBFS.Bonus", "Bonus.TraverseDirBFS\18.TraverseDirBFS.Bonus.csproj", "{D04AE063-BC54-4427-A012-7DF42D0EC98B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "17.TraverseDirDFS", "Bonus.TraverseDirDFS\17.TraverseDirDFS.csproj", "{6D4E2994-BBEC-4CD1-B481-99C448E0CA43}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "17.TraverseDirDFS.Bonus", "Bonus.TraverseDirDFS\17.TraverseDirDFS.Bonus.csproj", "{6D4E2994-BBEC-4CD1-B481-99C448E0CA43}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15.PrintFilesFromC", "Bonus.TraverseDirRecursion\15.PrintFilesFromC.csproj", "{58179755-BBC5-47B2-A616-4509404CC198}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15.TraverseDirRecursive.Bonus", "Bonus.TraverseDirRecursion\15.TraverseDirRecursive.Bonus.csproj", "{58179755-BBC5-47B2-A616-4509404CC198}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.FileDirectoriesTree", "03.FileDirectoriesTree\03.FileDirectoriesTree.csproj", "{5352D3BD-40E8-4988-A847-B88B62519F2C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{58179755-BBC5-47B2-A616-4509404CC198}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{58179755-BBC5-47B2-A616-4509404CC198}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{58179755-BBC5-47B2-A616-4509404CC198}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5352D3BD-40E8-4988-A847-B88B62519F2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5352D3BD-40E8-4988-A847-B88B62519F2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5352D3BD-40E8-4988-A847-B88B62519F2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5352D3BD-40E8-4988-A847-B88B62519F2C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
