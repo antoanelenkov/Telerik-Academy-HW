@@ -1,4 +1,5 @@
-﻿using MusicSystem.Data.Migrations;
+﻿using MusicSystem.Data.Contracts;
+using MusicSystem.Data.Migrations;
 using MusicSystem.Model;
 using System;
 using System.Collections.Generic;

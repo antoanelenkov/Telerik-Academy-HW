@@ -49,7 +49,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Contracts\IMusicSystemData.cs" />
+    <Compile Include="Contracts\IGenericRepository.cs" />
+    <Compile Include="GenericRepository.cs" />
     <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="MusicSystemData.cs" />
     <Compile Include="MusicSystemDbContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

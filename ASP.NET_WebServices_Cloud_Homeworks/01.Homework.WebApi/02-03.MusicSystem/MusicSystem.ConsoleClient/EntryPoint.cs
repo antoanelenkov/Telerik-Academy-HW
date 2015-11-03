@@ -7,9 +7,9 @@ namespace MusicSystem.ConsoleClient
     {
         static void Main()
         {
-            var db = new MusicSystemDbContext();
+            var db = new MusicSystemData();
 
-            System.Console.WriteLine(db.Albums.Count());
+            System.Console.WriteLine(db.Albums.All().Count());
         }
     }
 }
