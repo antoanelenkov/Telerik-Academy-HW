@@ -1,15 +1,15 @@
-﻿using MusicSystem.Data.Contracts;
-using MusicSystem.Data.Migrations;
-using MusicSystem.Model;
-using System;
-using System.Collections.Generic;
-using System.Data.Entity;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace MusicSystem.Data
+﻿namespace MusicSystem.Data
 {
+    using MusicSystem.Data.Contracts;
+    using MusicSystem.Data.Migrations;
+    using MusicSystem.Model;
+    using System;
+    using System.Collections.Generic;
+    using System.Data.Entity;
+    using System.Linq;
+    using System.Text;
+    using System.Threading.Tasks;
+
     public class MusicSystemDbContext : DbContext
     {
         public MusicSystemDbContext()

@@ -1,6 +1,6 @@
 ﻿namespace MusicSystem.Data
 {
-    using MusicSystem.Data.Contracts;
+    using Contracts;
     using System.Data.Entity;
     using System.Linq;
 

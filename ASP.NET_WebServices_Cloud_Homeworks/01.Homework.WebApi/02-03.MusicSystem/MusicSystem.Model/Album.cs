@@ -1,11 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace MusicSystem.Model
+﻿namespace MusicSystem.Model
 {
+    using System;
+    using System.Collections.Generic;
+    using System.ComponentModel.DataAnnotations;
+    using System.Linq;
+    using System.Text;
+    using System.Threading.Tasks;
+
     public class Album
     {
         private ICollection<Artist> artists;
@@ -17,6 +18,7 @@ namespace MusicSystem.Model
 
         public int Id { get; set; }
 
+        [Required]
         public string Title { get; set; }
 
         public int Year { get; set; }

@@ -1,8 +1,8 @@
-﻿using MusicSystem.Data;
-using System.Linq;
-
-namespace MusicSystem.ConsoleClient
+﻿namespace MusicSystem.ConsoleClient
 {
+    using Data;
+    using System.Linq;
+
     class EntryPoint
     {
         static void Main()

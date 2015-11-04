@@ -1,9 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-
-namespace MusicSystem.Model
+﻿namespace MusicSystem.Model
 {
-    //Artists (Name, Country, DateOfBirth, etc.)
+    using System;
+    using System.Collections.Generic;
+    using System.ComponentModel.DataAnnotations;
+
     public class Artist
     {
         private ICollection<Song> songs;
@@ -15,6 +15,7 @@ namespace MusicSystem.Model
 
         public int Id { get; set; }
 
+        [Required]
         public string Name { get; set; }
 
         public string  Country { get; set; }
