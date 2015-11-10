@@ -28,19 +28,6 @@ namespace AdvancedDataStructures
             this.Size++;
         }
 
-        private void Resize()
-        {
-            var size = this.heapElements.Length;
-            var newCollection = new T[size * 2];
-
-            for (int i = 0; i < this.heapElements.Length; i++)
-            {
-                newCollection[i] = this.heapElements[i];
-            }
-
-            this.heapElements = newCollection;
-        }
-
         public T Dequeue()
         {
             var elementToDelete = this.heapElements[0];
@@ -67,6 +54,19 @@ namespace AdvancedDataStructures
         public int Count()
         {
             return this.Size;
+        }
+
+        private void Resize()
+        {
+            var size = this.heapElements.Length;
+            var newCollection = new T[size * 2];
+
+            for (int i = 0; i < this.heapElements.Length; i++)
+            {
+                newCollection[i] = this.heapElements[i];
+            }
+
+            this.heapElements = newCollection;
         }
 
         private void AddRecursive(T element, int position)
