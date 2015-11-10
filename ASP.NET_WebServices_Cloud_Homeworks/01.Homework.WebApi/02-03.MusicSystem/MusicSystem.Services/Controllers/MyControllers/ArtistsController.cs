@@ -15,7 +15,7 @@ namespace WebApplication1.Controllers.MyControllers
         {
             Mapper.CreateMap<ArtistModel, Artist>();
             Mapper.CreateMap<SongModel, Song>();
-            //Mapper does not map the collection of songs. Why?!?
+            //Not working for nested objects
             Mapper.CreateMap<Artist, ArtistModel>()
                 .ForMember(x => x.Songs, o => o.MapFrom(src => Mapper.Map<ICollection<Song>,ICollection<SongModel>>(src.Songs)));
         }
