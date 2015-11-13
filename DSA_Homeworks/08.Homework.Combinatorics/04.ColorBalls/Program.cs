@@ -1,47 +1,50 @@
 ﻿namespace _04.ColorBalls
 {
     using System;
+    using System.Collections.Generic;
+    using System.Numerics;
 
     class Program
     {
-        private static int combinationsCount = 0;
-
         static void Main(string[] args)
         {
-            string input =Console.ReadLine();
+            string input = Console.ReadLine();
 
             var chars = input.ToCharArray();
-            Array.Sort(chars);
-            PermuteWithRep(chars, 0, chars.Length);
 
-            Console.WriteLine(combinationsCount);
+            var dict = new Dictionary<char, int>();
+            foreach (var @char in chars)
+            {
+                if (dict.ContainsKey(@char))
+                {
+                    dict[@char]++;
+                }
+                else
+                {
+                    dict.Add(@char, 1);
+                }
+            }
+
+            // The formula for "AAABBC" is: (6)!/(3!+2!+1!) [6-All, 3-A, 2-B, C-1]
+            BigInteger result = GetFactoriel(chars.Length);
+            foreach (var item in dict)
+            {
+                result /= GetFactoriel(item.Value);
+            }
+
+            Console.WriteLine(result);
         }
 
-        static void PermuteWithRep(char[] arr, int start, int n)
+        private static BigInteger GetFactoriel(int number)
         {
-            combinationsCount++;
+            BigInteger result = 1;
 
-            for (int left = n - 2; left >= start; left--)
+            for (int i = number; i > 0; i--)
             {
-                for (int right = left + 1; right < n; right++)
-                {
-                    if (arr[left] != arr[right])
-                    {
-                        var temp = arr[left];
-                        arr[left] = arr[right];
-                        arr[right] = temp;
-
-                        PermuteWithRep(arr, left + 1, n);
-                    }
-                }
-
-                var firstElement = arr[left];
-                for (int i = left; i < n - 1; i++)
-                {
-                    arr[i] = arr[i + 1];
-                }
-                arr[n - 1] = firstElement;
+                result *= i;
             }
+
+            return result;
         }
     }
 }
